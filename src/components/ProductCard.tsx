@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { ShoppingBag, Check } from "lucide-react";
 import { Product } from "@/lib/products";
 import { useCartStore } from "@/lib/cartStore";
@@ -86,7 +87,7 @@ export function ProductCard({ product }: ProductCardProps) {
               e.stopPropagation();
               setSelectedSize("110ml");
             }}
-            className={`flex-1 py-1 rounded-lg text-center transition-all ${
+            className={`flex-1 py-1 rounded-lg text-center transition-all cursor-pointer active:scale-95 ${
               is110 ? "bg-white text-[#3f2911] shadow-xs" : "text-slate-500 hover:text-slate-800"
             }`}
           >
@@ -99,7 +100,7 @@ export function ProductCard({ product }: ProductCardProps) {
               e.stopPropagation();
               setSelectedSize("55ml");
             }}
-            className={`flex-1 py-1 rounded-lg text-center transition-all ${
+            className={`flex-1 py-1 rounded-lg text-center transition-all cursor-pointer active:scale-95 ${
               !is110 ? "bg-white text-[#3f2911] shadow-xs" : "text-slate-500 hover:text-slate-800"
             }`}
           >
@@ -118,10 +119,11 @@ export function ProductCard({ product }: ProductCardProps) {
             </span>
           </div>
 
-          <button
+          <motion.button
+            whileTap={{ scale: 0.95 }}
             type="button"
             onClick={handleAddToCart}
-            className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 shadow-xs ${
+            className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 shadow-xs cursor-pointer ${
               added
                 ? "bg-emerald-600 text-white"
                 : "bg-[#3f2911] text-white hover:bg-[#2a1a0a]"
@@ -138,7 +140,7 @@ export function ProductCard({ product }: ProductCardProps) {
                 <span>إضافة للسلة</span>
               </>
             )}
-          </button>
+          </motion.button>
         </div>
 
       </div>

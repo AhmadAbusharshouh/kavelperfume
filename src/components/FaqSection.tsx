@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, ShieldCheck } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { ChevronDown } from "lucide-react";
 
 export function FaqSection() {
   const [openIdx, setOpenIdx] = useState<number | null>(0);
@@ -46,7 +47,7 @@ export function FaqSection() {
           return (
             <div
               key={idx}
-              className={`luxury-card p-4 sm:p-5 bg-white border transition-all cursor-pointer ${
+              className={`luxury-card p-4 sm:p-5 bg-white border transition-all cursor-pointer select-none ${
                 isOpen ? "border-[#ba997a] shadow-xs" : "border-slate-200"
               }`}
               onClick={() => setOpenIdx(isOpen ? null : idx)}
@@ -55,18 +56,29 @@ export function FaqSection() {
                 <h3 className="text-xs sm:text-sm font-extrabold text-slate-900">
                   {faq.q}
                 </h3>
-                <ChevronDown
-                  className={`w-4 h-4 text-slate-400 shrink-0 transition-transform duration-300 ${
-                    isOpen ? "rotate-180 text-[#ba997a]" : ""
-                  }`}
-                />
+                <motion.div
+                  animate={{ rotate: isOpen ? 180 : 0 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <ChevronDown className={`w-4 h-4 ${isOpen ? "text-[#ba997a]" : "text-slate-400"}`} />
+                </motion.div>
               </div>
 
-              {isOpen && (
-                <p className="text-xs text-slate-600 leading-relaxed mt-3 pt-3 border-t border-slate-100 text-right animate-in fade-in duration-200">
-                  {faq.a}
-                </p>
-              )}
+              <AnimatePresence initial={false}>
+                {isOpen && (
+                  <motion.div
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.25, ease: "easeInOut" }}
+                    className="overflow-hidden"
+                  >
+                    <p className="text-xs text-slate-600 leading-relaxed mt-3 pt-3 border-t border-slate-100 text-right">
+                      {faq.a}
+                    </p>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           );
         })}
