@@ -3,11 +3,15 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ShoppingBag, ArrowLeft, ShieldCheck, Gift, Truck, Star } from "lucide-react";
+import { ShoppingBag, ArrowLeft, ShieldCheck, Gift, Truck, Star, Layers, Award } from "lucide-react";
 import { DEFAULT_OFFERS, BundleOffer } from "@/lib/offers";
 import { getFeaturedProducts } from "@/lib/products";
 import { ProductCard } from "@/components/ProductCard";
 import { BundleModal } from "@/components/BundleModal";
+import { ScentFinderWizard } from "@/components/ScentFinderWizard";
+import { ScentLayeringGuide } from "@/components/ScentLayeringGuide";
+import { PackagingAnatomy } from "@/components/PackagingAnatomy";
+import { FaqSection } from "@/components/FaqSection";
 
 export default function HomePage() {
   const [selectedBundle, setSelectedBundle] = useState<BundleOffer | null>(null);
@@ -55,10 +59,10 @@ export default function HomePage() {
                 </a>
 
                 <a
-                  href="/catalog"
-                  className="px-6 py-3.5 rounded-xl bg-white border border-slate-300 text-slate-800 text-xs sm:text-sm font-bold hover:bg-slate-50 hover:border-[#ba997a] transition-all inline-flex items-center gap-2"
+                  href="#wizard"
+                  className="px-6 py-3.5 rounded-xl bg-white border border-[#ba997a] text-[#3f2911] text-xs sm:text-sm font-bold hover:bg-[#ba997a]/10 transition-all inline-flex items-center gap-2"
                 >
-                  <span>تصفح الكتالوج الكامل</span>
+                  <span>مكتشف العطور الذكي</span>
                   <ArrowLeft className="w-4 h-4" />
                 </a>
               </div>
@@ -201,7 +205,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* SECTION 3: BEST SELLERS & CATEGORY TABS */}
+      {/* SECTION 3: SCENT FINDER WIZARD */}
+      <section id="wizard" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ScentFinderWizard />
+      </section>
+
+      {/* SECTION 4: BEST SELLERS & CATEGORY TABS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-end justify-between gap-4 mb-6">
           <div className="text-right">
@@ -247,73 +256,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* SECTION 4: KAVEL LUXURY PACKAGING SHOWCASE */}
-      <section id="packaging" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="luxury-card p-6 sm:p-10 bg-gradient-to-br from-[#fdfbf7] to-white border border-[#ba997a]/30">
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-[#3f2911] mb-2 text-right">
-            تجربة تغليف كافيل الفاخرة
-          </h2>
-          <p className="text-xs sm:text-sm text-slate-600 mb-8 max-w-2xl text-right">
-            كل عطر من كافيل يصلك مغلفاً بعناية فائقة في علبة كافيل الرسمية الفاخرة مع قاعدة دائرية وكيس تسوق راقٍ يناسب الإهداء والاستخدام الشخصي.
-          </p>
-
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            <div className="bg-white p-3 rounded-2xl border border-slate-200 text-center shadow-xs">
-              <div className="relative aspect-square w-full mb-2 rounded-xl bg-slate-50 p-2 overflow-hidden">
-                <Image
-                  src="/images/kavel/01_kavel-110ml-perfume-box-front.avif"
-                  alt="علبة كافيل 110 مل"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <h4 className="text-xs font-bold text-slate-900">علبة كافيل (110 مل)</h4>
-              <p className="text-[10px] text-slate-500 mt-0.5">تغليف كرتوني ملكي فاخر</p>
-            </div>
-
-            <div className="bg-white p-3 rounded-2xl border border-slate-200 text-center shadow-xs">
-              <div className="relative aspect-square w-full mb-2 rounded-xl bg-slate-50 p-2 overflow-hidden">
-                <Image
-                  src="/images/kavel/05_kavel-55ml-perfume-box-front.avif"
-                  alt="علبة كافيل 55 مل"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <h4 className="text-xs font-bold text-slate-900">علبة كافيل (55 مل)</h4>
-              <p className="text-[10px] text-slate-500 mt-0.5">حجم مناسب للحقيبة والسيارة</p>
-            </div>
-
-            <div className="bg-white p-3 rounded-2xl border border-slate-200 text-center shadow-xs">
-              <div className="relative aspect-square w-full mb-2 rounded-xl bg-slate-50 p-2 overflow-hidden">
-                <Image
-                  src="/images/kavel/03_kavel-110ml-circular-coaster-label.avif"
-                  alt="قاعدة كافيل الدائرية"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <h4 className="text-xs font-bold text-slate-900">قاعدة دائرية أنيقة</h4>
-              <p className="text-[10px] text-slate-500 mt-0.5">تثبيت وحماية للزجاجة</p>
-            </div>
-
-            <div className="bg-white p-3 rounded-2xl border border-slate-200 text-center shadow-xs">
-              <div className="relative aspect-square w-full mb-2 rounded-xl bg-slate-50 p-2 overflow-hidden">
-                <Image
-                  src="/images/kavel/08_kavel-luxury-shopping-gift-bag.avif"
-                  alt="كيس هدايا كافيل"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <h4 className="text-xs font-bold text-slate-900">كيس هدايا فاخر</h4>
-              <p className="text-[10px] text-slate-500 mt-0.5">تصميم راقٍ وجاهز للإهداء</p>
-            </div>
-          </div>
-        </div>
+      {/* SECTION 5: SCENT LAYERING GUIDE */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ScentLayeringGuide />
       </section>
 
-      {/* SECTION 5: CUSTOMER REVIEWS */}
+      {/* SECTION 6: PACKAGING ANATOMY */}
+      <section id="packaging" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <PackagingAnatomy />
+      </section>
+
+      {/* SECTION 7: CUSTOMER REVIEWS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl font-extrabold text-[#3f2911] mb-2 text-right">
           آراء وتقييمات زبائن كافيل في الأردن
@@ -368,6 +321,11 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* SECTION 8: FAQ ACCORDION */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <FaqSection />
       </section>
 
       {/* Bundle Customizer Modal */}
