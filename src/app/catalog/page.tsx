@@ -71,11 +71,11 @@ export default function CatalogPage() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-6 sm:space-y-8">
       
-      {/* Page Heading (Must be literal first element in container) */}
+      {/* Page Heading */}
       <div className="text-right">
-        <h1 className="text-2xl sm:text-3xl font-extrabold text-[#3f2911]">
+        <h1 className="text-xl sm:text-3xl font-extrabold text-[#3f2911]">
           كتالوج عطور كافيل الفاخرة
         </h1>
         <p className="text-xs sm:text-sm text-slate-600 mt-1">
@@ -88,19 +88,19 @@ export default function CatalogPage() {
         
         {/* Search Input */}
         <div className="relative w-full">
-          <Search className="w-5 h-5 text-slate-400 absolute right-4 top-3.5" />
+          <Search className="w-5 h-5 text-slate-400 absolute right-3.5 top-3.5" />
           <input
             type="text"
-            placeholder="ابحث بالاسم العربي أو الإنجليزي (مثال: سوفاج، كريد، Imagination، ليتون)..."
+            placeholder="ابحث بالاسم العربي أو الإنجليزي (سوفاج، كريد، Imagination)..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full pr-12 pl-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm font-medium outline-none focus:bg-white focus:border-[#ba997a]"
+            className="w-full pr-11 pl-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-base sm:text-sm font-medium outline-none focus:bg-white focus:border-[#ba997a]"
           />
           {search && (
             <button
               type="button"
               onClick={() => setSearch("")}
-              className="absolute left-4 top-3.5 text-slate-400 hover:text-slate-600 text-xs"
+              className="absolute left-3.5 top-3.5 text-slate-400 hover:text-slate-600 text-xs cursor-pointer"
             >
               مسح
             </button>
@@ -116,7 +116,7 @@ export default function CatalogPage() {
             <select
               value={selectedGender}
               onChange={(e) => setSelectedGender(e.target.value)}
-              className="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold outline-none focus:bg-white focus:border-[#ba997a]"
+              className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-base sm:text-xs font-semibold outline-none focus:bg-white focus:border-[#ba997a]"
             >
               <option value="all">جميع الأنواع</option>
               <option value="رجالي">رجالي</option>
@@ -131,7 +131,7 @@ export default function CatalogPage() {
             <select
               value={selectedSeason}
               onChange={(e) => setSelectedSeason(e.target.value)}
-              className="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold outline-none focus:bg-white focus:border-[#ba997a]"
+              className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-base sm:text-xs font-semibold outline-none focus:bg-white focus:border-[#ba997a]"
             >
               <option value="all">جميع المواسم</option>
               <option value="شتوي">شتوي</option>
@@ -148,7 +148,7 @@ export default function CatalogPage() {
             <select
               value={selectedNote}
               onChange={(e) => setSelectedNote(e.target.value)}
-              className="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold outline-none focus:bg-white focus:border-[#ba997a]"
+              className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-base sm:text-xs font-semibold outline-none focus:bg-white focus:border-[#ba997a]"
             >
               <option value="all">جميع المكونات</option>
               {noteCategories.map((n) => (
@@ -163,7 +163,7 @@ export default function CatalogPage() {
 
         {/* Active Filter Chips & Counter */}
         <div className="flex flex-wrap items-center justify-between gap-2 pt-2 text-xs text-slate-500">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5">
             <SlidersHorizontal className="w-4 h-4 text-[#ba997a]" />
             <span>عرض <strong>{filtered.length}</strong> عطر متوفر</span>
           </div>
@@ -172,7 +172,7 @@ export default function CatalogPage() {
             <button
               type="button"
               onClick={clearFilters}
-              className="inline-flex items-center gap-1 text-rose-600 font-bold hover:underline"
+              className="inline-flex items-center gap-1 text-rose-600 font-bold hover:underline cursor-pointer"
             >
               <X className="w-3.5 h-3.5" />
               <span>إلغاء جميع الفلاتر</span>
@@ -184,7 +184,7 @@ export default function CatalogPage() {
 
       {/* Products Grid */}
       {filtered.length > 0 ? (
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
           {filtered.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
