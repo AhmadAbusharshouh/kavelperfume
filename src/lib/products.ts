@@ -46,10 +46,10 @@ for (const raw of rawProducts) {
   // Pyramid notes if available
   const notes = pyramidMap[slug] || pyramidMap[name] || {};
 
-  // Image fallback: preserve /productImages/ and /castleBottles/
+  // Image fallback: clean /productImages/ and /images/perfumes/
   let image = String(raw.image || "");
   if (!image) {
-    image = `/castleBottles/${slug}.avif`;
+    image = `/images/perfumes/${slug}.avif`;
   } else if (!image.startsWith("http") && !image.startsWith("/")) {
     image = "/" + image;
   }

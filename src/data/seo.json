@@ -1,110 +1,22 @@
 {
   "/": {
-    "title": "عطور كاسل | إما العظمة، أو لا شيء",
-    "description": "عطور كاسل: بدائل عطرية فاخرة بتركيز استثنائي وثبات يدوم طويلاً. بديلك الأرقى والأنقى والأبقى.",
-    "ogImage": "/images/castle_icon.avif"
+    "title": "كافيل بيرفيوم / عطور مستوحاة بثبات استثنائي بأيدٍ أردنية | Kavel Perfume",
+    "description": "كافيل بيرفيوم: بدائل عطرية فاخرة بتركيز استثنائي يتجاوز 30% وثبات يدوم 24+ ساعة. شحن سريع لكافة محافظات الأردن.",
+    "ogImage": "/favicon.svg"
   },
-  "/menu": {
-    "title": "قائمة العطور",
-    "description": "تصفح قائمة عطور كاسل واكتشف بدائل العطور العالمية الفاخرة وعطور النيش بتركيز وثبات استثنائي.",
-    "ogImage": "/images/castle_icon.avif"
+  "/catalog": {
+    "title": "كتالوج عطور كافيل الفاخرة | Kavel Perfume",
+    "description": "تصفح قائمة عطور كافيل واكتشف أرقى العطور العالمية والنيش المستوحاة بحجم 110 مل و 55 مل.",
+    "ogImage": "/favicon.svg"
   },
   "/offers": {
-    "title": "العروض الخاصة",
-    "description": "باقات عطرية مميزة وتخفيضات حصرية على أفخم عطور كاسل. إما العظمة، أو لا شيء.",
-    "ogImage": "/images/castle_icon.avif"
-  },
-  "/about": {
-    "title": "قصتنا",
-    "description": "في عطور كاسل، نصنع بدائل عطرية راقية بجودة فريدة وثبات يدوم طويلاً لتعبّر عن شخصيتك وتمنحك حضوراً فريداً.",
-    "ogImage": "/images/castle_icon.avif"
-  },
-  "/contact": {
-    "title": "اتصل بنا",
-    "description": "تواصل مع مستشاري عطور كاسل مباشرة عبر الواتساب لاختيار وتصميم عطرك المفضل.",
-    "ogImage": "/images/castle_icon.avif"
+    "title": "عروض وبكجات التوفير | Kavel Perfume",
+    "description": "باقات عطرية مميزة وتخفيضات حصرية مع تستر مجاني وتوصيل مجاني لجميع المحافظات.",
+    "ogImage": "/favicon.svg"
   },
   "/cart": {
-    "title": "سلة التسوق"
-  },
-  "/legal/terms": {
-    "title": "الشروط والأحكام"
-  },
-  "/legal/privacy": {
-    "title": "سياسة الخصوصية"
-  },
-  "/legal/return": {
-    "title": "سياسة الاستبدال والاسترجاع"
-  },
-  "/login": {
-    "title": "تسجيل الدخول"
-  },
-  "/register": {
-    "title": "إنشاء حساب"
-  },
-  "/reset-password": {
-    "title": "استعادة كلمة المرور"
-  },
-  "/profile": {
-    "title": "حسابي"
-  },
-  "/not-found": {
-    "title": "الصفحة غير موجودة"
-  },
-  "/en/perfume-shop-jordan": {
-    "title": "Luxury Perfume Shop in Jordan | Castle Perfumes",
-    "description": "Discover Castle Perfumes: Jordan's premium store for long-lasting, luxury perfume alternatives crafted with absolute perfection.",
-    "ogImage": "/images/castle_icon.avif"
-  },
-  "/en/arabic-perfume-online": {
-    "title": "Premium Arabic & Oriental Perfumes | Castle Perfumes",
-    "description": "Shop the finest oriental blends, oud, and musk online in Jordan. Experience long-lasting, majestic scents by Castle Perfumes.",
-    "ogImage": "/images/castle_icon.avif"
-  },
-  "/en/oud-perfume-jordan": {
-    "title": "Royal Oud Perfumes in Jordan | Castle Perfumes",
-    "description": "Experience luxury with premium agarwood blends and rich oriental oud masterpieces at Castle Perfumes.",
-    "ogImage": "/images/castle_icon.avif"
-  },
-  "/en/niche-perfumes-amman": {
-    "title": "Exclusive Niche Perfumes in Amman | Castle Perfumes",
-    "description": "Explore rare and artistic fragrance profiles designed for connoisseurs at Castle Perfumes Amman.",
-    "ogImage": "/images/castle_icon.avif"
-  },
-  "/en/perfume-gifts-jordan": {
-    "title": "Luxury Perfume Gifts in Jordan | Castle Perfumes",
-    "description": "Gift greatness. Shop elegant perfume gift sets with premium packaging and long-lasting scents for any occasion.",
-    "ogImage": "/images/castle_icon.avif"
-  },
-  "/en/long-lasting-perfume-jordan": {
-    "title": "Long-Lasting Perfumes in Jordan | Castle Perfumes",
-    "description": "Shop high-concentration, ultra long-lasting Extrait de Parfum that stays on skin and clothes all day.",
-    "ogImage": "/images/castle_icon.avif"
-  },
-  "/en/women-perfume-jordan": {
-    "title": "Elegant Women's Perfumes | Castle Perfumes",
-    "description": "Explore captivating and sophisticated floral, fruity, and warm oriental fragrances designed for women.",
-    "ogImage": "/images/castle_icon.avif"
-  },
-  "/en/men-perfume-jordan": {
-    "title": "Signature Men's Perfumes | Castle Perfumes",
-    "description": "Discover bold, fresh, woody, and spicy masculine fragrances. Find your signature scent at Castle Perfumes.",
-    "ogImage": "/images/castle_icon.avif"
-  },
-  "/en/best-perfume-in-jordan": {
-    "title": "Best Perfume Alternatives in Jordan | Castle Perfumes",
-    "description": "Shop top-rated, long-lasting luxury fragrances and premium alternatives at Castle Perfumes. Either greatness, or nothing.",
-    "ogImage": "/images/castle_icon.avif"
-  },
-  "product:default": {
-    "titleTemplate": "{nameAr} | عطور كاسل",
-    "descriptionTemplate": "اقتنِ عطر {nameAr} البديل الفاخر بمكونات {topNote}، {middleNote}، {baseNote}. ثبات استثنائي وتوصيل سريع من عطور كاسل.",
-    "keywordsTemplate": "{nameAr}, {nameEn}, عطر {nameEn}, {nameEn} jordan, عطور رجالية, عطور نسائية, عطور الأردن",
-    "ogImageTemplate": "{image}"
-  },
-  "offer:default": {
-    "titleTemplate": "{offerTitleAr} | عطور كاسل",
-    "descriptionTemplate": "{offerDescAr}",
-    "ogImageTemplate": "/offersImages/{offerNum}.avif"
+    "title": "السلة والشراء الفوري | Kavel Perfume",
+    "description": "إتمام الطلب السريع بـ 4 حقول فقط والدفع نقداً عند الاستلام.",
+    "ogImage": "/favicon.svg"
   }
 }

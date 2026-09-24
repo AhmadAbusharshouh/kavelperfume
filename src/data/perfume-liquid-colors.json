@@ -5,7 +5,7 @@
     "nameEn": "Ultra Male",
     "name": "ألترا ميل",
     "liquidColor": "#1f4068",
-    "castleBottleImage": "/castleBottles/jean-paul-gaultier-ultra-male.png"
+    "bottleImage": "/images/perfumes/jean-paul-gaultier-ultra-male.png"
   },
   {
     "id": "p-1",
@@ -13,7 +13,7 @@
     "nameEn": "Le Male",
     "name": "لي ميل",
     "liquidColor": "#46929c",
-    "castleBottleImage": "/castleBottles/jean-paul-gaultier-le-male.png"
+    "bottleImage": "/images/perfumes/jean-paul-gaultier-le-male.png"
   },
   {
     "id": "p-2",
@@ -21,7 +21,7 @@
     "nameEn": "Le Male",
     "name": "لي ميل لي بارفوم",
     "liquidColor": "#1e1e1e",
-    "castleBottleImage": "/castleBottles/jean-paul-gaultier-le-male-le-parfum.png"
+    "bottleImage": "/images/perfumes/jean-paul-gaultier-le-male-le-parfum.png"
   },
   {
     "id": "p-3",
@@ -29,7 +29,7 @@
     "nameEn": "Le Male Elixir",
     "name": "لي ميل الكسير",
     "liquidColor": "#d4af37",
-    "castleBottleImage": "/castleBottles/jean-paul-gaultier-le-male-elixir.png"
+    "bottleImage": "/images/perfumes/jean-paul-gaultier-le-male-elixir.png"
   },
   {
     "id": "p-4",
@@ -37,7 +37,7 @@
     "nameEn": "Le Beau",
     "name": "لي بو",
     "liquidColor": "#458f9c",
-    "castleBottleImage": "/castleBottles/jean-paul-gaultier-le-beau.png"
+    "bottleImage": "/images/perfumes/jean-paul-gaultier-le-beau.png"
   },
   {
     "id": "p-5",
@@ -45,7 +45,7 @@
     "nameEn": "Le Beau Le Parfum",
     "name": "لي بو لي بارفوم",
     "liquidColor": "#30686b",
-    "castleBottleImage": "/castleBottles/jean-paul-gaultier-le-beau-le-parfum.png"
+    "bottleImage": "/images/perfumes/jean-paul-gaultier-le-beau-le-parfum.png"
   },
   {
     "id": "p-6",
@@ -53,7 +53,7 @@
     "nameEn": "Le Beau Paradise Garden",
     "name": "لي بو بارادايس قاردن",
     "liquidColor": "#798e58",
-    "castleBottleImage": "/castleBottles/jean-paul-gaultier-le-beau-paradise-garden.png"
+    "bottleImage": "/images/perfumes/jean-paul-gaultier-le-beau-paradise-garden.png"
   },
   {
     "id": "p-7",
@@ -61,7 +61,7 @@
     "nameEn": "Scandal",
     "name": "سكاندل",
     "liquidColor": "#bf7d7d",
-    "castleBottleImage": "/castleBottles/jean-paul-gaultier-scandal-pour-homme.png"
+    "bottleImage": "/images/perfumes/jean-paul-gaultier-scandal-pour-homme.png"
   },
   {
     "id": "p-8",
@@ -69,7 +69,7 @@
     "nameEn": "Scandal Pour Homme Absolu",
     "name": "سكاندل بور اوم ابسولو",
     "liquidColor": "#c79750",
-    "castleBottleImage": "/castleBottles/jean-paul-gaultier-scandal-pour-homme-absolu.png"
+    "bottleImage": "/images/perfumes/jean-paul-gaultier-scandal-pour-homme-absolu.png"
   },
   {
     "id": "p-9",
@@ -77,7 +77,7 @@
     "nameEn": "Sauvage",
     "name": "سوفاج",
     "liquidColor": "#1c2838",
-    "castleBottleImage": "/castleBottles/dior-sauvage.png"
+    "bottleImage": "/images/perfumes/dior-sauvage.png"
   },
   {
     "id": "p-10",
@@ -85,7 +85,7 @@
     "nameEn": "Sauvage Elixir",
     "name": "سوفاج الكسير",
     "liquidColor": "#0d1520",
-    "castleBottleImage": "/castleBottles/dior-sauvage-elixir.png"
+    "bottleImage": "/images/perfumes/dior-sauvage-elixir.png"
   },
   {
     "id": "p-11",
@@ -93,7 +93,7 @@
     "nameEn": "Dior Homme Intense",
     "name": "ديور أوم انتنس",
     "liquidColor": "#be810f",
-    "castleBottleImage": "/castleBottles/dior-homme-intense.png"
+    "bottleImage": "/images/perfumes/dior-homme-intense.png"
   },
   {
     "id": "p-12",
@@ -101,7 +101,7 @@
     "nameEn": "Oud Ispahan",
     "name": "عود أصفهان",
     "liquidColor": "#af8274",
-    "castleBottleImage": "/castleBottles/dior-oud-ispahan.png"
+    "bottleImage": "/images/perfumes/dior-oud-ispahan.png"
   },
   {
     "id": "p-13",
@@ -109,7 +109,7 @@
     "nameEn": "Stronger With You",
     "name": "سترونقر وذ يو",
     "liquidColor": "#e98409",
-    "castleBottleImage": "/castleBottles/armani-stronger-with-you.png"
+    "bottleImage": "/images/perfumes/armani-stronger-with-you.png"
   },
   {
     "id": "p-14",
@@ -117,7 +117,7 @@
     "nameEn": "Stronger With You Intensely",
     "name": "سترونقر وذ يو انتنسلي",
     "liquidColor": "#ad360b",
-    "castleBottleImage": "/castleBottles/armani-stronger-with-you-intensely.png"
+    "bottleImage": "/images/perfumes/armani-stronger-with-you-intensely.png"
   },
   {
     "id": "p-15",
@@ -125,7 +125,7 @@
     "nameEn": "Stronger With You Amber",
     "name": "سترونقر وذ يو عنبر",
     "liquidColor": "#ce5c11",
-    "castleBottleImage": "/castleBottles/armani-stronger-with-you-amber.png"
+    "bottleImage": "/images/perfumes/armani-stronger-with-you-amber.png"
   },
   {
     "id": "p-16",
@@ -133,7 +133,7 @@
     "nameEn": "Stronger With You Absolutely",
     "name": "سترونقر وذ يو ابسلوتلي",
     "liquidColor": "#cc4c22",
-    "castleBottleImage": "/castleBottles/armani-stronger-with-you-absolutely.png"
+    "bottleImage": "/images/perfumes/armani-stronger-with-you-absolutely.png"
   },
   {
     "id": "p-17",
@@ -141,7 +141,7 @@
     "nameEn": "Stronger With You Oud",
     "name": "سترونقر وذ يو عود",
     "liquidColor": "#c0a46f",
-    "castleBottleImage": "/castleBottles/armani-stronger-with-you-oud.png"
+    "bottleImage": "/images/perfumes/armani-stronger-with-you-oud.png"
   },
   {
     "id": "p-18",
@@ -149,7 +149,7 @@
     "nameEn": "Stronger With You Leather",
     "name": "سترونقر وذ يو ليذر",
     "liquidColor": "#ccb787",
-    "castleBottleImage": "/castleBottles/armani-stronger-with-you-leather.png"
+    "bottleImage": "/images/perfumes/armani-stronger-with-you-leather.png"
   },
   {
     "id": "p-19",
@@ -157,7 +157,7 @@
     "nameEn": "Acqua di Gio",
     "name": "اكوا دي جيو",
     "liquidColor": "#cfcfc3",
-    "castleBottleImage": "/castleBottles/armani-acqua-di-gio.png"
+    "bottleImage": "/images/perfumes/armani-acqua-di-gio.png"
   },
   {
     "id": "p-20",
@@ -165,7 +165,7 @@
     "nameEn": "Acqua di Gio Profondo",
     "name": "اكوا دي جيو بروفوندو",
     "liquidColor": "#4e607e",
-    "castleBottleImage": "/castleBottles/armani-acqua-di-gio-profondo.png"
+    "bottleImage": "/images/perfumes/armani-acqua-di-gio-profondo.png"
   },
   {
     "id": "p-21",
@@ -173,7 +173,7 @@
     "nameEn": "Acqua di Gio Profumo",
     "name": "اكوا دي جيو بروفومو",
     "liquidColor": "#333333",
-    "castleBottleImage": "/castleBottles/armani-acqua-di-gio-profumo.png"
+    "bottleImage": "/images/perfumes/armani-acqua-di-gio-profumo.png"
   },
   {
     "id": "p-22",
@@ -181,7 +181,7 @@
     "nameEn": "Egoiste Platinum",
     "name": "ايجويست بلاتينيوم",
     "liquidColor": "#ddd3a2",
-    "castleBottleImage": "/castleBottles/egoiste-platinum-chanel.png"
+    "bottleImage": "/images/perfumes/egoiste-platinum-chanel.png"
   },
   {
     "id": "p-23",
@@ -189,7 +189,7 @@
     "nameEn": "Bleu De Chanel",
     "name": "بلو دي شانيل",
     "liquidColor": "#182433",
-    "castleBottleImage": "/castleBottles/bleu-de-chanel.png"
+    "bottleImage": "/images/perfumes/bleu-de-chanel.png"
   },
   {
     "id": "p-24",
@@ -197,7 +197,7 @@
     "nameEn": "Allure Homme Sport",
     "name": "الور هوم سبورت",
     "liquidColor": "#c1686a",
-    "castleBottleImage": "/castleBottles/allure-homme-sport-chanel.png"
+    "bottleImage": "/images/perfumes/allure-homme-sport-chanel.png"
   },
   {
     "id": "p-25",
@@ -205,7 +205,7 @@
     "nameEn": "Terroni",
     "name": "تيروني",
     "liquidColor": "#69130f",
-    "castleBottleImage": "/castleBottles/terroni-orto-parisi.png"
+    "bottleImage": "/images/perfumes/terroni-orto-parisi.png"
   },
   {
     "id": "p-26",
@@ -213,7 +213,7 @@
     "nameEn": "Megamere",
     "name": "ميجامير",
     "liquidColor": "#7e7f65",
-    "castleBottleImage": "/castleBottles/megamere-orto-parisi.png"
+    "bottleImage": "/images/perfumes/megamere-orto-parisi.png"
   },
   {
     "id": "p-27",
@@ -221,7 +221,7 @@
     "nameEn": "Black Orchid",
     "name": "بلاك اروكيد",
     "liquidColor": "#caa96a",
-    "castleBottleImage": "/castleBottles/tom-ford-black-orchid.png"
+    "bottleImage": "/images/perfumes/tom-ford-black-orchid.png"
   },
   {
     "id": "p-28",
@@ -229,7 +229,7 @@
     "nameEn": "Ombre Leather",
     "name": "اومبري ليذر",
     "liquidColor": "#171918",
-    "castleBottleImage": "/castleBottles/tom-ford-ombre-leather.png"
+    "bottleImage": "/images/perfumes/tom-ford-ombre-leather.png"
   },
   {
     "id": "p-29",
@@ -237,7 +237,7 @@
     "nameEn": "Oud Wood",
     "name": "عود وود",
     "liquidColor": "#433d36",
-    "castleBottleImage": "/castleBottles/tom-ford-oud-wood.png"
+    "bottleImage": "/images/perfumes/tom-ford-oud-wood.png"
   },
   {
     "id": "p-30",
@@ -245,7 +245,7 @@
     "nameEn": "Tobacco Vanille",
     "name": "توباكو فانيليا",
     "liquidColor": "#5c3317",
-    "castleBottleImage": "/castleBottles/tom-ford-tobacco-vanille.png"
+    "bottleImage": "/images/perfumes/tom-ford-tobacco-vanille.png"
   },
   {
     "id": "p-31",
@@ -253,7 +253,7 @@
     "nameEn": "Fucking Fabulous",
     "name": "فكنق فابيولس",
     "liquidColor": "#373532",
-    "castleBottleImage": "/castleBottles/tom-ford-fucking-fabulous.png"
+    "bottleImage": "/images/perfumes/tom-ford-fucking-fabulous.png"
   },
   {
     "id": "p-32",
@@ -261,7 +261,7 @@
     "nameEn": "Creed Aventus",
     "name": "كريد افينتوس",
     "liquidColor": "#4a5568",
-    "castleBottleImage": "/castleBottles/creed-aventus.png"
+    "bottleImage": "/images/perfumes/creed-aventus.png"
   },
   {
     "id": "p-33",
@@ -269,7 +269,7 @@
     "nameEn": "Creed Aventus Absolu",
     "name": "كريد افينتوس ابسولو",
     "liquidColor": "#11161d",
-    "castleBottleImage": "/castleBottles/creed-aventus-absolu.png"
+    "bottleImage": "/images/perfumes/creed-aventus-absolu.png"
   },
   {
     "id": "p-34",
@@ -277,7 +277,7 @@
     "nameEn": "Creed Silver",
     "name": "كريد سلفر",
     "liquidColor": "#cbcfcc",
-    "castleBottleImage": "/castleBottles/creed-silver-mountain.png"
+    "bottleImage": "/images/perfumes/creed-silver-mountain.png"
   },
   {
     "id": "p-35",
@@ -285,7 +285,7 @@
     "nameEn": "Green irish tweed",
     "name": "قرين ايرش تويد",
     "liquidColor": "#393939",
-    "castleBottleImage": "/castleBottles/green-irish-tweed-creed.png"
+    "bottleImage": "/images/perfumes/green-irish-tweed-creed.png"
   },
   {
     "id": "p-36",
@@ -293,7 +293,7 @@
     "nameEn": "Dylan Blue",
     "name": "ديلان بلو",
     "liquidColor": "#4d4d64",
-    "castleBottleImage": "/castleBottles/versace-dylan-blue.png"
+    "bottleImage": "/images/perfumes/versace-dylan-blue.png"
   },
   {
     "id": "p-37",
@@ -301,7 +301,7 @@
     "nameEn": "Eros",
     "name": "ايروس",
     "liquidColor": "#1c6f82",
-    "castleBottleImage": "/castleBottles/versace-eros.png"
+    "bottleImage": "/images/perfumes/versace-eros.png"
   },
   {
     "id": "p-38",
@@ -309,7 +309,7 @@
     "nameEn": "Eros Flame",
     "name": "ايروس فليم",
     "liquidColor": "#a52c33",
-    "castleBottleImage": "/castleBottles/versace-eros-flame.png"
+    "bottleImage": "/images/perfumes/versace-eros-flame.png"
   },
   {
     "id": "p-39",
@@ -317,7 +317,7 @@
     "nameEn": "Eros Energy",
     "name": "ايروس انرجي",
     "liquidColor": "#f0c21d",
-    "castleBottleImage": "/castleBottles/versace-eros-energy.png"
+    "bottleImage": "/images/perfumes/versace-eros-energy.png"
   },
   {
     "id": "p-40",
@@ -325,7 +325,7 @@
     "nameEn": "One Million",
     "name": "ون مليون",
     "liquidColor": "#dec68e",
-    "castleBottleImage": "/castleBottles/one-million-paco-rabanne.png"
+    "bottleImage": "/images/perfumes/one-million-paco-rabanne.png"
   },
   {
     "id": "p-41",
@@ -333,7 +333,7 @@
     "nameEn": "One Million Lucky",
     "name": "ون مليون لاكي",
     "liquidColor": "#c5ab6b",
-    "castleBottleImage": "/castleBottles/one-million-lucky-paco-rabanne.png"
+    "bottleImage": "/images/perfumes/one-million-lucky-paco-rabanne.png"
   },
   {
     "id": "p-42",
@@ -341,7 +341,7 @@
     "nameEn": "Invictus",
     "name": "انفكتوس",
     "liquidColor": "#b6b6b8",
-    "castleBottleImage": "/castleBottles/invictus-paco-rabanne.png"
+    "bottleImage": "/images/perfumes/invictus-paco-rabanne.png"
   },
   {
     "id": "p-43",
@@ -349,7 +349,7 @@
     "nameEn": "Invictus Victory",
     "name": "انفكتوس فكتوري",
     "liquidColor": "#b2aa8c",
-    "castleBottleImage": "/castleBottles/invictus-victory-paco-rabanne.png"
+    "bottleImage": "/images/perfumes/invictus-victory-paco-rabanne.png"
   },
   {
     "id": "p-44",
@@ -357,7 +357,7 @@
     "nameEn": "YSL Y EDP",
     "name": "واي يو إكستري دي بارفيوم",
     "liquidColor": "#3e5262",
-    "castleBottleImage": "/castleBottles/yves-saint-laurent-y-extrait-de-parfum.png"
+    "bottleImage": "/images/perfumes/yves-saint-laurent-y-extrait-de-parfum.png"
   },
   {
     "id": "p-45",
@@ -365,7 +365,7 @@
     "nameEn": "La Nuit de L Homme",
     "name": "لا نويت دي لاهوم",
     "liquidColor": "#bcb99d",
-    "castleBottleImage": "/castleBottles/yves-saint-laurent-la-nuit-de-l-homme.png"
+    "bottleImage": "/images/perfumes/yves-saint-laurent-la-nuit-de-l-homme.png"
   },
   {
     "id": "p-46",
@@ -373,7 +373,7 @@
     "nameEn": "My Self",
     "name": "ماي سلف",
     "liquidColor": "#2f302e",
-    "castleBottleImage": "/castleBottles/yves-saint-laurent-my-self.png"
+    "bottleImage": "/images/perfumes/yves-saint-laurent-my-self.png"
   },
   {
     "id": "p-48",
@@ -381,7 +381,7 @@
     "nameEn": "Pegasus",
     "name": "بيغاسوس",
     "liquidColor": "#a9aba9",
-    "castleBottleImage": "/castleBottles/pegasus-parfums-de-marly.png"
+    "bottleImage": "/images/perfumes/pegasus-parfums-de-marly.png"
   },
   {
     "id": "p-49",
@@ -389,7 +389,7 @@
     "nameEn": "Layton",
     "name": "لايتون",
     "liquidColor": "#38485e",
-    "castleBottleImage": "/castleBottles/layton-parfums-de-marly.png"
+    "bottleImage": "/images/perfumes/layton-parfums-de-marly.png"
   },
   {
     "id": "p-50",
@@ -397,7 +397,7 @@
     "nameEn": "Althair",
     "name": "الثائر",
     "liquidColor": "#b15f31",
-    "castleBottleImage": "/castleBottles/althair-parfums-de-marly.png"
+    "bottleImage": "/images/perfumes/althair-parfums-de-marly.png"
   },
   {
     "id": "p-51",
@@ -405,7 +405,7 @@
     "nameEn": "Herod",
     "name": "هيرود",
     "liquidColor": "#423838",
-    "castleBottleImage": "/castleBottles/herod-parfums-de-marly.png"
+    "bottleImage": "/images/perfumes/herod-parfums-de-marly.png"
   },
   {
     "id": "p-52",
@@ -413,7 +413,7 @@
     "nameEn": "Greenley",
     "name": "جرينلي",
     "liquidColor": "#0cb282",
-    "castleBottleImage": "/castleBottles/greenley-parfums-de-marly.png"
+    "bottleImage": "/images/perfumes/greenley-parfums-de-marly.png"
   },
   {
     "id": "p-53",
@@ -421,7 +421,7 @@
     "nameEn": "Perseus",
     "name": "بيرسيوس",
     "liquidColor": "#f8b020",
-    "castleBottleImage": "/castleBottles/perseus-parfums-de-marly.png"
+    "bottleImage": "/images/perfumes/perseus-parfums-de-marly.png"
   },
   {
     "id": "p-54",
@@ -429,7 +429,7 @@
     "nameEn": "Gissah Imperial",
     "name": "قصة امبريال",
     "liquidColor": "#bcb29d",
-    "castleBottleImage": "/castleBottles/gissah-imperial-valley.png"
+    "bottleImage": "/images/perfumes/gissah-imperial-valley.png"
   },
   {
     "id": "p-56",
@@ -437,7 +437,7 @@
     "nameEn": "The One",
     "name": "ذا ون",
     "liquidColor": "#b46817",
-    "castleBottleImage": "/castleBottles/dolce-gabbana-the-one.png"
+    "bottleImage": "/images/perfumes/dolce-gabbana-the-one.png"
   },
   {
     "id": "p-57",
@@ -445,7 +445,7 @@
     "nameEn": "Qaed Al Fursan",
     "name": "قائد الفرسان",
     "liquidColor": "#a48e54",
-    "castleBottleImage": "/castleBottles/qaed-al-fursan-lattafa.png"
+    "bottleImage": "/images/perfumes/qaed-al-fursan-lattafa.png"
   },
   {
     "id": "p-58",
@@ -453,7 +453,7 @@
     "nameEn": "Ana Abiyedh",
     "name": "انا الأبيض",
     "liquidColor": "#b5a08c",
-    "castleBottleImage": "/castleBottles/ana-abiyedh-lattafa.png"
+    "bottleImage": "/images/perfumes/ana-abiyedh-lattafa.png"
   },
   {
     "id": "p-59",
@@ -461,7 +461,7 @@
     "nameEn": "Ana Abiyedh Rouge",
     "name": "انا الأبيض حمراء",
     "liquidColor": "#cba374",
-    "castleBottleImage": "/castleBottles/ana-abiyedh-rouge-lattafa.png"
+    "bottleImage": "/images/perfumes/ana-abiyedh-rouge-lattafa.png"
   },
   {
     "id": "p-60",
@@ -469,7 +469,7 @@
     "nameEn": "Ramz",
     "name": "رمز",
     "liquidColor": "#b2bcc5",
-    "castleBottleImage": "/castleBottles/ramz-lattafa.png"
+    "bottleImage": "/images/perfumes/ramz-lattafa.png"
   },
   {
     "id": "p-61",
@@ -477,7 +477,7 @@
     "nameEn": "Khamrah",
     "name": "خمرة",
     "liquidColor": "#de8d21",
-    "castleBottleImage": "/castleBottles/khamrah-lattafa.png"
+    "bottleImage": "/images/perfumes/khamrah-lattafa.png"
   },
   {
     "id": "p-62",
@@ -485,7 +485,7 @@
     "nameEn": "Khamrah Qahwa",
     "name": "خمرة قهوة",
     "liquidColor": "#d4ae2f",
-    "castleBottleImage": "/castleBottles/khamrah-qahwa-lattafa.png"
+    "bottleImage": "/images/perfumes/khamrah-qahwa-lattafa.png"
   },
   {
     "id": "p-63",
@@ -493,7 +493,7 @@
     "nameEn": "Asad",
     "name": "أسد",
     "liquidColor": "#d4b86d",
-    "castleBottleImage": "/castleBottles/asad-lattafa.png"
+    "bottleImage": "/images/perfumes/asad-lattafa.png"
   },
   {
     "id": "p-64",
@@ -501,7 +501,7 @@
     "nameEn": "Fakhar",
     "name": "فخر",
     "liquidColor": "#959895",
-    "castleBottleImage": "/castleBottles/fakhar-lattafa.png"
+    "bottleImage": "/images/perfumes/fakhar-lattafa.png"
   },
   {
     "id": "p-65",
@@ -509,7 +509,7 @@
     "nameEn": "Badee Al Oud",
     "name": "بديع العود",
     "liquidColor": "#9f9876",
-    "castleBottleImage": "/castleBottles/badee-al-oud-oud-for-glory-lattafa.png"
+    "bottleImage": "/images/perfumes/badee-al-oud-oud-for-glory-lattafa.png"
   },
   {
     "id": "p-66",
@@ -517,7 +517,7 @@
     "nameEn": "9PM",
     "name": "9PM",
     "liquidColor": "#898e89",
-    "castleBottleImage": "/castleBottles/afnan-9pm.png"
+    "bottleImage": "/images/perfumes/afnan-9pm.png"
   },
   {
     "id": "p-67",
@@ -525,7 +525,7 @@
     "nameEn": "Turathi Blue",
     "name": "تراثي بلو",
     "liquidColor": "#312d5c",
-    "castleBottleImage": "/castleBottles/turathi-blue-afnan.png"
+    "bottleImage": "/images/perfumes/turathi-blue-afnan.png"
   },
   {
     "id": "p-68",
@@ -533,7 +533,7 @@
     "nameEn": "Al Wisam",
     "name": "الوسام",
     "liquidColor": "#a95d53",
-    "castleBottleImage": "/castleBottles/rasasi-al-wisam.png"
+    "bottleImage": "/images/perfumes/rasasi-al-wisam.png"
   },
   {
     "id": "p-69",
@@ -541,7 +541,7 @@
     "nameEn": "Naxos",
     "name": "ناكسوس",
     "liquidColor": "#d8bd9e",
-    "castleBottleImage": "/castleBottles/naxos-xerjoff.png"
+    "bottleImage": "/images/perfumes/naxos-xerjoff.png"
   },
   {
     "id": "p-70",
@@ -549,7 +549,7 @@
     "nameEn": "Erba Pura",
     "name": "ايربابورا",
     "liquidColor": "#519fa9",
-    "castleBottleImage": "/castleBottles/erba-pura-xerjoff.png"
+    "bottleImage": "/images/perfumes/erba-pura-xerjoff.png"
   },
   {
     "id": "p-71",
@@ -557,7 +557,7 @@
     "nameEn": "40 Knots",
     "name": "40 نوتس",
     "liquidColor": "#727194",
-    "castleBottleImage": "/castleBottles/40-knots-xerjoff.png"
+    "bottleImage": "/images/perfumes/40-knots-xerjoff.png"
   },
   {
     "id": "p-72",
@@ -565,7 +565,7 @@
     "nameEn": "More Than Words",
     "name": "مور ذان ووردز",
     "liquidColor": "#9f9082",
-    "castleBottleImage": "/castleBottles/more-than-words-xerjoff.png"
+    "bottleImage": "/images/perfumes/more-than-words-xerjoff.png"
   },
   {
     "id": "p-73",
@@ -573,7 +573,7 @@
     "nameEn": "Y EDP INTENSE",
     "name": "واي اي دي بي انتنس",
     "liquidColor": "#124259",
-    "castleBottleImage": "/castleBottles/ysl-y-edp-intense.png"
+    "bottleImage": "/images/perfumes/ysl-y-edp-intense.png"
   },
   {
     "id": "p-74",
@@ -581,7 +581,7 @@
     "nameEn": "Black Afgano",
     "name": "بلاك افغانو",
     "liquidColor": "#767b75",
-    "castleBottleImage": "/castleBottles/black-afgano-nasomatto.png"
+    "bottleImage": "/images/perfumes/black-afgano-nasomatto.png"
   },
   {
     "id": "p-75",
@@ -589,7 +589,7 @@
     "nameEn": "Imagination",
     "name": "ايماجينيشن",
     "liquidColor": "#99c8c5",
-    "castleBottleImage": "/castleBottles/imagination-louis-vuitton.png"
+    "bottleImage": "/images/perfumes/imagination-louis-vuitton.png"
   },
   {
     "id": "p-76",
@@ -597,7 +597,7 @@
     "nameEn": "Afternoon Swim",
     "name": "افترنون سويم",
     "liquidColor": "#4ebed7",
-    "castleBottleImage": "/castleBottles/afternoon-swim-louis-vuitton.png"
+    "bottleImage": "/images/perfumes/afternoon-swim-louis-vuitton.png"
   },
   {
     "id": "p-77",
@@ -605,7 +605,7 @@
     "nameEn": "Pacific Chill",
     "name": "باسفك شيل",
     "liquidColor": "#40d5ae",
-    "castleBottleImage": "/castleBottles/pacific-chill-louis-vuitton.png"
+    "bottleImage": "/images/perfumes/pacific-chill-louis-vuitton.png"
   },
   {
     "id": "p-78",
@@ -613,7 +613,7 @@
     "nameEn": "Ombre Nomade",
     "name": "اومبري نوماد",
     "liquidColor": "#543b27",
-    "castleBottleImage": "/castleBottles/ombre-nomade-louis-vuitton.png"
+    "bottleImage": "/images/perfumes/ombre-nomade-louis-vuitton.png"
   },
   {
     "id": "p-79",
@@ -621,7 +621,7 @@
     "nameEn": "G*D OF FIRE",
     "name": "ق*د اوف فاير",
     "liquidColor": "#13b0c9",
-    "castleBottleImage": "/castleBottles/gd-of-fire-stephane-humbert-lucas-777.png"
+    "bottleImage": "/images/perfumes/gd-of-fire-stephane-humbert-lucas-777.png"
   },
   {
     "id": "p-80",
@@ -629,7 +629,7 @@
     "nameEn": "Boss The Scent",
     "name": "بوس ذا سنت",
     "liquidColor": "#d49745",
-    "castleBottleImage": "/castleBottles/boss-the-scent-hugo-boss.png"
+    "bottleImage": "/images/perfumes/boss-the-scent-hugo-boss.png"
   },
   {
     "id": "p-81",
@@ -637,7 +637,7 @@
     "nameEn": "Boss Bottled",
     "name": "بوس بوتلد",
     "liquidColor": "#b7b37a",
-    "castleBottleImage": "/castleBottles/boss-bottled-hugo-boss.png"
+    "bottleImage": "/images/perfumes/boss-bottled-hugo-boss.png"
   },
   {
     "id": "p-82",
@@ -645,7 +645,7 @@
     "nameEn": "Fahrenheit",
     "name": "فاهرنهايت",
     "liquidColor": "#c3631a",
-    "castleBottleImage": "/castleBottles/fahrenheit-dior.png"
+    "bottleImage": "/images/perfumes/fahrenheit-dior.png"
   },
   {
     "id": "p-83",
@@ -653,7 +653,7 @@
     "nameEn": "Eternity",
     "name": "اتيرنتي",
     "liquidColor": "#d6e09d",
-    "castleBottleImage": "/castleBottles/eternity-calvin-klein.png"
+    "bottleImage": "/images/perfumes/eternity-calvin-klein.png"
   },
   {
     "id": "p-84",
@@ -661,7 +661,7 @@
     "nameEn": "Terre D'hermes",
     "name": "تيري دي هيرمس",
     "liquidColor": "#ecddc0",
-    "castleBottleImage": "/castleBottles/terre-d-hermes-hermes.png"
+    "bottleImage": "/images/perfumes/terre-d-hermes-hermes.png"
   },
   {
     "id": "p-85",
@@ -669,7 +669,7 @@
     "nameEn": "Hacivat",
     "name": "هاشيفات",
     "liquidColor": "#d1aa67",
-    "castleBottleImage": "/castleBottles/nishane-hacivat.png"
+    "bottleImage": "/images/perfumes/nishane-hacivat.png"
   },
   {
     "id": "p-86",
@@ -677,7 +677,7 @@
     "nameEn": "Nefs",
     "name": "نيفس",
     "liquidColor": "#dbb574",
-    "castleBottleImage": "/castleBottles/nefs-nishane.png"
+    "bottleImage": "/images/perfumes/nefs-nishane.png"
   },
   {
     "id": "p-87",
@@ -685,7 +685,7 @@
     "nameEn": "Oscar",
     "name": "اوسكار",
     "liquidColor": "#40635c",
-    "castleBottleImage": "/castleBottles/oscar-zimaya.png"
+    "bottleImage": "/images/perfumes/oscar-zimaya.png"
   },
   {
     "id": "p-88",
@@ -693,7 +693,7 @@
     "nameEn": "Rayhaan Elixir",
     "name": "ريحان الكسير",
     "liquidColor": "#c2a785",
-    "castleBottleImage": "/castleBottles/rayhaan-elixir-rayhaan.png"
+    "bottleImage": "/images/perfumes/rayhaan-elixir-rayhaan.png"
   },
   {
     "id": "p-89",
@@ -701,7 +701,7 @@
     "nameEn": "Eau de Lacoste White",
     "name": "او دي لاكوست وايت",
     "liquidColor": "#70765e",
-    "castleBottleImage": "/castleBottles/eau-de-lacoste-white-lacoste-fragrances.png"
+    "bottleImage": "/images/perfumes/eau-de-lacoste-white-lacoste-fragrances.png"
   },
   {
     "id": "p-90",
@@ -709,7 +709,7 @@
     "nameEn": "Eau de Lacoste Noir",
     "name": "او دي لاكوست نوار",
     "liquidColor": "#434b31",
-    "castleBottleImage": "/castleBottles/eau-de-lacoste-noir-lacoste-fragrances.png"
+    "bottleImage": "/images/perfumes/eau-de-lacoste-noir-lacoste-fragrances.png"
   },
   {
     "id": "p-91",
@@ -717,7 +717,7 @@
     "nameEn": "Tobacco Honey",
     "name": "توباكو هني",
     "liquidColor": "#c57b47",
-    "castleBottleImage": "/castleBottles/tobacco-honey-guerlain.png"
+    "bottleImage": "/images/perfumes/tobacco-honey-guerlain.png"
   },
   {
     "id": "p-92",
@@ -725,7 +725,7 @@
     "nameEn": "By the Fireplace",
     "name": "باي ذا فايربليس",
     "liquidColor": "#d1922e",
-    "castleBottleImage": "/castleBottles/by-the-fireplace-maison-martin-margiela.png"
+    "bottleImage": "/images/perfumes/by-the-fireplace-maison-martin-margiela.png"
   },
   {
     "id": "p-93",
@@ -733,7 +733,7 @@
     "nameEn": "Spicebomb Extreme",
     "name": "سبايسبومب اكستريم",
     "liquidColor": "#c38f4d",
-    "castleBottleImage": "/castleBottles/spicebomb-extreme-viktor-rolf.png"
+    "bottleImage": "/images/perfumes/spicebomb-extreme-viktor-rolf.png"
   },
   {
     "id": "p-94",
@@ -741,7 +741,7 @@
     "nameEn": "Spicebomb Dark Leather",
     "name": "سبايسبومب دارك ليذر",
     "liquidColor": "#363536",
-    "castleBottleImage": "/castleBottles/spicebomb-dark-leather-viktor-rolf.png"
+    "bottleImage": "/images/perfumes/spicebomb-dark-leather-viktor-rolf.png"
   },
   {
     "id": "p-95",
@@ -749,7 +749,7 @@
     "nameEn": "Oud for Greatness",
     "name": "عود فور قريتنس",
     "liquidColor": "#a18d5e",
-    "castleBottleImage": "/castleBottles/oud-for-greatness-initio-parfums-prives.png"
+    "bottleImage": "/images/perfumes/oud-for-greatness-initio-parfums-prives.png"
   },
   {
     "id": "p-96",
@@ -757,7 +757,7 @@
     "nameEn": "Gentleman Society",
     "name": "جنتل مان سوسايتي",
     "liquidColor": "#464647",
-    "castleBottleImage": "/castleBottles/gentleman-society-givenchy.png"
+    "bottleImage": "/images/perfumes/gentleman-society-givenchy.png"
   },
   {
     "id": "p-97",
@@ -765,7 +765,7 @@
     "nameEn": "Interlude Man",
     "name": "انترلود مان",
     "liquidColor": "#0d306a",
-    "castleBottleImage": "/castleBottles/interlude-man-amouage.png"
+    "bottleImage": "/images/perfumes/interlude-man-amouage.png"
   },
   {
     "id": "p-98",
@@ -773,7 +773,7 @@
     "nameEn": "Red Tobacco",
     "name": "ريد توباكو",
     "liquidColor": "#da2d21",
-    "castleBottleImage": "/castleBottles/red-tobacco-mancera.png"
+    "bottleImage": "/images/perfumes/red-tobacco-mancera.png"
   },
   {
     "id": "p-99",
@@ -781,7 +781,7 @@
     "nameEn": "Pasha de Cartier",
     "name": "باشا دي كارتير",
     "liquidColor": "#ece0a2",
-    "castleBottleImage": "/castleBottles/pasha-de-cartier-parfum-cartier.png"
+    "bottleImage": "/images/perfumes/pasha-de-cartier-parfum-cartier.png"
   },
   {
     "id": "p-100",
@@ -789,7 +789,7 @@
     "nameEn": "Oud Maracuja",
     "name": "عود ماراكويا",
     "liquidColor": "#354a75",
-    "castleBottleImage": "/castleBottles/oud-maracuja-maison-crivelli.png"
+    "bottleImage": "/images/perfumes/oud-maracuja-maison-crivelli.png"
   },
   {
     "id": "p-101",
@@ -797,7 +797,7 @@
     "nameEn": "Smoking Hot",
     "name": "سموكنق هوت",
     "liquidColor": "#afa65b",
-    "castleBottleImage": "/castleBottles/smoking-hot-by-kilian.png"
+    "bottleImage": "/images/perfumes/smoking-hot-by-kilian.png"
   },
   {
     "id": "p-102",
@@ -805,7 +805,7 @@
     "nameEn": "Noir Extreme",
     "name": "نوار اكستريم",
     "liquidColor": "#b99957",
-    "castleBottleImage": "/castleBottles/noir-extreme-tom-ford.png"
+    "bottleImage": "/images/perfumes/noir-extreme-tom-ford.png"
   },
   {
     "id": "p-103",
@@ -813,7 +813,7 @@
     "nameEn": "Stronger With You Sandalwood",
     "name": "سترونجر وذ يو ساندالوود",
     "liquidColor": "#3e6a44",
-    "castleBottleImage": "/castleBottles/stronger-with-you-sandalwood-emporio-armani.png"
+    "bottleImage": "/images/perfumes/stronger-with-you-sandalwood-emporio-armani.png"
   },
   {
     "id": "p-104",
@@ -821,7 +821,7 @@
     "nameEn": "Frankel Aventus",
     "name": "فرانكل افينتوس",
     "liquidColor": "#525252",
-    "castleBottleImage": "/castleBottles/frankel-aventus-assaf.png"
+    "bottleImage": "/images/perfumes/frankel-aventus-assaf.png"
   },
   {
     "id": "p-105",
@@ -829,7 +829,7 @@
     "nameEn": "King enable",
     "name": "كنق انيبل",
     "liquidColor": "#343f53",
-    "castleBottleImage": "/castleBottles/king-enable-assaf.png"
+    "bottleImage": "/images/perfumes/king-enable-assaf.png"
   },
   {
     "id": "p-106",
@@ -837,7 +837,7 @@
     "nameEn": "Rebel Enable",
     "name": "ريبل انيبل",
     "liquidColor": "#2b2d2f",
-    "castleBottleImage": "/castleBottles/rebel-enable-assaf.png"
+    "bottleImage": "/images/perfumes/rebel-enable-assaf.png"
   },
   {
     "id": "p-107",
@@ -845,7 +845,7 @@
     "nameEn": "Si Passione",
     "name": "سي باشن",
     "liquidColor": "#bd0810",
-    "castleBottleImage": "/castleBottles/giorgio-armani-si-passione.png"
+    "bottleImage": "/images/perfumes/giorgio-armani-si-passione.png"
   },
   {
     "id": "p-108",
@@ -853,7 +853,7 @@
     "nameEn": "My Way",
     "name": "ماي واي",
     "liquidColor": "#ae909c",
-    "castleBottleImage": "/castleBottles/giorgio-armani-my-way.png"
+    "bottleImage": "/images/perfumes/giorgio-armani-my-way.png"
   },
   {
     "id": "p-109",
@@ -861,7 +861,7 @@
     "nameEn": "Miss Dior Blooming Bouquet",
     "name": "مس ديور بلومنق بوكيت",
     "liquidColor": "#f7adb6",
-    "castleBottleImage": "/castleBottles/miss-dior-blooming-bouquet-dior.png"
+    "bottleImage": "/images/perfumes/miss-dior-blooming-bouquet-dior.png"
   },
   {
     "id": "p-110",
@@ -869,7 +869,7 @@
     "nameEn": "Hypnotic Poison",
     "name": "هيبنوتيك بويزن",
     "liquidColor": "#a20d2a",
-    "castleBottleImage": "/castleBottles/hypnotic-poison-dior.png"
+    "bottleImage": "/images/perfumes/hypnotic-poison-dior.png"
   },
   {
     "id": "p-111",
@@ -877,7 +877,7 @@
     "nameEn": "Yara",
     "name": "يارا",
     "liquidColor": "#bbb6c8",
-    "castleBottleImage": "/castleBottles/yara-lattafa.png"
+    "bottleImage": "/images/perfumes/yara-lattafa.png"
   },
   {
     "id": "p-112",
@@ -885,7 +885,7 @@
     "nameEn": "Yara Candy",
     "name": "يارا كاندي",
     "liquidColor": "#e35972",
-    "castleBottleImage": "/castleBottles/yara-candy.png"
+    "bottleImage": "/images/perfumes/yara-candy.png"
   },
   {
     "id": "p-113",
@@ -893,7 +893,7 @@
     "nameEn": "Nebras",
     "name": "نبراس",
     "liquidColor": "#cfb489",
-    "castleBottleImage": "/castleBottles/nebras-lattafa.png"
+    "bottleImage": "/images/perfumes/nebras-lattafa.png"
   },
   {
     "id": "p-116",
@@ -901,7 +901,7 @@
     "nameEn": "Gucci Rush",
     "name": "جوتشي رش",
     "liquidColor": "#77715a",
-    "castleBottleImage": "/castleBottles/gucci-rush-gucci.png"
+    "bottleImage": "/images/perfumes/gucci-rush-gucci.png"
   },
   {
     "id": "p-117",
@@ -909,7 +909,7 @@
     "nameEn": "Gucci Flora",
     "name": "جوتشي فلورا",
     "liquidColor": "#cda86c",
-    "castleBottleImage": "/castleBottles/gucci-flora-gucci.png"
+    "bottleImage": "/images/perfumes/gucci-flora-gucci.png"
   },
   {
     "id": "p-118",
@@ -917,7 +917,7 @@
     "nameEn": "So Scandal",
     "name": "سو سكاندل",
     "liquidColor": "#b84b5b",
-    "castleBottleImage": "/castleBottles/so-scandal-jean-paul-gaultier.png"
+    "bottleImage": "/images/perfumes/so-scandal-jean-paul-gaultier.png"
   },
   {
     "id": "p-119",
@@ -925,7 +925,7 @@
     "nameEn": "Scandal",
     "name": "سكاندل",
     "liquidColor": "#bf7d7d",
-    "castleBottleImage": "/castleBottles/scandal-jean-paul-gaultier.png"
+    "bottleImage": "/images/perfumes/scandal-jean-paul-gaultier.png"
   },
   {
     "id": "p-120",
@@ -933,7 +933,7 @@
     "nameEn": "La Belle",
     "name": "لا بيل",
     "liquidColor": "#b4403d",
-    "castleBottleImage": "/castleBottles/la-belle-jean-paul-gaultier.png"
+    "bottleImage": "/images/perfumes/la-belle-jean-paul-gaultier.png"
   },
   {
     "id": "p-121",
@@ -941,7 +941,7 @@
     "nameEn": "Black Opium",
     "name": "بلاك اوبيوم",
     "liquidColor": "#caa96a",
-    "castleBottleImage": "/castleBottles/black-opium-yves-sain-laurent.png"
+    "bottleImage": "/images/perfumes/black-opium-yves-sain-laurent.png"
   },
   {
     "id": "p-122",
@@ -949,7 +949,7 @@
     "nameEn": "Libre",
     "name": "ليبرا",
     "liquidColor": "#dc8827",
-    "castleBottleImage": "/castleBottles/libre-yves-saint-laurent.png"
+    "bottleImage": "/images/perfumes/libre-yves-saint-laurent.png"
   },
   {
     "id": "p-123",
@@ -957,7 +957,7 @@
     "nameEn": "Bombshell",
     "name": "بومب شل",
     "liquidColor": "#ee86b1",
-    "castleBottleImage": "/castleBottles/bombshell-victoria-s-secret.png"
+    "bottleImage": "/images/perfumes/bombshell-victoria-s-secret.png"
   },
   {
     "id": "p-124",
@@ -965,7 +965,7 @@
     "nameEn": "Her",
     "name": "بربري هير",
     "liquidColor": "#ead4d0",
-    "castleBottleImage": "/castleBottles/burberry-her-burberry.png"
+    "bottleImage": "/images/perfumes/burberry-her-burberry.png"
   },
   {
     "id": "p-126",
@@ -973,7 +973,7 @@
     "nameEn": "Lost Cherry",
     "name": "لوست تشيري",
     "liquidColor": "#812d2c",
-    "castleBottleImage": "/castleBottles/lost-cherry-tom-ford.png"
+    "bottleImage": "/images/perfumes/lost-cherry-tom-ford.png"
   },
   {
     "id": "p-127",
@@ -981,7 +981,7 @@
     "nameEn": "Bright Crystal",
     "name": "برايت كريستال",
     "liquidColor": "#cd7fa5",
-    "castleBottleImage": "/castleBottles/bright-crystal-versace.png"
+    "bottleImage": "/images/perfumes/bright-crystal-versace.png"
   },
   {
     "id": "p-132",
@@ -989,7 +989,7 @@
     "nameEn": "Gissah Hudson",
     "name": "قصة هدسون",
     "liquidColor": "#edce92",
-    "castleBottleImage": "/castleBottles/gissah-hudson-valley.png"
+    "bottleImage": "/images/perfumes/gissah-hudson-valley.png"
   },
   {
     "id": "p-133",
@@ -997,7 +997,7 @@
     "nameEn": "One & Only",
     "name": "ون آند أونلي",
     "liquidColor": "#0d306a",
-    "castleBottleImage": "/castleBottles/one-only-gissah.png"
+    "bottleImage": "/images/perfumes/one-only-gissah.png"
   },
   {
     "id": "p-134",
@@ -1005,7 +1005,7 @@
     "nameEn": "Eros Flame",
     "name": " ايروس فليم",
     "liquidColor": "#1c6f82",
-    "castleBottleImage": "/castleBottles/eros-flame.png"
+    "bottleImage": "/images/perfumes/eros-flame.png"
   },
   {
     "id": "p-135",
@@ -1013,7 +1013,7 @@
     "nameEn": "Boss The Scent",
     "name": "بوس ذا سنت ",
     "liquidColor": "#d49745",
-    "castleBottleImage": "/castleBottles/boss-the-scent.png"
+    "bottleImage": "/images/perfumes/boss-the-scent.png"
   },
   {
     "id": "p-136",
@@ -1021,7 +1021,7 @@
     "nameEn": "Boss Bottled",
     "name": "بوس بوتلد ",
     "liquidColor": "#b7b37a",
-    "castleBottleImage": "/castleBottles/boss-bottled.png"
+    "bottleImage": "/images/perfumes/boss-bottled.png"
   },
   {
     "id": "p-137",
@@ -1029,7 +1029,7 @@
     "nameEn": "Rayhaan Elixir",
     "name": " ريحان الكسير",
     "liquidColor": "#c2a785",
-    "castleBottleImage": "/castleBottles/rayhaan-elixir.png"
+    "bottleImage": "/images/perfumes/rayhaan-elixir.png"
   },
   {
     "id": "p-138",
@@ -1037,7 +1037,7 @@
     "nameEn": "Vanilla",
     "name": "فانيلا",
     "liquidColor": "#d4b290",
-    "castleBottleImage": "/castleBottles/vanilla.png"
+    "bottleImage": "/images/perfumes/vanilla.png"
   },
   {
     "id": "p-139",
@@ -1045,7 +1045,7 @@
     "nameEn": "Donna Born in Roma",
     "name": "دونا بورن إن روما",
     "liquidColor": "#c88e92",
-    "castleBottleImage": "/castleBottles/donna-born-in-roma.png"
+    "bottleImage": "/images/perfumes/donna-born-in-roma.png"
   },
   {
     "id": "p-140",
@@ -1053,7 +1053,7 @@
     "nameEn": "Paradoxe",
     "name": "بارادوكس",
     "liquidColor": "#f6baa6",
-    "castleBottleImage": "/castleBottles/paradoxe.png"
+    "bottleImage": "/images/perfumes/paradoxe.png"
   },
   {
     "id": "p-141",
@@ -1061,7 +1061,7 @@
     "nameEn": "J'adore",
     "name": "جادور",
     "liquidColor": "#d9b075",
-    "castleBottleImage": "/castleBottles/j-adore.png"
+    "bottleImage": "/images/perfumes/j-adore.png"
   },
   {
     "id": "p-142",
@@ -1069,7 +1069,7 @@
     "nameEn": "Coco Mademoiselle",
     "name": "كوكو مادموزيل",
     "liquidColor": "#eea582",
-    "castleBottleImage": "/castleBottles/coco-mademoiselle.png"
+    "bottleImage": "/images/perfumes/coco-mademoiselle.png"
   },
   {
     "id": "p-143",
@@ -1077,7 +1077,7 @@
     "nameEn": "Sweet Tooth",
     "name": "سويت توث",
     "liquidColor": "#eac1ca",
-    "castleBottleImage": "/castleBottles/sweet-tooth.png"
+    "bottleImage": "/images/perfumes/sweet-tooth.png"
   },
   {
     "id": "p-144",
@@ -1085,7 +1085,7 @@
     "nameEn": "L'Interdit Extrait de Parfum Rouge",
     "name": "لانتردت روج",
     "liquidColor": "#61101a",
-    "castleBottleImage": "/castleBottles/l-interdit-extrait-de-parfum-rouge.png"
+    "bottleImage": "/images/perfumes/l-interdit-extrait-de-parfum-rouge.png"
   },
   {
     "id": "p-145",
@@ -1093,7 +1093,7 @@
     "nameEn": "Mon Paris",
     "name": "مون باريس",
     "liquidColor": "#c8a0b6",
-    "castleBottleImage": "/castleBottles/mon-paris.png"
+    "bottleImage": "/images/perfumes/mon-paris.png"
   },
   {
     "id": "p-146",
@@ -1101,7 +1101,7 @@
     "nameEn": "Eilish",
     "name": "ايليش",
     "liquidColor": "#9d7d63",
-    "castleBottleImage": "/castleBottles/eilish.png"
+    "bottleImage": "/images/perfumes/eilish.png"
   },
   {
     "id": "p-147",
@@ -1109,7 +1109,7 @@
     "nameEn": "Le Parfum",
     "name": "ايلي صعب",
     "liquidColor": "#e7c4a2",
-    "castleBottleImage": "/castleBottles/le-parfum.png"
+    "bottleImage": "/images/perfumes/le-parfum.png"
   },
   {
     "id": "p-148",
@@ -1117,7 +1117,7 @@
     "nameEn": "Delina",
     "name": "ديليـنا",
     "liquidColor": "#dcb6b6",
-    "castleBottleImage": "/castleBottles/delina.png"
+    "bottleImage": "/images/perfumes/delina.png"
   },
   {
     "id": "p-149",
@@ -1125,7 +1125,7 @@
     "nameEn": "Yum Boujee Marshmallow | 81",
     "name": "يام بوجي مارشميلو",
     "liquidColor": "#fadedc",
-    "castleBottleImage": "/castleBottles/yum-boujee-marshmallow-81.png"
+    "bottleImage": "/images/perfumes/yum-boujee-marshmallow-81.png"
   },
   {
     "id": "p-150",
@@ -1133,7 +1133,7 @@
     "nameEn": "Eclaire",
     "name": "اكلاير",
     "liquidColor": "#c49e74",
-    "castleBottleImage": "/castleBottles/eclaire.png"
+    "bottleImage": "/images/perfumes/eclaire.png"
   },
   {
     "id": "p-151",
@@ -1141,7 +1141,7 @@
     "nameEn": "Crystal Noir",
     "name": "كريستال نوار",
     "liquidColor": "#af766e",
-    "castleBottleImage": "/castleBottles/crystal-noir.png"
+    "bottleImage": "/images/perfumes/crystal-noir.png"
   },
   {
     "id": "p-152",
@@ -1149,7 +1149,7 @@
     "nameEn": "Gaultier Divine",
     "name": "ديفاين",
     "liquidColor": "#be9d59",
-    "castleBottleImage": "/castleBottles/gaultier-divine.png"
+    "bottleImage": "/images/perfumes/gaultier-divine.png"
   },
   {
     "id": "p-153",
@@ -1157,7 +1157,7 @@
     "nameEn": "Good Girl",
     "name": "جود جيرل",
     "liquidColor": "#586597",
-    "castleBottleImage": "/castleBottles/good-girl.png"
+    "bottleImage": "/images/perfumes/good-girl.png"
   },
   {
     "id": "p-154",
@@ -1165,7 +1165,7 @@
     "nameEn": "Bianco Latte",
     "name": "بيانكو لاتيه",
     "liquidColor": "#b1c3c1",
-    "castleBottleImage": "/castleBottles/bianco-latte.png"
+    "bottleImage": "/images/perfumes/bianco-latte.png"
   },
   {
     "id": "p-155",
@@ -1173,7 +1173,7 @@
     "nameEn": "Coco Vanille",
     "name": "كوكو فانيلا",
     "liquidColor": "#cbb068",
-    "castleBottleImage": "/castleBottles/coco-vanille.png"
+    "bottleImage": "/images/perfumes/coco-vanille.png"
   },
   {
     "id": "p-156",
@@ -1181,7 +1181,7 @@
     "nameEn": "Roses Vanille",
     "name": "روز فانيل",
     "liquidColor": "#c4b06d",
-    "castleBottleImage": "/castleBottles/roses-vanille.png"
+    "bottleImage": "/images/perfumes/roses-vanille.png"
   },
   {
     "id": "p-157",
@@ -1189,7 +1189,7 @@
     "nameEn": "Olympea",
     "name": "اولمبيا",
     "liquidColor": "#cdaa9a",
-    "castleBottleImage": "/castleBottles/olympea.png"
+    "bottleImage": "/images/perfumes/olympea.png"
   },
   {
     "id": "p-158",
@@ -1197,7 +1197,7 @@
     "nameEn": "La Vie Est Belle",
     "name": "لا في إي بيل",
     "liquidColor": "#e9ada9",
-    "castleBottleImage": "/castleBottles/la-vie-est-belle.png"
+    "bottleImage": "/images/perfumes/la-vie-est-belle.png"
   },
   {
     "id": "p-159",
@@ -1205,7 +1205,7 @@
     "nameEn": "La Nuit Trésor",
     "name": "لا نوي تريزور",
     "liquidColor": "#956a7a",
-    "castleBottleImage": "/castleBottles/la-nuit-tr-sor.png"
+    "bottleImage": "/images/perfumes/la-nuit-tr-sor.png"
   },
   {
     "id": "p-160",
@@ -1213,7 +1213,7 @@
     "nameEn": "Versace Pour Femme Dylan Blue",
     "name": "فرزاتشي بور فيم ديلان بلو",
     "liquidColor": "#707c75",
-    "castleBottleImage": "/castleBottles/versace-pour-femme-dylan-blue.png"
+    "bottleImage": "/images/perfumes/versace-pour-femme-dylan-blue.png"
   },
   {
     "id": "p-161",
@@ -1221,7 +1221,7 @@
     "nameEn": "Libre Intense",
     "name": "ليبر إنتنس",
     "liquidColor": "#dc8827",
-    "castleBottleImage": "/castleBottles/libre-intense.png"
+    "bottleImage": "/images/perfumes/libre-intense.png"
   },
   {
     "id": "p-162",
@@ -1229,7 +1229,7 @@
     "nameEn": "Eros Najim",
     "name": "إيروس نجم",
     "liquidColor": "#a5611b",
-    "castleBottleImage": "/castleBottles/eros-najim.png"
+    "bottleImage": "/images/perfumes/eros-najim.png"
   },
   {
     "id": "p-163",
@@ -1237,7 +1237,7 @@
     "nameEn": "Khamrah Dukhan",
     "name": "خمرة دخان",
     "liquidColor": "#dd9b28",
-    "castleBottleImage": "/castleBottles/khamrah-dukhan.png"
+    "bottleImage": "/images/perfumes/khamrah-dukhan.png"
   },
   {
     "id": "p-164",
@@ -1245,7 +1245,7 @@
     "nameEn": "City Of Stars",
     "name": "سيتي أوف ستارز",
     "liquidColor": "#f4aeb5",
-    "castleBottleImage": "/castleBottles/city-of-stars.png"
+    "bottleImage": "/images/perfumes/city-of-stars.png"
   },
   {
     "id": "p-165",
@@ -1253,7 +1253,7 @@
     "nameEn": "The Most Wanted Parfum",
     "name": "ذا موست وانتد بارفيوم",
     "liquidColor": "#d68011",
-    "castleBottleImage": "/castleBottles/the-most-wanted-parfum.png"
+    "bottleImage": "/images/perfumes/the-most-wanted-parfum.png"
   },
   {
     "id": "p-166",
@@ -1261,7 +1261,7 @@
     "nameEn": "The Most Wanted Intense",
     "name": "ذا موست وانتد إنتنس",
     "liquidColor": "#444447",
-    "castleBottleImage": "/castleBottles/the-most-wanted-intense.png"
+    "bottleImage": "/images/perfumes/the-most-wanted-intense.png"
   },
   {
     "id": "p-167",
@@ -1269,7 +1269,7 @@
     "nameEn": "Centaurus",
     "name": "سينتوريوس",
     "liquidColor": "#950d11",
-    "castleBottleImage": "/castleBottles/centaurus.png"
+    "bottleImage": "/images/perfumes/centaurus.png"
   },
   {
     "id": "p-168",
@@ -1277,7 +1277,7 @@
     "nameEn": "Jazz Club",
     "name": "جاز كلوب",
     "liquidColor": "#cf8a2e",
-    "castleBottleImage": "/castleBottles/jazz-club.png"
+    "bottleImage": "/images/perfumes/jazz-club.png"
   },
   {
     "id": "p-169",
@@ -1285,7 +1285,7 @@
     "nameEn": "Valentino Uomo Born In Roma Intense",
     "name": "فالنتينو أومو بورن ان روما انتنس",
     "liquidColor": "#67424c",
-    "castleBottleImage": "/castleBottles/valentino-uomo-born-in-roma-intense.png"
+    "bottleImage": "/images/perfumes/valentino-uomo-born-in-roma-intense.png"
   },
   {
     "id": "p-170",
@@ -1293,7 +1293,7 @@
     "nameEn": "212 VIP Men",
     "name": "212 في آي بي مين",
     "liquidColor": "#374552",
-    "castleBottleImage": "/castleBottles/212-vip-men.png"
+    "bottleImage": "/images/perfumes/212-vip-men.png"
   },
   {
     "id": "p-171",
@@ -1301,7 +1301,7 @@
     "nameEn": "Tygar",
     "name": "تايقر",
     "liquidColor": "#d5af74",
-    "castleBottleImage": "/castleBottles/tygar.png"
+    "bottleImage": "/images/perfumes/tygar.png"
   },
   {
     "id": "p-172",
@@ -1309,7 +1309,7 @@
     "nameEn": "Silver Scent Intense",
     "name": "سيلفر سينت إنتنس",
     "liquidColor": "#4f4a47",
-    "castleBottleImage": "/castleBottles/silver-scent-intense.png"
+    "bottleImage": "/images/perfumes/silver-scent-intense.png"
   },
   {
     "id": "p-173",
@@ -1317,6 +1317,6 @@
     "nameEn": "Desire for a Man",
     "name": "ديزاير فور ا مان",
     "liquidColor": "#f62819",
-    "castleBottleImage": "/castleBottles/desire-for-a-man.png"
+    "bottleImage": "/images/perfumes/desire-for-a-man.png"
   }
 ]
