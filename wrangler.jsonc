@@ -11,7 +11,23 @@
   },
   "routes": [
     {
+      "pattern": "test.kavelperfume.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "kavelperfume.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.kavelperfume.com",
+      "custom_domain": true
+    },
+    {
       "pattern": "test.kavelfragrance.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "kavelfragrance.com",
       "custom_domain": true
     }
   ],
@@ -31,7 +47,7 @@
   "vars": {
     "STORE_NAME": "كافيل بيرفيوم",
     "STORE_NAME_EN": "Kavel Perfume",
-    "STORE_DOMAIN": "test.kavelfragrance.com",
+    "STORE_DOMAIN": "test.kavelperfume.com",
     "EVOLUTION_API_BASE_URL": "https://wa.alphaperfume.net",
     "EVOLUTION_API_KEY": "AlphaSecretKey2026!357951****++",
     "EVOLUTION_INSTANCE": "kavel",
