@@ -1,0 +1,38 @@
+{
+  "name": "kavelperfume",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "open-next:build": "npx @opennextjs/cloudflare build",
+    "deploy": "npx @opennextjs/cloudflare deploy"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.2",
+    "framer-motion": "^12.38.0",
+    "fuse.js": "^7.1.0",
+    "jose": "^6.2.2",
+    "lucide-react": "^1.7.0",
+    "nanoid": "^5.1.11",
+    "next": "^15.5.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "sonner": "^2.0.7",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "^1.19.10",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.19.39",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.10",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "wrangler": "^4.91.0"
+  }
+}

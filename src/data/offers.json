@@ -1,0 +1,270 @@
+[
+  {
+    "offerNum": "1",
+    "name": "3 عطور بـ22 دينار",
+    "fullName": "باقة 3 عطور بـ22 دينار (50مل)",
+    "nameEn": "3 Perfumes for 22 JOD",
+    "description": "اختر 3 عطور بسعر 22 دينار فقط",
+    "image": "/offersImages/offer_3_50.avif",
+    "insideImage": "/offersImages/offer_3_50.avif",
+    "flipImage": "/offersImages/offer_3_50.avif",
+    "subImages": [
+      "/offersImages/between_offer_and_bottles.avif",
+      "/offersImages/our_bottles.avif"
+    ],
+    "categories": ["عرض خاص"],
+    "categoriesEn": ["Special offer"],
+    "price100_30": "22.00",
+    "price50_30": "22.00",
+    "priceBefore100_40": "41.00",
+    "perfumesToSelect": 3,
+    "eligibleSize": "50",
+    "currency": "د.أ.",
+    "inStock": true,
+    "bundles": [
+      {
+        "id": "o1-okay",
+        "labelAr": "3 عطور (50 مل)",
+        "labelEn": "3 Perfumes (50ml)",
+        "perfumesToSelect": 3,
+        "price100_30": "22.00",
+        "priceBefore100_40": "41.00",
+        "eligibleSize": "50",
+        "slotSizes": ["50", "50", "50"],
+        "subtitleAr": "الخيار الأساسي 50 مل",
+        "subtitleEn": "Basic 50ml option"
+      },
+      {
+        "id": "o1-best",
+        "labelAr": "3 عطور (110 مل)",
+        "labelEn": "3 Perfumes (110ml)",
+        "perfumesToSelect": 3,
+        "price100_30": "32.00",
+        "priceBefore100_40": "56.00",
+        "eligibleSize": "110",
+        "slotSizes": ["110", "110", "110"],
+        "badge": "best_value",
+        "default": true,
+        "subtitleAr": "الصفقة الأقوى والأكثر توازناً",
+        "subtitleEn": "The strongest value deal"
+      }
+    ],
+    "upsellImage": "/offersImages/upsell_offer_3_50.avif",
+    "upsellTextAr": "هدايا قيمة مع العرض بقيمة 30 دينار!",
+    "upsellTextEn": "Valuable gifts with this offer worth 30 JOD!"
+  },
+  {
+    "offerNum": "2",
+    "name": "3 عطور بـ32 دينار",
+    "fullName": "باقة 3 عطور بـ32 دينار (110مل)",
+    "nameEn": "3 Perfumes for 32 JOD",
+    "description": "اختر 3 عطور بسعر 32 دينار فقط",
+    "image": "/offersImages/offer_3_110.avif",
+    "insideImage": "/offersImages/offer_3_110.avif",
+    "flipImage": "/offersImages/offer_3_110.avif",
+    "subImages": [
+      "/offersImages/between_offer_and_bottles.avif",
+      "/offersImages/our_bottles.avif"
+    ],
+    "categories": ["عرض خاص"],
+    "categoriesEn": ["Special offer"],
+    "price100_30": "32.00",
+    "price50_30": "32.00",
+    "priceBefore100_40": "56.00",
+    "perfumesToSelect": 3,
+    "eligibleSize": "110",
+    "currency": "د.أ.",
+    "inStock": true,
+    "bundles": [
+      {
+        "id": "o2-okay",
+        "labelAr": "3 عطور (50 مل)",
+        "labelEn": "3 Perfumes (50ml)",
+        "perfumesToSelect": 3,
+        "price100_30": "22.00",
+        "priceBefore100_40": "41.00",
+        "eligibleSize": "50",
+        "slotSizes": ["50", "50", "50"],
+        "subtitleAr": "الخيار الأساسي 50 مل",
+        "subtitleEn": "Basic 50ml option"
+      },
+      {
+        "id": "o2-best",
+        "labelAr": "3 عطور (110 مل)",
+        "labelEn": "3 Perfumes (110ml)",
+        "perfumesToSelect": 3,
+        "price100_30": "32.00",
+        "priceBefore100_40": "56.00",
+        "eligibleSize": "110",
+        "slotSizes": ["110", "110", "110"],
+        "badge": "popular",
+        "default": true,
+        "subtitleAr": "الحجم الكبير والأكثر طلباً",
+        "subtitleEn": "Full size and most popular"
+      }
+    ],
+    "upsellImage": "/offersImages/upsell_offer_3_110.avif",
+    "upsellTextAr": "هدايا قيمة مع العرض بقيمة 30 دينار!",
+    "upsellTextEn": "Valuable gifts with this offer worth 30 JOD!"
+  },
+  {
+    "offerNum": "3",
+    "name": "4 عطور بـ32 دينار",
+    "fullName": "باقة 4 عطور بـ32 دينار",
+    "nameEn": "4 Perfumes for 32 JOD",
+    "description": "اختر 4 عطور بسعر 32 دينار فقط",
+    "image": "/offersImages/offer_2_110_2_50.avif",
+    "insideImage": "/offersImages/offer_2_110_2_50.avif",
+    "flipImage": "/offersImages/offer_2_110_2_50.avif",
+    "subImages": [
+      "/offersImages/between_offer_and_bottles.avif",
+      "/offersImages/our_bottles.avif"
+    ],
+    "categories": ["عرض خاص"],
+    "categoriesEn": ["Special offer"],
+    "price100_30": "32.00",
+    "price50_30": "32.00",
+    "priceBefore100_40": "62.00",
+    "perfumesToSelect": 4,
+    "eligibleSize": "50",
+    "slotSizes": ["110", "110", "50", "50"],
+    "currency": "د.أ.",
+    "inStock": true,
+    "bundles": [
+      {
+        "id": "o3-okay",
+        "labelAr": "4 عطور (50 مل)",
+        "labelEn": "4 Perfumes (50ml)",
+        "perfumesToSelect": 4,
+        "price100_30": "26.00",
+        "priceBefore100_40": "52.00",
+        "eligibleSize": "50",
+        "slotSizes": ["50", "50", "50", "50"],
+        "subtitleAr": "خيار 50 مل الأساسي",
+        "subtitleEn": "Standard 50ml choice"
+      },
+      {
+        "id": "o3-best",
+        "labelAr": "4 عطور (2 عطر 110 مل + 2 عطر 50 مل)",
+        "labelEn": "4 Perfumes (2x 110ml + 2x 50ml)",
+        "perfumesToSelect": 4,
+        "price100_30": "32.00",
+        "priceBefore100_40": "62.00",
+        "slotSizes": ["110", "110", "50", "50"],
+        "badge": "best_value",
+        "default": true,
+        "subtitleAr": "الباقة الأكثر توفيراً وتوازناً",
+        "subtitleEn": "Best value balanced bundle"
+      }
+    ],
+    "upsellImage": "/offersImages/upsell_offer_2_110_2_50.avif",
+    "upsellTextAr": "هدايا قيمة مع العرض بقيمة 30 دينار!",
+    "upsellTextEn": "Valuable gifts with this offer worth 30 JOD!"
+  },
+  {
+    "offerNum": "4",
+    "name": "4 عطور بـ42 دينار",
+    "fullName": "باقة 4 عطور بـ42 دينار (110مل)",
+    "nameEn": "4 Perfumes for 42 JOD",
+    "description": "اختر 4 عطور بسعر 42 دينار فقط",
+    "image": "/offersImages/offer_4_110.avif",
+    "insideImage": "/offersImages/offer_4_110.avif",
+    "flipImage": "/offersImages/offer_4_110.avif",
+    "subImages": [
+      "/offersImages/between_offer_and_bottles.avif",
+      "/offersImages/our_bottles.avif"
+    ],
+    "categories": ["عرض خاص"],
+    "categoriesEn": ["Special offer"],
+    "price100_30": "42.00",
+    "price50_30": "42.00",
+    "priceBefore100_40": "72.00",
+    "perfumesToSelect": 4,
+    "eligibleSize": "110",
+    "currency": "د.أ.",
+    "inStock": true,
+    "bundles": [
+      {
+        "id": "o4-okay",
+        "labelAr": "4 عطور (2 عطر 110 مل + 2 عطر 50 مل)",
+        "labelEn": "4 Perfumes (2x 110ml + 2x 50ml)",
+        "perfumesToSelect": 4,
+        "price100_30": "32.00",
+        "priceBefore100_40": "62.00",
+        "slotSizes": ["110", "110", "50", "50"],
+        "subtitleAr": "الباقة المتوازنة المشكلة",
+        "subtitleEn": "Balanced combo bundle"
+      },
+      {
+        "id": "o4-best",
+        "labelAr": "4 عطور (110 مل بالكامل)",
+        "labelEn": "4 Perfumes (All 110ml)",
+        "perfumesToSelect": 4,
+        "price100_30": "42.00",
+        "priceBefore100_40": "72.00",
+        "eligibleSize": "110",
+        "slotSizes": ["110", "110", "110", "110"],
+        "badge": "recommended",
+        "default": true,
+        "subtitleAr": "باقة النخبة بأحجام كبيرة كاملاً",
+        "subtitleEn": "Full jumbo size VIP bundle"
+      }
+    ],
+    "upsellImage": "/offersImages/upsell_offer_4_110.avif",
+    "upsellTextAr": "هدايا قيمة مع العرض بقيمة 30 دينار!",
+    "upsellTextEn": "Valuable gifts with this offer worth 30 JOD!"
+  },
+  {
+    "offerNum": "5",
+    "name": "4 عطور بـ26 دينار",
+    "fullName": "باقة 4 عطور بـ26 دينار (50مل)",
+    "nameEn": "4 Perfumes for 26 JOD",
+    "description": "اختر 4 عطور بسعر 26 دينار فقط",
+    "image": "/offersImages/offer_4_50.avif",
+    "insideImage": "/offersImages/offer_4_50.avif",
+    "flipImage": "/offersImages/offer_4_50.avif",
+    "subImages": [
+      "/offersImages/between_offer_and_bottles.avif",
+      "/offersImages/our_bottles.avif"
+    ],
+    "categories": ["عرض خاص"],
+    "categoriesEn": ["Special offer"],
+    "price100_30": "26.00",
+    "price50_30": "26.00",
+    "priceBefore100_40": "52.00",
+    "perfumesToSelect": 4,
+    "eligibleSize": "50",
+    "currency": "د.أ.",
+    "inStock": true,
+    "bundles": [
+      {
+        "id": "o5-okay",
+        "labelAr": "4 عطور (50 مل)",
+        "labelEn": "4 Perfumes (50ml)",
+        "perfumesToSelect": 4,
+        "price100_30": "26.00",
+        "priceBefore100_40": "52.00",
+        "eligibleSize": "50",
+        "slotSizes": ["50", "50", "50", "50"],
+        "subtitleAr": "خيار 50 مل الأساسي",
+        "subtitleEn": "Standard 50ml choice"
+      },
+      {
+        "id": "o5-best",
+        "labelAr": "4 عطور (2 عطر 110 مل + 2 عطر 50 مل)",
+        "labelEn": "4 Perfumes (2x 110ml + 2x 50ml)",
+        "perfumesToSelect": 4,
+        "price100_30": "32.00",
+        "priceBefore100_40": "62.00",
+        "slotSizes": ["110", "110", "50", "50"],
+        "badge": "best_value",
+        "default": true,
+        "subtitleAr": "الباقة الذكية مع أحجام 110 مل",
+        "subtitleEn": "Smart combo with 110ml bottles"
+      }
+    ],
+    "upsellImage": "/offersImages/upsell_offer_4_50.avif",
+    "upsellTextAr": "هدايا قيمة مع العرض بقيمة 30 دينار!",
+    "upsellTextEn": "Valuable gifts with this offer worth 30 JOD!"
+  }
+]

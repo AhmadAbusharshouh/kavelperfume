@@ -1,0 +1,46 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kavelperfume",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2024-12-30",
+  "compatibility_flags": ["nodejs_compat"],
+  "account_id": "433fddd89cdffcfad449b39cbde6a798",
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "routes": [
+    {
+      "pattern": "test.kavelfragrance.com",
+      "custom_domain": true
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "kavelfragrance-db",
+      "database_id": "49ae65f0-47ab-4f7f-900b-7c390eba8e28"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "R2",
+      "bucket_name": "kavelperfume-media"
+    }
+  ],
+  "vars": {
+    "STORE_NAME": "كافيل بيرفيوم",
+    "STORE_NAME_EN": "Kavel Perfume",
+    "STORE_DOMAIN": "test.kavelfragrance.com",
+    "EVOLUTION_API_BASE_URL": "https://wa.alphaperfume.net",
+    "EVOLUTION_API_KEY": "AlphaSecretKey2026!357951****++",
+    "EVOLUTION_INSTANCE": "kavel",
+    "ADMIN_ALERT_PHONE": "+962782347865",
+    "LOGESTECHS_COMPANY_ID": "351",
+    "LOGESTECHS_SENDER_NAME": "كافيل بيرفيوم",
+    "LOGESTECHS_SENDER_PHONE": "0782347865",
+    "LOGESTECHS_ORIGIN_CITY_ID": "1151",
+    "LOGESTECHS_ORIGIN_VILLAGE_ID": "6250",
+    "ADMIN_PIN_SECRET": "kavel2026"
+  }
+}

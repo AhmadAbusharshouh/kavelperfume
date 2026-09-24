@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لوحة موجه الذكاء الاصطناعي — Kavel Workers AI Harness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Alexandria', sans-serif; background-color: #FAFAF9; color: #0F172A; }
+    textarea, input, select { font-family: 'JetBrains Mono', 'Alexandria', monospace; }
+  </style>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-900 p-4 md:p-8 antialiased">
+  
+  <div class="max-w-4xl mx-auto space-y-6">
+    
+    <header class="bg-white border border-slate-200 rounded-3xl p-6 text-center shadow-xs">
+      <span class="px-3 py-1 rounded-full bg-[#ba997a]/20 text-[#3f2911] text-xs font-bold inline-block mb-2">
+        Cloudflare Workers AI Master Harness
+      </span>
+      <h1 class="text-2xl font-extrabold text-[#3f2911]">
+        لوحة تعليمات وموجه مستشار كافيل العطري (AI Prompt Harness)
+      </h1>
+      <p class="text-xs text-slate-600 max-w-xl mx-auto mt-2">
+        يمكنك فحص وتعديل وتصدير التعليمات الموجهة لنموذج الذكاء الاصطناعي في أي وقت. يتم الحفظ تلقائياً في المتصفح.
+      </p>
+    </header>
+
+    <!-- Model Config Card -->
+    <div class="bg-white border border-slate-200 rounded-3xl p-6 space-y-4 shadow-xs">
+      <h2 class="text-sm font-extrabold text-slate-900 pb-2 border-b border-slate-100">
+        1. إعدادات النماذج والتشغيل (Workers AI Specs)
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
+        <div>
+          <label class="block font-bold text-slate-700 mb-1">النموذج الأساسي (Primary Model)</label>
+          <input type="text" readonly value="@cf/google/gemma-4-26b-a4b-it" class="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl font-mono text-[11px] text-blue-700" dir="ltr">
+        </div>
+        <div>
+          <label class="block font-bold text-slate-700 mb-1">النموذج الاحتياطي (Fallback Model)</label>
+          <input type="text" readonly value="@cf/zai-org/glm-5.3-flash" class="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl font-mono text-[11px] text-purple-700" dir="ltr">
+        </div>
+        <div>
+          <label class="block font-bold text-slate-700 mb-1">درجة الحرارة (Temperature)</label>
+          <input type="text" readonly value="0.4 (دقة وتركيز عاليين)" class="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl font-mono text-[11px] text-emerald-700" dir="ltr">
+        </div>
+      </div>
+    </div>
+
+    <!-- System Prompt Editor -->
+    <div class="bg-white border border-slate-200 rounded-3xl p-6 space-y-4 shadow-xs">
+      <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+        <h2 class="text-sm font-extrabold text-slate-900">
+          2. نص التوجيه والأوامر (System Prompt)
+        </h2>
+        <span id="saveStatus" class="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">
+          محفوظ تلقائياً
+        </span>
+      </div>
+
+      <textarea
+        id="promptText"
+        rows="16"
+        class="w-full p-4 bg-slate-900 text-emerald-400 font-mono text-xs rounded-2xl border border-slate-800 outline-none leading-relaxed text-right"
+      ></textarea>
+
+      <div class="flex flex-wrap gap-2 justify-end pt-2">
+        <button
+          type="button"
+          onclick="copyPrompt()"
+          className="px-5 py-2.5 bg-[#3f2911] hover:bg-black text-white text-xs font-bold rounded-xl shadow transition"
+        >
+          📋 نسخ نص التوجيه
+        </button>
+        <button
+          type="button"
+          onclick="resetPrompt()"
+          className="px-4 py-2.5 bg-slate-100 text-slate-700 hover:bg-slate-200 text-xs font-bold rounded-xl transition"
+        >
+          🔄 استعادة الافتراضي
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const DEFAULT_PROMPT = `أنت "مستشار كافيل العطري" (Kavel Perfume Sommelier) الذكي، خبير العطور الرسمي لدار كافيل بيرفيوم الأردنية.
+
+مهمتك:
+1. الترحيب بالعميل بأسلوب دافئ، أنيق، وفاخر يليق ببراند كافيل.
+2. مساعدة العميل في اختيار العطور الأنسب لشخصيته، المناسبة، الموسم (شتوي، صيفي، ربيعي، خريفي)، والخط العطري (عود، فانيليا، عنبر، حمضيات، توابل، نيش).
+3. توضيح أن جميع عطور كافيل مستوحاة بتركيز فائق وزيوت نقية تتجاوز 30% مع ثبات يدوم 24+ ساعة على الملابس.
+4. توجيه العميل دائماً للاستفادة من عروض البكجات التوفيرية (مثل باقة 3 عطور 110 مل بـ 32 د.أ مع تستر مجاني وتوصيل مجاني لجميع محافظات الأردن).
+5. تقديم إجابات شديدة الاختصار والإيجاز والوضوح (Ultra-summarized)، بدون أي إطالة أو حشو غير ضروري.`;
+
+    const KEY = 'kavel_ai_harness_prompt_v1';
+
+    function loadPrompt() {
+      const saved = localStorage.getItem(KEY) || DEFAULT_PROMPT;
+      document.getElementById('promptText').value = saved;
+    }
+
+    function savePrompt() {
+      const val = document.getElementById('promptText').value;
+      localStorage.setItem(KEY, val);
+      const s = document.getElementById('saveStatus');
+      if (s) s.innerText = 'تم الحفظ: ' + new Date().toLocaleTimeString('ar-EG');
+    }
+
+    function copyPrompt() {
+      const val = document.getElementById('promptText').value;
+      navigator.clipboard.writeText(val).then(() => alert('تم نسخ نص التوجيه بنجاح!'));
+    }
+
+    function resetPrompt() {
+      if (confirm('استعادة نص التوجيه الافتراضي؟')) {
+        document.getElementById('promptText').value = DEFAULT_PROMPT;
+        savePrompt();
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      loadPrompt();
+      document.getElementById('promptText').addEventListener('input', savePrompt);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-gold: #ba997a;
+    --brand-gold-hover: #a88667;
+    --brand-gold-light: #f7f3ee;
+    --brand-espresso: #3f2911;
+    --brand-espresso-hover: #291a0a;
+    --brand-canvas: #FAFAF9;
+    --font-alexandria: 'Alexandria', sans-serif;
+  }
+
+  html {
+    font-family: 'Alexandria', sans-serif;
+    background-color: #FAFAF9;
+    color: #0F172A;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FAFAF9;
+    color: #0F172A;
+    min-height: 100vh;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Force light theme - no dark surfaces */
+  * {
+    border-color: #E2E8F0;
+  }
+}
+
+/* Custom Utilities for Kavel */
+.bg-kavel-gold {
+  background-color: #ba997a;
+}
+.bg-kavel-gold:hover {
+  background-color: #a88667;
+}
+.text-kavel-gold {
+  color: #ba997a;
+}
+.border-kavel-gold {
+  border-color: #ba997a;
+}
+.bg-kavel-espresso {
+  background-color: #3f2911;
+}
+.bg-kavel-espresso:hover {
+  background-color: #291a0a;
+}
+.text-kavel-espresso {
+  color: #3f2911;
+}
+.bg-kavel-light {
+  background-color: #f7f3ee;
+}
+
+/* Top Route Progress Loader */
+#top-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #ba997a 0%, #3f2911 50%, #ba997a 100%);
+  z-index: 9999;
+  transform-origin: 0%;
+}
+
+/* Luxury Card & Button Micro-interactions */
+.luxury-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.04);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+}
+
+.luxury-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -4px rgba(63, 41, 17, 0.08);
+  border-color: #CBD5E1;
+}
+
+.btn-kavel-primary {
+  background-color: #ba997a;
+  color: #3f2911;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.875rem;
+  transition: all 0.15s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-kavel-primary:hover {
+  background-color: #a88667;
+  color: #FFFFFF;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(186, 153, 122, 0.35);
+}
+
+.btn-kavel-primary:active {
+  transform: scale(0.98);
+}
+
+.btn-kavel-espresso {
+  background-color: #3f2911;
+  color: #FFFFFF;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.875rem;
+  transition: all 0.15s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-kavel-espresso:hover {
+  background-color: #291a0a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(63, 41, 17, 0.3);
+}
+
+.btn-kavel-espresso:active {
+  transform: scale(0.98);
+}

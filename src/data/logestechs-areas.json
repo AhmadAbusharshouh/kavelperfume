@@ -1,0 +1,4026 @@
+{
+  "governorates": [
+    {
+      "name": "عمان",
+      "areas": [
+        {
+          "displayName": "ابو علندا",
+          "cityId": 1136,
+          "villageId": 6195,
+          "villageName": "ابو علندا",
+          "cityName": "ابو علندا"
+        },
+        {
+          "displayName": "ابو عليا",
+          "cityId": 1145,
+          "villageId": 6222,
+          "villageName": "ابو عليا",
+          "cityName": "طبربور"
+        },
+        {
+          "displayName": "ابو نصير",
+          "cityId": 1151,
+          "villageId": 6250,
+          "villageName": "ابو نصير",
+          "cityName": "ابو نصير"
+        },
+        {
+          "displayName": "اسكان الكهربا",
+          "cityId": 1136,
+          "villageId": 6196,
+          "villageName": "اسكان الكهربا",
+          "cityName": "ابو علندا"
+        },
+        {
+          "displayName": "اسكان ماركا",
+          "cityId": 1128,
+          "villageId": 6164,
+          "villageName": "اسكان ماركا",
+          "cityName": "ماركا الشمالية"
+        },
+        {
+          "displayName": "اطراف عمان",
+          "cityId": 41280,
+          "villageId": 105724,
+          "villageName": "اطراف عمان",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "الارسال",
+          "cityId": 1125,
+          "villageId": 6154,
+          "villageName": "الارسال",
+          "cityName": "صويلح"
+        },
+        {
+          "displayName": "الاستقلال",
+          "cityId": 1146,
+          "villageId": 6225,
+          "villageName": "الاستقلال",
+          "cityName": "الهاشمي"
+        },
+        {
+          "displayName": "الاشرفية",
+          "cityId": 1163,
+          "villageId": 6279,
+          "villageName": "الاشرفية",
+          "cityName": "الاشرفية"
+        },
+        {
+          "displayName": "الامير راشد",
+          "cityId": 1143,
+          "villageId": 18012,
+          "villageName": "الامير راشد",
+          "cityName": "السابع"
+        },
+        {
+          "displayName": "البكالوريا",
+          "cityId": 1158,
+          "villageId": 6270,
+          "villageName": "البكالوريا",
+          "cityName": "دابوق"
+        },
+        {
+          "displayName": "البلد",
+          "cityId": 1164,
+          "villageId": 6649,
+          "villageName": "البلد",
+          "cityName": "وسط البلد"
+        },
+        {
+          "displayName": "البنيات",
+          "cityId": 1133,
+          "villageId": 6301,
+          "villageName": "البنيات",
+          "cityName": "البنيات"
+        },
+        {
+          "displayName": "البيادر",
+          "cityId": 1127,
+          "villageId": 6306,
+          "villageName": "البيادر",
+          "cityName": "البيادر"
+        },
+        {
+          "displayName": "التخصصي",
+          "cityId": 1149,
+          "villageId": 6245,
+          "villageName": "التخصصي",
+          "cityName": "المدينة الرياضية"
+        },
+        {
+          "displayName": "التطوير الحضري",
+          "cityId": 1128,
+          "villageId": 6165,
+          "villageName": "التطوير الحضري",
+          "cityName": "ماركا الشمالية"
+        },
+        {
+          "displayName": "الثامن",
+          "cityId": 1127,
+          "villageId": 6161,
+          "villageName": "الثامن",
+          "cityName": "البيادر"
+        },
+        {
+          "displayName": "الجاردنز",
+          "cityId": 1162,
+          "villageId": 6278,
+          "villageName": "الجاردنز",
+          "cityName": "الجاردنز"
+        },
+        {
+          "displayName": "الجامعة الاردنية",
+          "cityId": 1153,
+          "villageId": 6254,
+          "villageName": "الجامعة الاردنية",
+          "cityName": "الجبيهة"
+        },
+        {
+          "displayName": "الجبل الاخضر",
+          "cityId": 1130,
+          "villageId": 6177,
+          "villageName": "الجبل الاخضر",
+          "cityName": "حي نزال"
+        },
+        {
+          "displayName": "الجبيهة",
+          "cityId": 1153,
+          "villageId": 6253,
+          "villageName": "الجبيهة",
+          "cityName": "الجبيهة"
+        },
+        {
+          "displayName": "الجسور العشرة",
+          "cityId": 1170,
+          "villageId": 6294,
+          "villageName": "الجسور العشرة",
+          "cityName": "المنارة"
+        },
+        {
+          "displayName": "الجندويل",
+          "cityId": 1127,
+          "villageId": 6160,
+          "villageName": "الجندويل",
+          "cityName": "البيادر"
+        },
+        {
+          "displayName": "الجويدة",
+          "cityId": 1166,
+          "villageId": 6283,
+          "villageName": "الجويدة",
+          "cityName": "الجويدة"
+        },
+        {
+          "displayName": "الجيزة",
+          "cityId": 41280,
+          "villageId": 103329,
+          "villageName": "الجيزة",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "الجيزة",
+          "cityId": 1181,
+          "villageId": 107734,
+          "villageName": "الجيزة",
+          "cityName": "مادبا"
+        },
+        {
+          "displayName": "الحج حسن",
+          "cityId": 1134,
+          "villageId": 6187,
+          "villageName": "الحج حسن",
+          "cityName": "الزهور"
+        },
+        {
+          "displayName": "الحدادة",
+          "cityId": 1161,
+          "villageId": 6276,
+          "villageName": "الحدادة",
+          "cityName": "جبل الحسين"
+        },
+        {
+          "displayName": "الحزام",
+          "cityId": 1137,
+          "villageId": 6200,
+          "villageName": "الحزام",
+          "cityName": "ماركا الجنوبية"
+        },
+        {
+          "displayName": "الحمر",
+          "cityId": 41280,
+          "villageId": 108012,
+          "villageName": "الحمر",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "الحويان",
+          "cityId": 1131,
+          "villageId": 6182,
+          "villageName": "الحويان",
+          "cityName": "المقابلين"
+        },
+        {
+          "displayName": "الخامس",
+          "cityId": 1154,
+          "villageId": 6683,
+          "villageName": "الخامس",
+          "cityName": "عبدون"
+        },
+        {
+          "displayName": "الخشافية",
+          "cityId": 1135,
+          "villageId": 6193,
+          "villageName": "الخشافية",
+          "cityName": "سحاب"
+        },
+        {
+          "displayName": "الداخلية",
+          "cityId": 1156,
+          "villageId": 6265,
+          "villageName": "الداخلية",
+          "cityName": "العبدلي"
+        },
+        {
+          "displayName": "الدوار الاول",
+          "cityId": 1148,
+          "villageId": 6236,
+          "villageName": "الدوار الاول",
+          "cityName": "جبل عمان"
+        },
+        {
+          "displayName": "الدوار الثالث",
+          "cityId": 1148,
+          "villageId": 6238,
+          "villageName": "الدوار الثالث",
+          "cityName": "جبل عمان"
+        },
+        {
+          "displayName": "الدوار الثامن",
+          "cityId": 1148,
+          "villageId": 103147,
+          "villageName": "الدوار الثامن",
+          "cityName": "جبل عمان"
+        },
+        {
+          "displayName": "الدوار الثاني",
+          "cityId": 1148,
+          "villageId": 6237,
+          "villageName": "الدوار الثاني",
+          "cityName": "جبل عمان"
+        },
+        {
+          "displayName": "الدوار الخامس",
+          "cityId": 1148,
+          "villageId": 103146,
+          "villageName": "الدوار الخامس",
+          "cityName": "جبل عمان"
+        },
+        {
+          "displayName": "الدوار الرابع",
+          "cityId": 1148,
+          "villageId": 6239,
+          "villageName": "الدوار الرابع",
+          "cityName": "جبل عمان"
+        },
+        {
+          "displayName": "الدوار السابع",
+          "cityId": 1148,
+          "villageId": 103145,
+          "villageName": "الدوار السابع",
+          "cityName": "جبل عمان"
+        },
+        {
+          "displayName": "الدوار السادس",
+          "cityId": 1148,
+          "villageId": 103144,
+          "villageName": "الدوار السادس",
+          "cityName": "جبل عمان"
+        },
+        {
+          "displayName": "الديوان الملكي",
+          "cityId": 1146,
+          "villageId": 6230,
+          "villageName": "الديوان الملكي",
+          "cityName": "الهاشمي"
+        },
+        {
+          "displayName": "الذراع الغربي",
+          "cityId": 1130,
+          "villageId": 6178,
+          "villageName": "الذراع الغربي",
+          "cityName": "حي نزال"
+        },
+        {
+          "displayName": "الذهيبة",
+          "cityId": 41280,
+          "villageId": 111160,
+          "villageName": "الذهيبة",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "الذهيبة",
+          "cityId": 1135,
+          "villageId": 6191,
+          "villageName": "الذهيبة",
+          "cityName": "سحاب"
+        },
+        {
+          "displayName": "الرابع",
+          "cityId": 1154,
+          "villageId": 21928,
+          "villageName": "الرابع",
+          "cityName": "عبدون"
+        },
+        {
+          "displayName": "الرابية",
+          "cityId": 1157,
+          "villageId": 6647,
+          "villageName": "الرابية",
+          "cityName": "الرابية"
+        },
+        {
+          "displayName": "الرجيب",
+          "cityId": 1138,
+          "villageId": 70855,
+          "villageName": "الرجيب",
+          "cityName": "القويسمة"
+        },
+        {
+          "displayName": "الروضة",
+          "cityId": 1152,
+          "villageId": 6252,
+          "villageName": "الروضة",
+          "cityName": "ضاحية الرشيد"
+        },
+        {
+          "displayName": "الرينبو",
+          "cityId": 1148,
+          "villageId": 6235,
+          "villageName": "الرينبو",
+          "cityName": "جبل عمان"
+        },
+        {
+          "displayName": "الزهور",
+          "cityId": 1134,
+          "villageId": 6186,
+          "villageName": "الزهور",
+          "cityName": "الزهور"
+        },
+        {
+          "displayName": "السابع",
+          "cityId": 1143,
+          "villageId": 6212,
+          "villageName": "السابع",
+          "cityName": "السابع"
+        },
+        {
+          "displayName": "الشمالي",
+          "cityId": 1146,
+          "villageId": 539666,
+          "villageName": "الشمالي",
+          "cityName": "الهاشمي"
+        },
+        {
+          "displayName": "الشميساني",
+          "cityId": 1159,
+          "villageId": 6271,
+          "villageName": "الشميساني",
+          "cityName": "الشميساني"
+        },
+        {
+          "displayName": "الصويفية",
+          "cityId": 1220,
+          "villageId": 6648,
+          "villageName": "الصويفية",
+          "cityName": "الصويفية"
+        },
+        {
+          "displayName": "الطيبة",
+          "cityId": 1166,
+          "villageId": 6780,
+          "villageName": "الطيبة",
+          "cityName": "الجويدة"
+        },
+        {
+          "displayName": "الظهير",
+          "cityId": 1126,
+          "villageId": 438694,
+          "villageName": "الظهير",
+          "cityName": "مرج الحمام"
+        },
+        {
+          "displayName": "الظهير",
+          "cityId": 1126,
+          "villageId": 6155,
+          "villageName": "الظهير",
+          "cityName": "مرج الحمام"
+        },
+        {
+          "displayName": "العالوك",
+          "cityId": 1150,
+          "villageId": 21654,
+          "villageName": "العالوك",
+          "cityName": "شفا بدران"
+        },
+        {
+          "displayName": "العبدلات",
+          "cityId": 1128,
+          "villageId": 6168,
+          "villageName": "العبدلات",
+          "cityName": "ماركا الشمالية"
+        },
+        {
+          "displayName": "العبدلي",
+          "cityId": 1156,
+          "villageId": 6264,
+          "villageName": "العبدلي",
+          "cityName": "العبدلي"
+        },
+        {
+          "displayName": "العبدلية",
+          "cityId": 1135,
+          "villageId": 6194,
+          "villageName": "العبدلية",
+          "cityName": "سحاب"
+        },
+        {
+          "displayName": "العلكومية",
+          "cityId": 1166,
+          "villageId": 6284,
+          "villageName": "العلكومية",
+          "cityName": "الجويدة"
+        },
+        {
+          "displayName": "القسطل",
+          "cityId": 1144,
+          "villageId": 6215,
+          "villageName": "القسطل",
+          "cityName": "المطار"
+        },
+        {
+          "displayName": "القسطل",
+          "cityId": 41280,
+          "villageId": 103322,
+          "villageName": "القسطل",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "القصور",
+          "cityId": 1147,
+          "villageId": 6240,
+          "villageName": "القصور",
+          "cityName": "النزهة"
+        },
+        {
+          "displayName": "القنية",
+          "cityId": 1150,
+          "villageId": 21657,
+          "villageName": "القنية",
+          "cityName": "شفا بدران"
+        },
+        {
+          "displayName": "القويسمة",
+          "cityId": 1138,
+          "villageId": 534118,
+          "villageName": "القويسمة",
+          "cityName": "القويسمة"
+        },
+        {
+          "displayName": "القويسمة",
+          "cityId": 1138,
+          "villageId": 6488,
+          "villageName": "القويسمة",
+          "cityName": "القويسمة"
+        },
+        {
+          "displayName": "الكرسي",
+          "cityId": 1127,
+          "villageId": 6158,
+          "villageName": "الكرسي",
+          "cityName": "البيادر"
+        },
+        {
+          "displayName": "الكمالية",
+          "cityId": 1125,
+          "villageId": 6153,
+          "villageName": "الكمالية",
+          "cityName": "صويلح"
+        },
+        {
+          "displayName": "الكمشة",
+          "cityId": 1150,
+          "villageId": 21655,
+          "villageName": "الكمشة",
+          "cityName": "شفا بدران"
+        },
+        {
+          "displayName": "الكوم",
+          "cityId": 1150,
+          "villageId": 6248,
+          "villageName": "الكوم",
+          "cityName": "شفا بدران"
+        },
+        {
+          "displayName": "اللبن",
+          "cityId": 1167,
+          "villageId": 21699,
+          "villageName": "اللبن",
+          "cityName": "اليادودة"
+        },
+        {
+          "displayName": "اللبن",
+          "cityId": 1135,
+          "villageId": 6192,
+          "villageName": "اللبن",
+          "cityName": "سحاب"
+        },
+        {
+          "displayName": "اللويبدة",
+          "cityId": 1155,
+          "villageId": 6263,
+          "villageName": "اللويبدة",
+          "cityName": "اللويبدة"
+        },
+        {
+          "displayName": "المحطة",
+          "cityId": 1146,
+          "villageId": 6486,
+          "villageName": "المحطة",
+          "cityName": "الهاشمي"
+        },
+        {
+          "displayName": "المدينة الرياضية",
+          "cityId": 1149,
+          "villageId": 6244,
+          "villageName": "المدينة الرياضية",
+          "cityName": "المدينة الرياضية"
+        },
+        {
+          "displayName": "المدينة الطبية",
+          "cityId": 1158,
+          "villageId": 6781,
+          "villageName": "المدينة الطبية",
+          "cityName": "دابوق"
+        },
+        {
+          "displayName": "المرقب",
+          "cityId": 1137,
+          "villageId": 6707,
+          "villageName": "المرقب",
+          "cityName": "ماركا الجنوبية"
+        },
+        {
+          "displayName": "المريخ",
+          "cityId": 1169,
+          "villageId": 6291,
+          "villageName": "المريخ",
+          "cityName": "الوحدات"
+        },
+        {
+          "displayName": "المزارع",
+          "cityId": 1128,
+          "villageId": 6167,
+          "villageName": "المزارع",
+          "cityName": "ماركا الشمالية"
+        },
+        {
+          "displayName": "المستندة",
+          "cityId": 1138,
+          "villageId": 70854,
+          "villageName": "المستندة",
+          "cityName": "القويسمة"
+        },
+        {
+          "displayName": "المستندة",
+          "cityId": 1136,
+          "villageId": 6197,
+          "villageName": "المستندة",
+          "cityName": "ابو علندا"
+        },
+        {
+          "displayName": "المشتى",
+          "cityId": 1144,
+          "villageId": 32341,
+          "villageName": "المشتى",
+          "cityName": "المطار"
+        },
+        {
+          "displayName": "المصدار",
+          "cityId": 1169,
+          "villageId": 6292,
+          "villageName": "المصدار",
+          "cityName": "الوحدات"
+        },
+        {
+          "displayName": "المطار",
+          "cityId": 1144,
+          "villageId": 6214,
+          "villageName": "المطار",
+          "cityName": "المطار"
+        },
+        {
+          "displayName": "المغيرات",
+          "cityId": 1137,
+          "villageId": 21927,
+          "villageName": "المغيرات",
+          "cityName": "ماركا الجنوبية"
+        },
+        {
+          "displayName": "المقابلين",
+          "cityId": 1131,
+          "villageId": 6302,
+          "villageName": "المقابلين",
+          "cityName": "المقابلين"
+        },
+        {
+          "displayName": "المنارة",
+          "cityId": 1170,
+          "villageId": 6293,
+          "villageName": "المنارة",
+          "cityName": "المنارة"
+        },
+        {
+          "displayName": "المنصور",
+          "cityId": 1153,
+          "villageId": 853857,
+          "villageName": "المنصور",
+          "cityName": "الجبيهة"
+        },
+        {
+          "displayName": "الموقر",
+          "cityId": 41280,
+          "villageId": 103327,
+          "villageName": "الموقر",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "النبعة",
+          "cityId": 1150,
+          "villageId": 6249,
+          "villageName": "النبعة",
+          "cityName": "شفا بدران"
+        },
+        {
+          "displayName": "النخيل",
+          "cityId": 314835,
+          "villageId": 439253,
+          "villageName": "النخيل",
+          "cityName": "ضاحية النخيل"
+        },
+        {
+          "displayName": "النزهة",
+          "cityId": 1147,
+          "villageId": 6232,
+          "villageName": "النزهة",
+          "cityName": "النزهة"
+        },
+        {
+          "displayName": "النظيف",
+          "cityId": 1169,
+          "villageId": 6290,
+          "villageName": "النظيف",
+          "cityName": "الوحدات"
+        },
+        {
+          "displayName": "الهاشمي",
+          "cityId": 1146,
+          "villageId": 6224,
+          "villageName": "الهاشمي",
+          "cityName": "الهاشمي"
+        },
+        {
+          "displayName": "الهاشمي الجنوبي",
+          "cityId": 1146,
+          "villageId": 6231,
+          "villageName": "الهاشمي الجنوبي",
+          "cityName": "الهاشمي"
+        },
+        {
+          "displayName": "الوحدات",
+          "cityId": 1169,
+          "villageId": 6289,
+          "villageName": "الوحدات",
+          "cityName": "الوحدات"
+        },
+        {
+          "displayName": "الونانات",
+          "cityId": 1128,
+          "villageId": 6166,
+          "villageName": "الونانات",
+          "cityName": "ماركا الشمالية"
+        },
+        {
+          "displayName": "اليادودة",
+          "cityId": 1167,
+          "villageId": 6285,
+          "villageName": "اليادودة",
+          "cityName": "اليادودة"
+        },
+        {
+          "displayName": "الياسمين",
+          "cityId": 1132,
+          "villageId": 6184,
+          "villageName": "الياسمين",
+          "cityName": "الياسمين"
+        },
+        {
+          "displayName": "ام اذينة",
+          "cityId": 1160,
+          "villageId": 6272,
+          "villageName": "ام اذينة",
+          "cityName": "ام اذينة"
+        },
+        {
+          "displayName": "ام الحيران",
+          "cityId": 1134,
+          "villageId": 6188,
+          "villageName": "ام الحيران",
+          "cityName": "الزهور"
+        },
+        {
+          "displayName": "ام السماق",
+          "cityId": 1142,
+          "villageId": 6210,
+          "villageName": "ام السماق",
+          "cityName": "خلدا"
+        },
+        {
+          "displayName": "ام نوارة",
+          "cityId": 1165,
+          "villageId": 6282,
+          "villageName": "ام نوارة",
+          "cityName": "ام نوارة"
+        },
+        {
+          "displayName": "بدر الجديدة",
+          "cityId": 41280,
+          "villageId": 103326,
+          "villageName": "بدر الجديدة",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "بيرين",
+          "cityId": 1150,
+          "villageId": 21653,
+          "villageName": "بيرين",
+          "cityName": "شفا بدران"
+        },
+        {
+          "displayName": "تاج مول",
+          "cityId": 1154,
+          "villageId": 6262,
+          "villageName": "تاج مول",
+          "cityName": "عبدون"
+        },
+        {
+          "displayName": "تلاع العلي",
+          "cityId": 1141,
+          "villageId": 6208,
+          "villageName": "تلاع العلي",
+          "cityName": "تلاع العلي"
+        },
+        {
+          "displayName": "تنسيق",
+          "cityId": 409459,
+          "villageId": 539665,
+          "villageName": "تنسيق",
+          "cityName": "عنوان غير معروف تنسيق صباحا"
+        },
+        {
+          "displayName": "جامعة الاسراء",
+          "cityId": 1144,
+          "villageId": 6217,
+          "villageName": "جامعة الاسراء",
+          "cityName": "المطار"
+        },
+        {
+          "displayName": "جامعة الاسراء",
+          "cityId": 1144,
+          "villageId": 439317,
+          "villageName": "جامعة الاسراء",
+          "cityName": "المطار"
+        },
+        {
+          "displayName": "جامعة البتراء",
+          "cityId": 1133,
+          "villageId": 6185,
+          "villageName": "جامعة البتراء",
+          "cityName": "البنيات"
+        },
+        {
+          "displayName": "جامعة الزيتونة",
+          "cityId": 1144,
+          "villageId": 6218,
+          "villageName": "جامعة الزيتونة",
+          "cityName": "المطار"
+        },
+        {
+          "displayName": "جاوا",
+          "cityId": 1171,
+          "villageId": 6296,
+          "villageName": "جاوا",
+          "cityName": "جاوا"
+        },
+        {
+          "displayName": "جبل التاج",
+          "cityId": 1168,
+          "villageId": 6286,
+          "villageName": "جبل التاج",
+          "cityName": "جبل التاج"
+        },
+        {
+          "displayName": "جبل الجوفة",
+          "cityId": 1168,
+          "villageId": 6287,
+          "villageName": "جبل الجوفة",
+          "cityName": "جبل التاج"
+        },
+        {
+          "displayName": "جبل الحديد",
+          "cityId": 1138,
+          "villageId": 6489,
+          "villageName": "جبل الحديد",
+          "cityName": "القويسمة"
+        },
+        {
+          "displayName": "جبل الحسين",
+          "cityId": 1161,
+          "villageId": 6274,
+          "villageName": "جبل الحسين",
+          "cityName": "جبل الحسين"
+        },
+        {
+          "displayName": "جبل القلعة",
+          "cityId": 1161,
+          "villageId": 23766,
+          "villageName": "جبل القلعة",
+          "cityName": "جبل الحسين"
+        },
+        {
+          "displayName": "جبل النصر",
+          "cityId": 1139,
+          "villageId": 6202,
+          "villageName": "جبل النصر",
+          "cityName": "جبل النصر"
+        },
+        {
+          "displayName": "جبل عمان",
+          "cityId": 1148,
+          "villageId": 6233,
+          "villageName": "جبل عمان",
+          "cityName": "جبل عمان"
+        },
+        {
+          "displayName": "حسبان",
+          "cityId": 41280,
+          "villageId": 103321,
+          "villageName": "حسبان",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "حي الامام الغزالي",
+          "cityId": 1153,
+          "villageId": 62583,
+          "villageName": "حي الامام الغزالي",
+          "cityName": "الجبيهة"
+        },
+        {
+          "displayName": "حي الديار",
+          "cityId": 1154,
+          "villageId": 6261,
+          "villageName": "حي الديار",
+          "cityName": "عبدون"
+        },
+        {
+          "displayName": "حي الصحابة",
+          "cityId": 1132,
+          "villageId": 24284,
+          "villageName": "حي الصحابة",
+          "cityName": "الياسمين"
+        },
+        {
+          "displayName": "حي ام تينة",
+          "cityId": 1168,
+          "villageId": 6288,
+          "villageName": "حي ام تينة",
+          "cityName": "جبل التاج"
+        },
+        {
+          "displayName": "حي نزال",
+          "cityId": 1130,
+          "villageId": 29854,
+          "villageName": "حي نزال",
+          "cityName": "حي نزال"
+        },
+        {
+          "displayName": "خريبة السوق",
+          "cityId": 1172,
+          "villageId": 6297,
+          "villageName": "خريبة السوق",
+          "cityName": "خريبة السوق"
+        },
+        {
+          "displayName": "خلدا",
+          "cityId": 1142,
+          "villageId": 6209,
+          "villageName": "خلدا",
+          "cityName": "خلدا"
+        },
+        {
+          "displayName": "دابوق",
+          "cityId": 1158,
+          "villageId": 6269,
+          "villageName": "دابوق",
+          "cityName": "دابوق"
+        },
+        {
+          "displayName": "دوار الجمرك",
+          "cityId": 1131,
+          "villageId": 6181,
+          "villageName": "دوار الجمرك",
+          "cityName": "المقابلين"
+        },
+        {
+          "displayName": "دوار الدبابة",
+          "cityId": 1145,
+          "villageId": 6223,
+          "villageName": "دوار الدبابة",
+          "cityName": "طبربور"
+        },
+        {
+          "displayName": "دوار السكر",
+          "cityId": 1142,
+          "villageId": 6211,
+          "villageName": "دوار السكر",
+          "cityName": "خلدا"
+        },
+        {
+          "displayName": "دوار الشرق الاوسط",
+          "cityId": 1134,
+          "villageId": 6300,
+          "villageName": "دوار الشرق الاوسط",
+          "cityName": "الزهور"
+        },
+        {
+          "displayName": "دوار فراس",
+          "cityId": 1161,
+          "villageId": 6275,
+          "villageName": "دوار فراس",
+          "cityName": "جبل الحسين"
+        },
+        {
+          "displayName": "دير غبار",
+          "cityId": 1154,
+          "villageId": 6260,
+          "villageName": "دير غبار",
+          "cityName": "عبدون"
+        },
+        {
+          "displayName": "راس العين",
+          "cityId": 1130,
+          "villageId": 6176,
+          "villageName": "راس العين",
+          "cityName": "حي نزال"
+        },
+        {
+          "displayName": "رجم الشامي-سحاب",
+          "cityId": 41280,
+          "villageId": 114341,
+          "villageName": "رجم الشامي-سحاب",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "زيزيا",
+          "cityId": 41280,
+          "villageId": 103328,
+          "villageName": "زيزيا",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "زيزيا",
+          "cityId": 1144,
+          "villageId": 6216,
+          "villageName": "زيزيا",
+          "cityName": "المطار"
+        },
+        {
+          "displayName": "سحاب",
+          "cityId": 1135,
+          "villageId": 6189,
+          "villageName": "سحاب",
+          "cityName": "سحاب"
+        },
+        {
+          "displayName": "شارع الاذاعة",
+          "cityId": 1131,
+          "villageId": 6179,
+          "villageName": "شارع الاذاعة",
+          "cityName": "المقابلين"
+        },
+        {
+          "displayName": "شارع الجامعة",
+          "cityId": 315701,
+          "villageId": 440178,
+          "villageName": "شارع الجامعة",
+          "cityName": "شارع الجامعةالاردنية"
+        },
+        {
+          "displayName": "شارع الحرية",
+          "cityId": 1131,
+          "villageId": 6180,
+          "villageName": "شارع الحرية",
+          "cityName": "المقابلين"
+        },
+        {
+          "displayName": "شارع المدينة",
+          "cityId": 1157,
+          "villageId": 6268,
+          "villageName": "شارع المدينة",
+          "cityName": "الرابية"
+        },
+        {
+          "displayName": "شارع مكة",
+          "cityId": 1157,
+          "villageId": 6267,
+          "villageName": "شارع مكة",
+          "cityName": "الرابية"
+        },
+        {
+          "displayName": "شفا بدران",
+          "cityId": 1150,
+          "villageId": 6247,
+          "villageName": "شفا بدران",
+          "cityName": "شفا بدران"
+        },
+        {
+          "displayName": "صروت",
+          "cityId": 1150,
+          "villageId": 21656,
+          "villageName": "صروت",
+          "cityName": "شفا بدران"
+        },
+        {
+          "displayName": "صويلح",
+          "cityId": 1125,
+          "villageId": 6310,
+          "villageName": "صويلح",
+          "cityName": "صويلح"
+        },
+        {
+          "displayName": "ضاحية الاقصى",
+          "cityId": 1146,
+          "villageId": 6227,
+          "villageName": "ضاحية الاقصى",
+          "cityName": "الهاشمي"
+        },
+        {
+          "displayName": "ضاحية الامير حسن",
+          "cityId": 1146,
+          "villageId": 6226,
+          "villageName": "ضاحية الامير حسن",
+          "cityName": "الهاشمي"
+        },
+        {
+          "displayName": "ضاحية الامير حسن",
+          "cityId": 1147,
+          "villageId": 6701,
+          "villageName": "ضاحية الامير حسن",
+          "cityName": "النزهة"
+        },
+        {
+          "displayName": "ضاحية الامير سلمى",
+          "cityId": 1146,
+          "villageId": 6229,
+          "villageName": "ضاحية الامير سلمى",
+          "cityName": "الهاشمي"
+        },
+        {
+          "displayName": "ضاحية الامير علي",
+          "cityId": 1172,
+          "villageId": 6298,
+          "villageName": "ضاحية الامير علي",
+          "cityName": "خريبة السوق"
+        },
+        {
+          "displayName": "ضاحية الرشيد",
+          "cityId": 1152,
+          "villageId": 6251,
+          "villageName": "ضاحية الرشيد",
+          "cityName": "ضاحية الرشيد"
+        },
+        {
+          "displayName": "ضاحية النخيل",
+          "cityId": 314835,
+          "villageId": 534313,
+          "villageName": "ضاحية النخيل",
+          "cityName": "ضاحية النخيل"
+        },
+        {
+          "displayName": "طبربور",
+          "cityId": 1145,
+          "villageId": 6221,
+          "villageName": "طبربور",
+          "cityName": "طبربور"
+        },
+        {
+          "displayName": "طلوع البلدية",
+          "cityId": 1153,
+          "villageId": 6256,
+          "villageName": "طلوع البلدية",
+          "cityName": "الجبيهة"
+        },
+        {
+          "displayName": "طلوع نيفين",
+          "cityId": 1153,
+          "villageId": 6257,
+          "villageName": "طلوع نيفين",
+          "cityName": "الجبيهة"
+        },
+        {
+          "displayName": "عبدالله غوشة",
+          "cityId": 1143,
+          "villageId": 6213,
+          "villageName": "عبدالله غوشة",
+          "cityName": "السابع"
+        },
+        {
+          "displayName": "عبدون",
+          "cityId": 1154,
+          "villageId": 6259,
+          "villageName": "عبدون",
+          "cityName": "عبدون"
+        },
+        {
+          "displayName": "عراق الامير",
+          "cityId": 41280,
+          "villageId": 107733,
+          "villageName": "عراق الامير",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "عرجان",
+          "cityId": 1149,
+          "villageId": 6243,
+          "villageName": "عرجان",
+          "cityName": "المدينة الرياضية"
+        },
+        {
+          "displayName": "كلية حطين",
+          "cityId": 1131,
+          "villageId": 6183,
+          "villageName": "كلية حطين",
+          "cityName": "المقابلين"
+        },
+        {
+          "displayName": "ماحص",
+          "cityId": 41280,
+          "villageId": 103841,
+          "villageName": "ماحص",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "ماركا الجنوبية",
+          "cityId": 1137,
+          "villageId": 6198,
+          "villageName": "ماركا الجنوبية",
+          "cityName": "ماركا الجنوبية"
+        },
+        {
+          "displayName": "ماركا الشمالية",
+          "cityId": 1128,
+          "villageId": 6305,
+          "villageName": "ماركا الشمالية",
+          "cityName": "ماركا الشمالية"
+        },
+        {
+          "displayName": "مخيم الحسين",
+          "cityId": 1161,
+          "villageId": 6277,
+          "villageName": "مخيم الحسين",
+          "cityName": "جبل الحسين"
+        },
+        {
+          "displayName": "مرج الحمام",
+          "cityId": 1126,
+          "villageId": 6309,
+          "villageName": "مرج الحمام",
+          "cityName": "مرج الحمام"
+        },
+        {
+          "displayName": "مستشفى الاسراء",
+          "cityId": 1153,
+          "villageId": 6258,
+          "villageName": "مستشفى الاسراء",
+          "cityName": "الجبيهة"
+        },
+        {
+          "displayName": "مستشفى الاسلامي",
+          "cityId": 1156,
+          "villageId": 6266,
+          "villageName": "مستشفى الاسلامي",
+          "cityName": "العبدلي"
+        },
+        {
+          "displayName": "مستشفى الامير حمزة",
+          "cityId": 1146,
+          "villageId": 6228,
+          "villageName": "مستشفى الامير حمزة",
+          "cityName": "الهاشمي"
+        },
+        {
+          "displayName": "مستشفى البشير",
+          "cityId": 1163,
+          "villageId": 6280,
+          "villageName": "مستشفى البشير",
+          "cityName": "الاشرفية"
+        },
+        {
+          "displayName": "مطار الملكة علياء",
+          "cityId": 41280,
+          "villageId": 103323,
+          "villageName": "مطار الملكة علياء",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "نادي الرماية الملكي",
+          "cityId": 1166,
+          "villageId": 6779,
+          "villageName": "نادي الرماية الملكي",
+          "cityName": "الجويدة"
+        },
+        {
+          "displayName": "نادي السباق",
+          "cityId": 1137,
+          "villageId": 6199,
+          "villageName": "نادي السباق",
+          "cityName": "ماركا الجنوبية"
+        },
+        {
+          "displayName": "ناعور",
+          "cityId": 41282,
+          "villageId": 103334,
+          "villageName": "ناعور",
+          "cityName": "ناعور"
+        },
+        {
+          "displayName": "نزال",
+          "cityId": 1130,
+          "villageId": 6303,
+          "villageName": "نزال",
+          "cityName": "حي نزال"
+        },
+        {
+          "displayName": "وادي الرمم",
+          "cityId": 1170,
+          "villageId": 6295,
+          "villageName": "وادي الرمم",
+          "cityName": "المنارة"
+        },
+        {
+          "displayName": "وادي السير",
+          "cityId": 1127,
+          "villageId": 6159,
+          "villageName": "وادي السير",
+          "cityName": "البيادر"
+        },
+        {
+          "displayName": "وادي صقرة",
+          "cityId": 1148,
+          "villageId": 6234,
+          "villageName": "وادي صقرة",
+          "cityName": "جبل عمان"
+        },
+        {
+          "displayName": "وادي طي",
+          "cityId": 1172,
+          "villageId": 6299,
+          "villageName": "وادي طي",
+          "cityName": "خريبة السوق"
+        },
+        {
+          "displayName": "وسط البلد",
+          "cityId": 1164,
+          "villageId": 32047,
+          "villageName": "وسط البلد",
+          "cityName": "وسط البلد"
+        }
+      ]
+    },
+    {
+      "name": "إربد",
+      "areas": [
+        {
+          "displayName": "ابو سيدو",
+          "cityId": 8354,
+          "villageId": 23583,
+          "villageName": "ابو سيدو",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "ابو هابيل",
+          "cityId": 8354,
+          "villageId": 23584,
+          "villageName": "ابو هابيل",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "اربد",
+          "cityId": 1184,
+          "villageId": 6455,
+          "villageName": "اربد",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "الاغوار الشمالية",
+          "cityId": 8354,
+          "villageId": 23603,
+          "villageName": "الاغوار الشمالية",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "الحصن",
+          "cityId": 1184,
+          "villageId": 6464,
+          "villageName": "الحصن",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "الحي الشرقي",
+          "cityId": 1184,
+          "villageId": 6465,
+          "villageName": "الحي الشرقي",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "الرمثا",
+          "cityId": 1189,
+          "villageId": 6518,
+          "villageName": "الرمثا",
+          "cityName": "الرمثا"
+        },
+        {
+          "displayName": "الريان",
+          "cityId": 1184,
+          "villageId": 6482,
+          "villageName": "الريان",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "الريحانة",
+          "cityId": 8354,
+          "villageId": 23592,
+          "villageName": "الريحانة",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "الشجرة",
+          "cityId": 1184,
+          "villageId": 6484,
+          "villageName": "الشجرة",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "الشونة الشمالية",
+          "cityId": 8354,
+          "villageId": 23596,
+          "villageName": "الشونة الشمالية",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "الصريح",
+          "cityId": 1184,
+          "villageId": 6481,
+          "villageName": "الصريح",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "الطيبة",
+          "cityId": 1174,
+          "villageId": 108021,
+          "villageName": "الطيبة",
+          "cityName": "معان"
+        },
+        {
+          "displayName": "العدسية الشمالية",
+          "cityId": 8354,
+          "villageId": 23595,
+          "villageName": "العدسية الشمالية",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "القرن",
+          "cityId": 8354,
+          "villageId": 23585,
+          "villageName": "القرن",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "القيروان",
+          "cityId": 1184,
+          "villageId": 6476,
+          "villageName": "القيروان",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "الكرامة",
+          "cityId": 6813,
+          "villageId": 23580,
+          "villageName": "الكرامة",
+          "cityName": "الاغوار الوسطى"
+        },
+        {
+          "displayName": "الكريمة",
+          "cityId": 8354,
+          "villageId": 23582,
+          "villageName": "الكريمة",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "الكورة",
+          "cityId": 1184,
+          "villageId": 6463,
+          "villageName": "الكورة",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "المدارج",
+          "cityId": 8354,
+          "villageId": 23597,
+          "villageName": "المدارج",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "المزار الشمالي",
+          "cityId": 1184,
+          "villageId": 6470,
+          "villageName": "المزار الشمالي",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "المشارع",
+          "cityId": 8354,
+          "villageId": 23588,
+          "villageName": "المشارع",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "المنشية",
+          "cityId": 8354,
+          "villageId": 23594,
+          "villageName": "المنشية",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "ايدون",
+          "cityId": 1184,
+          "villageId": 6467,
+          "villageName": "ايدون",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "بصيلة",
+          "cityId": 8354,
+          "villageId": 23600,
+          "villageName": "بصيلة",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "بليلة",
+          "cityId": 1184,
+          "villageId": 6480,
+          "villageName": "بليلة",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "بني عبيد",
+          "cityId": 1184,
+          "villageId": 6483,
+          "villageName": "بني عبيد",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "بني كنانة",
+          "cityId": 1184,
+          "villageId": 6477,
+          "villageName": "بني كنانة",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "بيت راس",
+          "cityId": 1184,
+          "villageId": 6479,
+          "villageName": "بيت راس",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "بيت يافا",
+          "cityId": 1184,
+          "villageId": 6478,
+          "villageName": "بيت يافا",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "تل الاربعين",
+          "cityId": 8354,
+          "villageId": 23591,
+          "villageName": "تل الاربعين",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "جامعة اليرموك",
+          "cityId": 1184,
+          "villageId": 24448,
+          "villageName": "جامعة اليرموك",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "جسر الشيخ حسين",
+          "cityId": 8354,
+          "villageId": 23598,
+          "villageName": "جسر الشيخ حسين",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "حكما",
+          "cityId": 1184,
+          "villageId": 6466,
+          "villageName": "حكما",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "دير ابي سعيد",
+          "cityId": 1184,
+          "villageId": 6475,
+          "villageName": "دير ابي سعيد",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "رحابا",
+          "cityId": 1184,
+          "villageId": 6469,
+          "villageName": "رحابا",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "زبدة",
+          "cityId": 1184,
+          "villageId": 6472,
+          "villageName": "زبدة",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "زمالية",
+          "cityId": 8354,
+          "villageId": 23601,
+          "villageName": "زمالية",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "سال",
+          "cityId": 1184,
+          "villageId": 6474,
+          "villageName": "سال",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "سحم",
+          "cityId": 1184,
+          "villageId": 6471,
+          "villageName": "سحم",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "سليخات",
+          "cityId": 8354,
+          "villageId": 23589,
+          "villageName": "سليخات",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "طبقة فحل",
+          "cityId": 8354,
+          "villageId": 23599,
+          "villageName": "طبقة فحل",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "ظهرة الرملة",
+          "cityId": 6813,
+          "villageId": 23577,
+          "villageName": "ظهرة الرملة",
+          "cityName": "الاغوار الوسطى"
+        },
+        {
+          "displayName": "قليعات",
+          "cityId": 8354,
+          "villageId": 23590,
+          "villageName": "قليعات",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "كفر ابيل",
+          "cityId": 1184,
+          "villageId": 6460,
+          "villageName": "كفر ابيل",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "كفر اسد",
+          "cityId": 1184,
+          "villageId": 6458,
+          "villageName": "كفر اسد",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "كفر راكب",
+          "cityId": 1184,
+          "villageId": 6461,
+          "villageName": "كفر راكب",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "كفر عوان",
+          "cityId": 1184,
+          "villageId": 6457,
+          "villageName": "كفر عوان",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "كفر يوبا",
+          "cityId": 1184,
+          "villageId": 6459,
+          "villageName": "كفر يوبا",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "كفرسوم",
+          "cityId": 1184,
+          "villageId": 6462,
+          "villageName": "كفرسوم",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "ملكا",
+          "cityId": 1184,
+          "villageId": 6468,
+          "villageName": "ملكا",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "نعيمة",
+          "cityId": 1184,
+          "villageId": 6473,
+          "villageName": "نعيمة",
+          "cityName": "اربد"
+        },
+        {
+          "displayName": "وادي الريان",
+          "cityId": 8354,
+          "villageId": 23587,
+          "villageName": "وادي الريان",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "وادي اليابس",
+          "cityId": 8354,
+          "villageId": 23586,
+          "villageName": "وادي اليابس",
+          "cityName": "الاغوار الشمالية"
+        },
+        {
+          "displayName": "وقاص",
+          "cityId": 8354,
+          "villageId": 23593,
+          "villageName": "وقاص",
+          "cityName": "الاغوار الشمالية"
+        }
+      ]
+    },
+    {
+      "name": "الزرقاء",
+      "areas": [
+        {
+          "displayName": "أبو صياح",
+          "cityId": 392,
+          "villageId": 2545,
+          "villageName": "أبو صياح",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "الازرق",
+          "cityId": 40384,
+          "villageId": 99774,
+          "villageName": "الازرق",
+          "cityName": "الازرق"
+        },
+        {
+          "displayName": "الامير فيصل",
+          "cityId": 1188,
+          "villageId": 6517,
+          "villageName": "الامير فيصل",
+          "cityName": "الرصيفة"
+        },
+        {
+          "displayName": "الاوتوستراد",
+          "cityId": 1176,
+          "villageId": 6368,
+          "villageName": "الاوتوستراد",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "البتراوي",
+          "cityId": 1176,
+          "villageId": 6366,
+          "villageName": "البتراوي",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "الجبل الابيض",
+          "cityId": 1176,
+          "villageId": 6351,
+          "villageName": "الجبل الابيض",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "الجبل الشمالي",
+          "cityId": 1188,
+          "villageId": 6516,
+          "villageName": "الجبل الشمالي",
+          "cityName": "الرصيفة"
+        },
+        {
+          "displayName": "الجديدة",
+          "cityId": 1176,
+          "villageId": 6344,
+          "villageName": "الجديدة",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "الحاووز",
+          "cityId": 1176,
+          "villageId": 6367,
+          "villageName": "الحاووز",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "الحلابات",
+          "cityId": 1176,
+          "villageId": 6346,
+          "villageName": "الحلابات",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "الرصيفة",
+          "cityId": 1188,
+          "villageId": 6507,
+          "villageName": "الرصيفة",
+          "cityName": "الرصيفة"
+        },
+        {
+          "displayName": "الزواهرة",
+          "cityId": 1176,
+          "villageId": 6354,
+          "villageName": "الزواهرة",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "السخنة",
+          "cityId": 392,
+          "villageId": 2579,
+          "villageName": "السخنة",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "الضليل",
+          "cityId": 392,
+          "villageId": 2558,
+          "villageName": "الضليل",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "الغباوي",
+          "cityId": 1176,
+          "villageId": 16160,
+          "villageName": "الغباوي",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "الغويرية",
+          "cityId": 1176,
+          "villageId": 6359,
+          "villageName": "الغويرية",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "القادسية",
+          "cityId": 1188,
+          "villageId": 6515,
+          "villageName": "القادسية",
+          "cityName": "الرصيفة"
+        },
+        {
+          "displayName": "المجمع الجديد",
+          "cityId": 1176,
+          "villageId": 6370,
+          "villageName": "المجمع الجديد",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "المجمع القديم",
+          "cityId": 1176,
+          "villageId": 6369,
+          "villageName": "المجمع القديم",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "المشيرفة",
+          "cityId": 1188,
+          "villageId": 6514,
+          "villageName": "المشيرفة",
+          "cityName": "الرصيفة"
+        },
+        {
+          "displayName": "المنطقة الحرة",
+          "cityId": 392,
+          "villageId": 2592,
+          "villageName": "المنطقة الحرة",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "الهاشمية الزقاء",
+          "cityId": 392,
+          "villageId": 2596,
+          "villageName": "الهاشمية الزقاء",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "الوسط التجاري",
+          "cityId": 1176,
+          "villageId": 6364,
+          "villageName": "الوسط التجاري",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "جبل رحمة",
+          "cityId": 1176,
+          "villageId": 6363,
+          "villageName": "جبل رحمة",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "جبل طارق",
+          "cityId": 1176,
+          "villageId": 6358,
+          "villageName": "جبل طارق",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "جسر البيبسي",
+          "cityId": 1188,
+          "villageId": 6511,
+          "villageName": "جسر البيبسي",
+          "cityName": "الرصيفة"
+        },
+        {
+          "displayName": "حطين",
+          "cityId": 1188,
+          "villageId": 6510,
+          "villageName": "حطين",
+          "cityName": "الرصيفة"
+        },
+        {
+          "displayName": "حي الجندي",
+          "cityId": 1176,
+          "villageId": 6353,
+          "villageName": "حي الجندي",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "حي النزهة",
+          "cityId": 1176,
+          "villageId": 6355,
+          "villageName": "حي النزهة",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "حي رمزي",
+          "cityId": 1176,
+          "villageId": 6356,
+          "villageName": "حي رمزي",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "شنلر",
+          "cityId": 1188,
+          "villageId": 6512,
+          "villageName": "شنلر",
+          "cityName": "الرصيفة"
+        },
+        {
+          "displayName": "شومر",
+          "cityId": 1176,
+          "villageId": 6361,
+          "villageName": "شومر",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "ضاحية الاميرة سلمى",
+          "cityId": 1176,
+          "villageId": 6350,
+          "villageName": "ضاحية الاميرة سلمى",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "ضاحية الاميرة هيا",
+          "cityId": 1176,
+          "villageId": 6347,
+          "villageName": "ضاحية الاميرة هيا",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "ضاحية المدينة",
+          "cityId": 1176,
+          "villageId": 6348,
+          "villageName": "ضاحية المدينة",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "ضاحية مكة",
+          "cityId": 1176,
+          "villageId": 6349,
+          "villageName": "ضاحية مكة",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "عوجان",
+          "cityId": 1188,
+          "villageId": 6646,
+          "villageName": "عوجان",
+          "cityName": "الرصيفة"
+        },
+        {
+          "displayName": "قصر الحلابات الشرقي",
+          "cityId": 392,
+          "villageId": 2554,
+          "villageName": "قصر الحلابات الشرقي",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "قصر الحلابات الغربي",
+          "cityId": 392,
+          "villageId": 2555,
+          "villageName": "قصر الحلابات الغربي",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "مدينة الشرق",
+          "cityId": 1176,
+          "villageId": 6362,
+          "villageName": "مدينة الشرق",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "مركز الزرقاء",
+          "cityId": 392,
+          "villageId": 579614,
+          "villageName": "الزرقاء",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "مركز الزرقاء",
+          "cityId": 1176,
+          "villageId": 6343,
+          "villageName": "الزرقاء",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "معصوم",
+          "cityId": 1176,
+          "villageId": 6352,
+          "villageName": "معصوم",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "وادي الحجر",
+          "cityId": 1176,
+          "villageId": 6357,
+          "villageName": "وادي الحجر",
+          "cityName": "الزرقاء"
+        },
+        {
+          "displayName": "وادي القمر",
+          "cityId": 1188,
+          "villageId": 6509,
+          "villageName": "وادي القمر",
+          "cityName": "الرصيفة"
+        },
+        {
+          "displayName": "ياجوز",
+          "cityId": 1188,
+          "villageId": 6690,
+          "villageName": "ياجوز",
+          "cityName": "الرصيفة"
+        }
+      ]
+    },
+    {
+      "name": "المفرق",
+      "areas": [
+        {
+          "displayName": "ارحاب",
+          "cityId": 394,
+          "villageId": 2793,
+          "villageName": "ارحاب",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "ال البيت",
+          "cityId": 1179,
+          "villageId": 24281,
+          "villageName": "ال البيت",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الاثنى",
+          "cityId": 394,
+          "villageId": 2734,
+          "villageName": "الاثنى",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الازرق",
+          "cityId": 1179,
+          "villageId": 6698,
+          "villageName": "الازرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الأزرق الجنوبي",
+          "cityId": 394,
+          "villageId": 2832,
+          "villageName": "الأزرق الجنوبي",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الأزرق الشمالي",
+          "cityId": 394,
+          "villageId": 2825,
+          "villageName": "الأزرق الشمالي",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الاشرفية المفرق",
+          "cityId": 394,
+          "villageId": 2715,
+          "villageName": "الاشرفية المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الاكيدر",
+          "cityId": 1179,
+          "villageId": 38167,
+          "villageName": "الاكيدر",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "البادية الشمالية",
+          "cityId": 1179,
+          "villageId": 6395,
+          "villageName": "البادية الشمالية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الباعج",
+          "cityId": 394,
+          "villageId": 2756,
+          "villageName": "الباعج",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "البستانه",
+          "cityId": 394,
+          "villageId": 2723,
+          "villageName": "البستانه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "البشرية",
+          "cityId": 394,
+          "villageId": 2716,
+          "villageName": "البشرية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "البوادي",
+          "cityId": 394,
+          "villageId": 2740,
+          "villageName": "البوادي",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "البويضة الغربية",
+          "cityId": 394,
+          "villageId": 2788,
+          "villageName": "البويضة الغربية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الحرش",
+          "cityId": 394,
+          "villageId": 2811,
+          "villageName": "الحرش",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الحرفوشية",
+          "cityId": 394,
+          "villageId": 2799,
+          "villageName": "الحرفوشية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الحصينيات المفرق",
+          "cityId": 394,
+          "villageId": 2819,
+          "villageName": "الحصينيات المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الحمرا",
+          "cityId": 1179,
+          "villageId": 32342,
+          "villageName": "الحمرا",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الحمراء المفرق",
+          "cityId": 394,
+          "villageId": 2809,
+          "villageName": "الحمراء المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الحميدية المفرق",
+          "cityId": 394,
+          "villageId": 2714,
+          "villageName": "الحميدية المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الخالدية",
+          "cityId": 1179,
+          "villageId": 6691,
+          "villageName": "الخالدية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الخالدية المفرق",
+          "cityId": 394,
+          "villageId": 2824,
+          "villageName": "الخالدية المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الخناصري",
+          "cityId": 394,
+          "villageId": 2814,
+          "villageName": "الخناصري",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الخناصري",
+          "cityId": 1179,
+          "villageId": 32346,
+          "villageName": "الخناصري",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الدجنية",
+          "cityId": 394,
+          "villageId": 2792,
+          "villageName": "الدجنية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الدجنية",
+          "cityId": 1179,
+          "villageId": 32344,
+          "villageName": "الدجنية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الدرزية",
+          "cityId": 394,
+          "villageId": 2818,
+          "villageName": "الدرزية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الدغلية",
+          "cityId": 394,
+          "villageId": 2827,
+          "villageName": "الدغلية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الدفيانة",
+          "cityId": 1179,
+          "villageId": 6418,
+          "villageName": "الدفيانة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الدقمسه",
+          "cityId": 394,
+          "villageId": 2782,
+          "villageName": "الدقمسه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الدندنية",
+          "cityId": 394,
+          "villageId": 2817,
+          "villageName": "الدندنية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الرابية",
+          "cityId": 394,
+          "villageId": 2746,
+          "villageName": "الرابية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الرشاده",
+          "cityId": 394,
+          "villageId": 2770,
+          "villageName": "الرشاده",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الرفاعيات",
+          "cityId": 1179,
+          "villageId": 32354,
+          "villageName": "الرفاعيات",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الرقبان",
+          "cityId": 394,
+          "villageId": 2735,
+          "villageName": "الرقبان",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الروضة المفرق",
+          "cityId": 394,
+          "villageId": 2737,
+          "villageName": "الروضة المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الرويشد",
+          "cityId": 394,
+          "villageId": 2739,
+          "villageName": "الرويشد",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الرويشد",
+          "cityId": 1179,
+          "villageId": 6399,
+          "villageName": "الرويشد",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الريشة الشرقية",
+          "cityId": 394,
+          "villageId": 2732,
+          "villageName": "الريشة الشرقية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الريشة الغربية",
+          "cityId": 394,
+          "villageId": 2736,
+          "villageName": "الريشة الغربية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الزبيدية",
+          "cityId": 394,
+          "villageId": 2752,
+          "villageName": "الزبيدية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الزعتري",
+          "cityId": 394,
+          "villageId": 2757,
+          "villageName": "الزعتري",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الزعتري",
+          "cityId": 1179,
+          "villageId": 6393,
+          "villageName": "الزعتري",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "السحري",
+          "cityId": 394,
+          "villageId": 2773,
+          "villageName": "السحري",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "السعادة",
+          "cityId": 394,
+          "villageId": 2722,
+          "villageName": "السعادة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "السعيدية",
+          "cityId": 1179,
+          "villageId": 32352,
+          "villageName": "السعيدية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "السهل",
+          "cityId": 394,
+          "villageId": 2822,
+          "villageName": "السهل",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "السويلمه",
+          "cityId": 394,
+          "villageId": 2815,
+          "villageName": "السويلمه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الصالحية المفرق",
+          "cityId": 394,
+          "villageId": 2713,
+          "villageName": "الصالحية المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الصفاوي",
+          "cityId": 1179,
+          "villageId": 6400,
+          "villageName": "الصفاوي",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الصهاه",
+          "cityId": 394,
+          "villageId": 2784,
+          "villageName": "الصهاه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الغدير",
+          "cityId": 1179,
+          "villageId": 6408,
+          "villageName": "الغدير",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الفحيليه",
+          "cityId": 394,
+          "villageId": 2745,
+          "villageName": "الفحيليه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الفيضة",
+          "cityId": 394,
+          "villageId": 2733,
+          "villageName": "الفيضة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "القيصومه",
+          "cityId": 394,
+          "villageId": 2724,
+          "villageName": "القيصومه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الكرامة المفرق",
+          "cityId": 394,
+          "villageId": 2731,
+          "villageName": "الكرامة المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المبروكة",
+          "cityId": 394,
+          "villageId": 2823,
+          "villageName": "المبروكة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المدور المفرق",
+          "cityId": 394,
+          "villageId": 2783,
+          "villageName": "المدور المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المزارع",
+          "cityId": 394,
+          "villageId": 2829,
+          "villageName": "المزارع",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المزه",
+          "cityId": 394,
+          "villageId": 2764,
+          "villageName": "المزه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المشاقيق",
+          "cityId": 394,
+          "villageId": 2729,
+          "villageName": "المشاقيق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المشرفه",
+          "cityId": 394,
+          "villageId": 2821,
+          "villageName": "المشرفه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المشيرفه المفرق",
+          "cityId": 394,
+          "villageId": 2816,
+          "villageName": "المشيرفه المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المطلة المفرق",
+          "cityId": 394,
+          "villageId": 2806,
+          "villageName": "المطلة المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المعمرية",
+          "cityId": 394,
+          "villageId": 2790,
+          "villageName": "المعمرية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المفردات",
+          "cityId": 394,
+          "villageId": 2749,
+          "villageName": "المفردات",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المكيفتة",
+          "cityId": 1179,
+          "villageId": 6419,
+          "villageName": "المكيفتة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المناره",
+          "cityId": 394,
+          "villageId": 2718,
+          "villageName": "المناره",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المنصورة المفرق",
+          "cityId": 394,
+          "villageId": 2754,
+          "villageName": "المنصورة المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "المنيفه",
+          "cityId": 394,
+          "villageId": 2776,
+          "villageName": "المنيفه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الناصرية (بني خالد)",
+          "cityId": 394,
+          "villageId": 2741,
+          "villageName": "الناصرية (بني خالد)",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "النهضة",
+          "cityId": 394,
+          "villageId": 2751,
+          "villageName": "النهضة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "الهاشمية الشرقية",
+          "cityId": 394,
+          "villageId": 2725,
+          "villageName": "الهاشمية الشرقية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "ام الجمال",
+          "cityId": 1179,
+          "villageId": 32347,
+          "villageName": "ام الجمال",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "ام السرب",
+          "cityId": 394,
+          "villageId": 2755,
+          "villageName": "ام السرب",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "ام القطين",
+          "cityId": 1179,
+          "villageId": 6396,
+          "villageName": "ام القطين",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "إم المسايل",
+          "cityId": 394,
+          "villageId": 2828,
+          "villageName": "إم المسايل",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "ام النعام",
+          "cityId": 1179,
+          "villageId": 6412,
+          "villageName": "ام النعام",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "ام النعام الشرقية",
+          "cityId": 394,
+          "villageId": 2763,
+          "villageName": "ام النعام الشرقية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "ام النعام الغربية",
+          "cityId": 394,
+          "villageId": 2760,
+          "villageName": "ام النعام الغربية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "ام بطيمة",
+          "cityId": 1179,
+          "villageId": 38168,
+          "villageName": "ام بطيمة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "ام بطيمه",
+          "cityId": 394,
+          "villageId": 2780,
+          "villageName": "ام بطيمه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "ام حصماصه",
+          "cityId": 394,
+          "villageId": 2768,
+          "villageName": "ام حصماصه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "ام رمانة المفرق",
+          "cityId": 394,
+          "villageId": 2772,
+          "villageName": "ام رمانة المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "باعج",
+          "cityId": 1179,
+          "villageId": 6392,
+          "villageName": "باعج",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "بريقا",
+          "cityId": 394,
+          "villageId": 2812,
+          "villageName": "بريقا",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "بريقا",
+          "cityId": 1179,
+          "villageId": 32343,
+          "villageName": "بريقا",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "بلدة بني هاشم",
+          "cityId": 394,
+          "villageId": 2717,
+          "villageName": "بلدة بني هاشم",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "بلعما",
+          "cityId": 394,
+          "villageId": 2794,
+          "villageName": "بلعما",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "بلعما",
+          "cityId": 1179,
+          "villageId": 6409,
+          "villageName": "بلعما",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "بويضة الحوامدة",
+          "cityId": 394,
+          "villageId": 2767,
+          "villageName": "بويضة الحوامدة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "بويضة العليمات",
+          "cityId": 394,
+          "villageId": 2789,
+          "villageName": "بويضة العليمات",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "ثغرة الجب",
+          "cityId": 394,
+          "villageId": 2753,
+          "villageName": "ثغرة الجب",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "جابر (مركز الحدود)",
+          "cityId": 394,
+          "villageId": 2798,
+          "villageName": "جابر (مركز الحدود)",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "جابر السرحان",
+          "cityId": 394,
+          "villageId": 2802,
+          "villageName": "جابر السرحان",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "جابر السرحان",
+          "cityId": 1179,
+          "villageId": 32349,
+          "villageName": "جابر السرحان",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "حمامة العليمات",
+          "cityId": 394,
+          "villageId": 2787,
+          "villageName": "حمامة العليمات",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "حمامة العموش",
+          "cityId": 394,
+          "villageId": 2781,
+          "villageName": "حمامة العموش",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "حميد",
+          "cityId": 394,
+          "villageId": 2778,
+          "villageName": "حميد",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "حوشا",
+          "cityId": 394,
+          "villageId": 2808,
+          "villageName": "حوشا",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "حويجه",
+          "cityId": 394,
+          "villageId": 2748,
+          "villageName": "حويجه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "حيان المشرف",
+          "cityId": 394,
+          "villageId": 2765,
+          "villageName": "حيان المشرف",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "دحل",
+          "cityId": 394,
+          "villageId": 2785,
+          "villageName": "دحل",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "دير الكهف",
+          "cityId": 1179,
+          "villageId": 32353,
+          "villageName": "دير الكهف",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "دير ورق",
+          "cityId": 394,
+          "villageId": 2795,
+          "villageName": "دير ورق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "رباع السرحان",
+          "cityId": 394,
+          "villageId": 2801,
+          "villageName": "رباع السرحان",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "رجم سبع الشمالي",
+          "cityId": 394,
+          "villageId": 2758,
+          "villageName": "رجم سبع الشمالي",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "رجم سبع الشمالي",
+          "cityId": 394,
+          "villageId": 2759,
+          "villageName": "رجم سبع الشمالي",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "رحبة ركاد",
+          "cityId": 394,
+          "villageId": 2719,
+          "villageName": "رحبة ركاد",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "روضة ابو الهيال",
+          "cityId": 394,
+          "villageId": 2743,
+          "villageName": "روضة ابو الهيال",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "روضة الامير حمزة",
+          "cityId": 394,
+          "villageId": 2720,
+          "villageName": "روضة الامير حمزة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "روضة الاميرة بسمة",
+          "cityId": 1179,
+          "villageId": 32348,
+          "villageName": "روضة الاميرة بسمة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "روضة الرويشد",
+          "cityId": 394,
+          "villageId": 2730,
+          "villageName": "روضة الرويشد",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "روضة الرويعي",
+          "cityId": 394,
+          "villageId": 2747,
+          "villageName": "روضة الرويعي",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "زملة الامير غازي",
+          "cityId": 394,
+          "villageId": 2721,
+          "villageName": "زملة الامير غازي",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "زملة الطرقي",
+          "cityId": 394,
+          "villageId": 2807,
+          "villageName": "زملة الطرقي",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "سما السرحان",
+          "cityId": 394,
+          "villageId": 2805,
+          "villageName": "سما السرحان",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "سما السرحان",
+          "cityId": 1179,
+          "villageId": 6402,
+          "villageName": "سما السرحان",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "سميا السرحان",
+          "cityId": 394,
+          "villageId": 2804,
+          "villageName": "سميا السرحان",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "شارع جرش",
+          "cityId": 1179,
+          "villageId": 6413,
+          "villageName": "شارع جرش",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "شويكة",
+          "cityId": 1179,
+          "villageId": 6410,
+          "villageName": "شويكة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "صبحا وصبحية",
+          "cityId": 1179,
+          "villageId": 32345,
+          "villageName": "صبحا وصبحية",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "صعد",
+          "cityId": 394,
+          "villageId": 2775,
+          "villageName": "صعد",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "عالية الشويعر",
+          "cityId": 394,
+          "villageId": 2727,
+          "villageName": "عالية الشويعر",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "عمرة وعميرة",
+          "cityId": 394,
+          "villageId": 2728,
+          "villageName": "عمرة وعميرة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "عمرة وعميرة",
+          "cityId": 1179,
+          "villageId": 6405,
+          "villageName": "عمرة وعميرة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "عين البيضا",
+          "cityId": 394,
+          "villageId": 2830,
+          "villageName": "عين البيضا",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "فاع",
+          "cityId": 394,
+          "villageId": 2810,
+          "villageName": "فاع",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "فاع",
+          "cityId": 1179,
+          "villageId": 6417,
+          "villageName": "فاع",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "لصفاوي",
+          "cityId": 394,
+          "villageId": 2712,
+          "villageName": "لصفاوي",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "مبروكة",
+          "cityId": 1179,
+          "villageId": 6414,
+          "villageName": "مبروكة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "مداوير عين",
+          "cityId": 394,
+          "villageId": 2771,
+          "villageName": "مداوير عين",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "مركز المفرق",
+          "cityId": 1179,
+          "villageId": 103124,
+          "villageName": "المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "مركز المفرق",
+          "cityId": 394,
+          "villageId": 583051,
+          "villageName": "المفرق",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "مغير السرحان",
+          "cityId": 394,
+          "villageId": 2800,
+          "villageName": "مغير السرحان",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "مغير السرحان",
+          "cityId": 1179,
+          "villageId": 6403,
+          "villageName": "مغير السرحان",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "منشية الخليفة",
+          "cityId": 394,
+          "villageId": 2726,
+          "villageName": "منشية الخليفة",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "منشية السلطه",
+          "cityId": 394,
+          "villageId": 2750,
+          "villageName": "منشية السلطه",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "منشية الغياث",
+          "cityId": 394,
+          "villageId": 2738,
+          "villageName": "منشية الغياث",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "منشية الكعيبر",
+          "cityId": 394,
+          "villageId": 2803,
+          "villageName": "منشية الكعيبر",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "منشية بني حسن",
+          "cityId": 1179,
+          "villageId": 103051,
+          "villageName": "منشية بني حسن",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "نادره",
+          "cityId": 394,
+          "villageId": 2786,
+          "villageName": "نادره",
+          "cityName": "المفرق"
+        },
+        {
+          "displayName": "هويشان",
+          "cityId": 394,
+          "villageId": 2791,
+          "villageName": "هويشان",
+          "cityName": "المفرق"
+        }
+      ]
+    },
+    {
+      "name": "البلقاء",
+      "areas": [
+        {
+          "displayName": "ابو عبيدة",
+          "cityId": 6813,
+          "villageId": 23578,
+          "villageName": "ابو عبيدة",
+          "cityName": "الاغوار الوسطى"
+        },
+        {
+          "displayName": "الاغوار الوسطى",
+          "cityId": 6813,
+          "villageId": 31886,
+          "villageName": "الاغوار الوسطى",
+          "cityName": "الاغوار الوسطى"
+        },
+        {
+          "displayName": "البحر الميت",
+          "cityId": 6813,
+          "villageId": 23581,
+          "villageName": "البحر الميت",
+          "cityName": "الاغوار الوسطى"
+        },
+        {
+          "displayName": "البحيرة",
+          "cityId": 1180,
+          "villageId": 40227,
+          "villageName": "البحيرة",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "البقعة",
+          "cityId": 41280,
+          "villageId": 103325,
+          "villageName": "البقعة",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "البقيع",
+          "cityId": 1180,
+          "villageId": 40228,
+          "villageName": "البقيع",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "الحمر",
+          "cityId": 1180,
+          "villageId": 6681,
+          "villageName": "الحمر",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "الدبابنة",
+          "cityId": 1180,
+          "villageId": 6429,
+          "villageName": "الدبابنة",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "الديره الغربية",
+          "cityId": 389,
+          "villageId": 2313,
+          "villageName": "الديره الغربية",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "السرو",
+          "cityId": 1180,
+          "villageId": 21921,
+          "villageName": "السرو",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "السلالم",
+          "cityId": 389,
+          "villageId": 2329,
+          "villageName": "السلالم",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "السلط",
+          "cityId": 1180,
+          "villageId": 6421,
+          "villageName": "السلط",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "السليحي",
+          "cityId": 389,
+          "villageId": 2355,
+          "villageName": "السليحي",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "الشونة الجنوبية",
+          "cityId": 6813,
+          "villageId": 23576,
+          "villageName": "الشونة الجنوبية",
+          "cityName": "الاغوار الوسطى"
+        },
+        {
+          "displayName": "الشويحي الغربي",
+          "cityId": 389,
+          "villageId": 2354,
+          "villageName": "الشويحي الغربي",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "الصافح",
+          "cityId": 1180,
+          "villageId": 40230,
+          "villageName": "الصافح",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "الصبيحي",
+          "cityId": 389,
+          "villageId": 2331,
+          "villageName": "الصبيحي",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "الصيوانية",
+          "cityId": 1180,
+          "villageId": 40232,
+          "villageName": "الصيوانية",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "العارضة",
+          "cityId": 389,
+          "villageId": 2305,
+          "villageName": "العارضة",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "العارضة البلقاء",
+          "cityId": 389,
+          "villageId": 2337,
+          "villageName": "العارضة البلقاء",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "العيزرية البلقاء",
+          "cityId": 389,
+          "villageId": 2328,
+          "villageName": "العيزرية البلقاء",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "الفحيص",
+          "cityId": 41280,
+          "villageId": 103840,
+          "villageName": "الفحيص",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "المضمار",
+          "cityId": 389,
+          "villageId": 2353,
+          "villageName": "المضمار",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "المغاريب",
+          "cityId": 1180,
+          "villageId": 40229,
+          "villageName": "المغاريب",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "الميدان",
+          "cityId": 1180,
+          "villageId": 40231,
+          "villageName": "الميدان",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "اليزيدية",
+          "cityId": 1180,
+          "villageId": 40234,
+          "villageName": "اليزيدية",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "أم الدنانير",
+          "cityId": 389,
+          "villageId": 2358,
+          "villageName": "أم الدنانير",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "أم انجاصة",
+          "cityId": 389,
+          "villageId": 2359,
+          "villageName": "أم انجاصة",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "أم جوزة",
+          "cityId": 389,
+          "villageId": 2320,
+          "villageName": "أم جوزة",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "جامعة البلقاء التطبيقية",
+          "cityId": 1180,
+          "villageId": 40226,
+          "villageName": "جامعة البلقاء التطبيقية",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "جسر داميا",
+          "cityId": 6813,
+          "villageId": 23579,
+          "villageName": "جسر داميا",
+          "cityName": "الاغوار الوسطى"
+        },
+        {
+          "displayName": "جلعد",
+          "cityId": 1180,
+          "villageId": 6431,
+          "villageName": "جلعد",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "دير علا",
+          "cityId": 389,
+          "villageId": 2349,
+          "villageName": "دير علا",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "دير علا",
+          "cityId": 6813,
+          "villageId": 23575,
+          "villageName": "دير علا",
+          "cityName": "الاغوار الوسطى"
+        },
+        {
+          "displayName": "زي",
+          "cityId": 389,
+          "villageId": 2306,
+          "villageName": "زي",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "زي",
+          "cityId": 1180,
+          "villageId": 6426,
+          "villageName": "زي",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "سلحوب",
+          "cityId": 389,
+          "villageId": 2360,
+          "villageName": "سلحوب",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "سوميا، الرميمين",
+          "cityId": 389,
+          "villageId": 2318,
+          "villageName": "سوميا، الرميمين",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "شارع 60",
+          "cityId": 1180,
+          "villageId": 40233,
+          "villageName": "شارع 60",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "صبيحي",
+          "cityId": 1180,
+          "villageId": 6424,
+          "villageName": "صبيحي",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "علان",
+          "cityId": 1180,
+          "villageId": 6430,
+          "villageName": "علان",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "عمان الاهلية",
+          "cityId": 1180,
+          "villageId": 6425,
+          "villageName": "عمان الاهلية",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "عيرا",
+          "cityId": 1180,
+          "villageId": 6427,
+          "villageName": "عيرا",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "عيرا ويرقا",
+          "cityId": 389,
+          "villageId": 2304,
+          "villageName": "عيرا ويرقا",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "عين الباشا",
+          "cityId": 41280,
+          "villageId": 103324,
+          "villageName": "عين الباشا",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "عين الباشا",
+          "cityId": 41280,
+          "villageId": 438695,
+          "villageName": "عين الباشا",
+          "cityName": "اطراف عمان"
+        },
+        {
+          "displayName": "قرية أبو نصير",
+          "cityId": 389,
+          "villageId": 2361,
+          "villageName": "قرية أبو نصير",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "مركز البلقاء",
+          "cityId": 389,
+          "villageId": 537020,
+          "villageName": "البلقاء",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "موبص",
+          "cityId": 389,
+          "villageId": 2357,
+          "villageName": "موبص",
+          "cityName": "البلقاء"
+        },
+        {
+          "displayName": "وادي الريح",
+          "cityId": 1180,
+          "villageId": 40236,
+          "villageName": "وادي الريح",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "وادي السلط",
+          "cityId": 1180,
+          "villageId": 40235,
+          "villageName": "وادي السلط",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "يرقا",
+          "cityId": 1180,
+          "villageId": 62582,
+          "villageName": "يرقا",
+          "cityName": "السلط"
+        },
+        {
+          "displayName": "يرقا",
+          "cityId": 1180,
+          "villageId": 6428,
+          "villageName": "يرقا",
+          "cityName": "السلط"
+        }
+      ]
+    },
+    {
+      "name": "الكرك",
+      "areas": [
+        {
+          "displayName": "ادر",
+          "cityId": 1175,
+          "villageId": 6335,
+          "villageName": "ادر",
+          "cityName": "الكرك"
+        },
+        {
+          "displayName": "الابيض",
+          "cityId": 8353,
+          "villageId": 23568,
+          "villageName": "الابيض",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "الابيض",
+          "cityId": 8735,
+          "villageId": 24765,
+          "villageName": "الابيض",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "الاغوار الجنوبية",
+          "cityId": 8355,
+          "villageId": 40130,
+          "villageName": "الاغوار الجنوبية",
+          "cityName": "الاغوار الجنوبية"
+        },
+        {
+          "displayName": "الثنية",
+          "cityId": 1175,
+          "villageId": 6338,
+          "villageName": "الثنية",
+          "cityName": "الكرك"
+        },
+        {
+          "displayName": "الحديثة",
+          "cityId": 8355,
+          "villageId": 23570,
+          "villageName": "الحديثة",
+          "cityName": "الاغوار الجنوبية"
+        },
+        {
+          "displayName": "الحسا",
+          "cityId": 8353,
+          "villageId": 23563,
+          "villageName": "الحسا",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "الحسا",
+          "cityId": 8735,
+          "villageId": 24764,
+          "villageName": "الحسا",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "الدامخي",
+          "cityId": 8735,
+          "villageId": 24763,
+          "villageName": "الدامخي",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "الدامخي",
+          "cityId": 8353,
+          "villageId": 23564,
+          "villageName": "الدامخي",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "الربة",
+          "cityId": 1175,
+          "villageId": 6341,
+          "villageName": "الربة",
+          "cityName": "الكرك"
+        },
+        {
+          "displayName": "السلطاني",
+          "cityId": 8353,
+          "villageId": 23567,
+          "villageName": "السلطاني",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "السلطاني",
+          "cityId": 8735,
+          "villageId": 24762,
+          "villageName": "السلطاني",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "السواقة",
+          "cityId": 8353,
+          "villageId": 23565,
+          "villageName": "السواقة",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "السواقة",
+          "cityId": 8735,
+          "villageId": 24761,
+          "villageName": "السواقة",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "الغور الصافي",
+          "cityId": 8355,
+          "villageId": 23571,
+          "villageName": "الغور الصافي",
+          "cityName": "الاغوار الجنوبية"
+        },
+        {
+          "displayName": "القطرانة",
+          "cityId": 8353,
+          "villageId": 23566,
+          "villageName": "القطرانة",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "القطرانة",
+          "cityId": 1175,
+          "villageId": 6342,
+          "villageName": "القطرانة",
+          "cityName": "الكرك"
+        },
+        {
+          "displayName": "المرج",
+          "cityId": 1175,
+          "villageId": 6339,
+          "villageName": "المرج",
+          "cityName": "الكرك"
+        },
+        {
+          "displayName": "المزار الجنوبي",
+          "cityId": 1175,
+          "villageId": 6487,
+          "villageName": "المزار الجنوبي",
+          "cityName": "الكرك"
+        },
+        {
+          "displayName": "المعمورة",
+          "cityId": 8355,
+          "villageId": 23574,
+          "villageName": "المعمورة",
+          "cityName": "الاغوار الجنوبية"
+        },
+        {
+          "displayName": "جرف الدراويش",
+          "cityId": 8735,
+          "villageId": 24760,
+          "villageName": "جرف الدراويش",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "جرف الدراويش",
+          "cityId": 8353,
+          "villageId": 23569,
+          "villageName": "جرف الدراويش",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "ضبعة",
+          "cityId": 8353,
+          "villageId": 439241,
+          "villageName": "ضبعة",
+          "cityName": "الصحراوي"
+        },
+        {
+          "displayName": "عي",
+          "cityId": 1175,
+          "villageId": 6340,
+          "villageName": "عي",
+          "cityName": "الكرك"
+        },
+        {
+          "displayName": "غور المزرعة",
+          "cityId": 8355,
+          "villageId": 23572,
+          "villageName": "غور المزرعة",
+          "cityName": "الاغوار الجنوبية"
+        },
+        {
+          "displayName": "غور فيفا",
+          "cityId": 8355,
+          "villageId": 23573,
+          "villageName": "غور فيفا",
+          "cityName": "الاغوار الجنوبية"
+        },
+        {
+          "displayName": "مؤتة",
+          "cityId": 1175,
+          "villageId": 6337,
+          "villageName": "مؤتة",
+          "cityName": "الكرك"
+        },
+        {
+          "displayName": "مركز الكرك",
+          "cityId": 1175,
+          "villageId": 6336,
+          "villageName": "الكرك",
+          "cityName": "الكرك"
+        }
+      ]
+    },
+    {
+      "name": "معان",
+      "areas": [
+        {
+          "displayName": "اذرح",
+          "cityId": 1174,
+          "villageId": 6332,
+          "villageName": "اذرح",
+          "cityName": "معان"
+        },
+        {
+          "displayName": "البتراء",
+          "cityId": 1174,
+          "villageId": 6329,
+          "villageName": "البتراء",
+          "cityName": "معان"
+        },
+        {
+          "displayName": "الجفر",
+          "cityId": 1174,
+          "villageId": 6331,
+          "villageName": "الجفر",
+          "cityName": "معان"
+        },
+        {
+          "displayName": "الحسينية",
+          "cityId": 1174,
+          "villageId": 6334,
+          "villageName": "الحسينية",
+          "cityName": "معان"
+        },
+        {
+          "displayName": "السطح",
+          "cityId": 1174,
+          "villageId": 6333,
+          "villageName": "السطح",
+          "cityName": "معان"
+        },
+        {
+          "displayName": "الشوبك",
+          "cityId": 1174,
+          "villageId": 6330,
+          "villageName": "الشوبك",
+          "cityName": "معان"
+        },
+        {
+          "displayName": "مركز معان",
+          "cityId": 1174,
+          "villageId": 6327,
+          "villageName": "معان",
+          "cityName": "معان"
+        },
+        {
+          "displayName": "وادي موسى",
+          "cityId": 1174,
+          "villageId": 6328,
+          "villageName": "وادي موسى",
+          "cityName": "معان"
+        }
+      ]
+    },
+    {
+      "name": "الطفيلة",
+      "areas": [
+        {
+          "displayName": "الاغوار الجنوبية",
+          "cityId": 387,
+          "villageId": 6524,
+          "villageName": "الاغوار الجنوبية",
+          "cityName": "الطفيلة"
+        },
+        {
+          "displayName": "الحسا",
+          "cityId": 387,
+          "villageId": 6638,
+          "villageName": "الحسا",
+          "cityName": "الطفيلة"
+        },
+        {
+          "displayName": "العيص",
+          "cityId": 387,
+          "villageId": 6520,
+          "villageName": "العيص",
+          "cityName": "الطفيلة"
+        },
+        {
+          "displayName": "غور الصافي",
+          "cityId": 387,
+          "villageId": 6521,
+          "villageName": "غور الصافي",
+          "cityName": "الطفيلة"
+        },
+        {
+          "displayName": "غور المزرعة",
+          "cityId": 387,
+          "villageId": 6522,
+          "villageName": "غور المزرعة",
+          "cityName": "الطفيلة"
+        },
+        {
+          "displayName": "مركز الطفيلة",
+          "cityId": 387,
+          "villageId": 32080,
+          "villageName": "الطفيلة",
+          "cityName": "الطفيلة"
+        },
+        {
+          "displayName": "مركز الطفيلة",
+          "cityId": 387,
+          "villageId": 6636,
+          "villageName": "الطفيلة",
+          "cityName": "الطفيلة"
+        }
+      ]
+    },
+    {
+      "name": "العقبة",
+      "areas": [
+        {
+          "displayName": "الديسة",
+          "cityId": 1173,
+          "villageId": 6316,
+          "villageName": "الديسة",
+          "cityName": "العقبة"
+        },
+        {
+          "displayName": "الطويسة",
+          "cityId": 1173,
+          "villageId": 33514,
+          "villageName": "الطويسة",
+          "cityName": "العقبة"
+        },
+        {
+          "displayName": "القريقرة",
+          "cityId": 1173,
+          "villageId": 33515,
+          "villageName": "القريقرة",
+          "cityName": "العقبة"
+        },
+        {
+          "displayName": "القويرة",
+          "cityId": 1173,
+          "villageId": 6317,
+          "villageName": "القويرة",
+          "cityName": "العقبة"
+        },
+        {
+          "displayName": "المحدود",
+          "cityId": 1173,
+          "villageId": 6318,
+          "villageName": "المحدود",
+          "cityName": "العقبة"
+        },
+        {
+          "displayName": "المحدودة",
+          "cityId": 388,
+          "villageId": 6038,
+          "villageName": "المحدودة",
+          "cityName": "العقبة"
+        },
+        {
+          "displayName": "المريغة",
+          "cityId": 1173,
+          "villageId": 6319,
+          "villageName": "المريغة",
+          "cityName": "العقبة"
+        },
+        {
+          "displayName": "مركز العقبة",
+          "cityId": 1173,
+          "villageId": 6314,
+          "villageName": "العقبة",
+          "cityName": "العقبة"
+        },
+        {
+          "displayName": "وادي رم",
+          "cityId": 1173,
+          "villageId": 6313,
+          "villageName": "وادي رم",
+          "cityName": "العقبة"
+        },
+        {
+          "displayName": "وادي عربة",
+          "cityId": 40385,
+          "villageId": 99775,
+          "villageName": "وادي عربة",
+          "cityName": "وادي عربة"
+        },
+        {
+          "displayName": "وادي عربة",
+          "cityId": 1173,
+          "villageId": 6315,
+          "villageName": "وادي عربة",
+          "cityName": "العقبة"
+        }
+      ]
+    },
+    {
+      "name": "جرش",
+      "areas": [
+        {
+          "displayName": "المصطبة",
+          "cityId": 1177,
+          "villageId": 6377,
+          "villageName": "المصطبة",
+          "cityName": "جرش"
+        },
+        {
+          "displayName": "بورما",
+          "cityId": 1177,
+          "villageId": 6380,
+          "villageName": "بورما",
+          "cityName": "جرش"
+        },
+        {
+          "displayName": "تل الرمان",
+          "cityId": 1177,
+          "villageId": 6376,
+          "villageName": "تل الرمان",
+          "cityName": "جرش"
+        },
+        {
+          "displayName": "ريمون",
+          "cityId": 1177,
+          "villageId": 6379,
+          "villageName": "ريمون",
+          "cityName": "جرش"
+        },
+        {
+          "displayName": "ساكب",
+          "cityId": 1177,
+          "villageId": 6375,
+          "villageName": "ساكب",
+          "cityName": "جرش"
+        },
+        {
+          "displayName": "سوف",
+          "cityId": 1177,
+          "villageId": 6374,
+          "villageName": "سوف",
+          "cityName": "جرش"
+        },
+        {
+          "displayName": "كتة",
+          "cityId": 1177,
+          "villageId": 6378,
+          "villageName": "كتة",
+          "cityName": "جرش"
+        },
+        {
+          "displayName": "مخيم غزة",
+          "cityId": 1177,
+          "villageId": 6381,
+          "villageName": "مخيم غزة",
+          "cityName": "جرش"
+        },
+        {
+          "displayName": "مركز جرش",
+          "cityId": 1177,
+          "villageId": 6383,
+          "villageName": "جرش",
+          "cityName": "جرش"
+        }
+      ]
+    },
+    {
+      "name": "عجلون",
+      "areas": [
+        {
+          "displayName": "باعون",
+          "cityId": 1178,
+          "villageId": 6384,
+          "villageName": "باعون",
+          "cityName": "عجلون"
+        },
+        {
+          "displayName": "بيرين",
+          "cityId": 1178,
+          "villageId": 114994,
+          "villageName": "بيرين",
+          "cityName": "عجلون"
+        },
+        {
+          "displayName": "راس منيف",
+          "cityId": 1178,
+          "villageId": 6390,
+          "villageName": "راس منيف",
+          "cityName": "عجلون"
+        },
+        {
+          "displayName": "صخرة",
+          "cityId": 1178,
+          "villageId": 6386,
+          "villageName": "صخرة",
+          "cityName": "عجلون"
+        },
+        {
+          "displayName": "عبين",
+          "cityId": 1178,
+          "villageId": 6389,
+          "villageName": "عبين",
+          "cityName": "عجلون"
+        },
+        {
+          "displayName": "عنجرة",
+          "cityId": 1178,
+          "villageId": 6387,
+          "villageName": "عنجرة",
+          "cityName": "عجلون"
+        },
+        {
+          "displayName": "عين جنة",
+          "cityId": 1178,
+          "villageId": 6385,
+          "villageName": "عين جنة",
+          "cityName": "عجلون"
+        },
+        {
+          "displayName": "مركز عجلون",
+          "cityId": 1178,
+          "villageId": 6382,
+          "villageName": "عجلون",
+          "cityName": "عجلون"
+        }
+      ]
+    },
+    {
+      "name": "مادبا",
+      "areas": [
+        {
+          "displayName": "الاندلسية",
+          "cityId": 1181,
+          "villageId": 6443,
+          "villageName": "الاندلسية",
+          "cityName": "مادبا"
+        },
+        {
+          "displayName": "الجامعة الالمانية",
+          "cityId": 1181,
+          "villageId": 6442,
+          "villageName": "الجامعة الالمانية",
+          "cityName": "مادبا"
+        },
+        {
+          "displayName": "الفيصلية",
+          "cityId": 1181,
+          "villageId": 6438,
+          "villageName": "الفيصلية",
+          "cityName": "مادبا"
+        },
+        {
+          "displayName": "اللب",
+          "cityId": 1181,
+          "villageId": 6436,
+          "villageName": "اللب",
+          "cityName": "مادبا"
+        },
+        {
+          "displayName": "ام الرصاص",
+          "cityId": 1181,
+          "villageId": 6433,
+          "villageName": "ام الرصاص",
+          "cityName": "مادبا"
+        },
+        {
+          "displayName": "ام العمد",
+          "cityId": 1181,
+          "villageId": 6439,
+          "villageName": "ام العمد",
+          "cityName": "مادبا"
+        },
+        {
+          "displayName": "حنينا",
+          "cityId": 1181,
+          "villageId": 6437,
+          "villageName": "حنينا",
+          "cityName": "مادبا"
+        },
+        {
+          "displayName": "ذيبان",
+          "cityId": 1181,
+          "villageId": 6434,
+          "villageName": "ذيبان",
+          "cityName": "مادبا"
+        },
+        {
+          "displayName": "ماعين",
+          "cityId": 1181,
+          "villageId": 6441,
+          "villageName": "ماعين",
+          "cityName": "مادبا"
+        },
+        {
+          "displayName": "مركز مادبا",
+          "cityId": 1181,
+          "villageId": 6432,
+          "villageName": "مادبا",
+          "cityName": "مادبا"
+        },
+        {
+          "displayName": "مليح",
+          "cityId": 1181,
+          "villageId": 6435,
+          "villageName": "مليح",
+          "cityName": "مادبا"
+        }
+      ]
+    }
+  ]
+}
