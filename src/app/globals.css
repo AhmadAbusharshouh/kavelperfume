@@ -8,11 +8,11 @@
     --brand-espresso: #3f2911;
     --brand-espresso-hover: #291a0a;
     --brand-canvas: #FAFAF9;
-    --font-alexandria: 'Alexandria', sans-serif;
+    --font-alexandria: 'Alexandria', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
 
   html {
-    font-family: 'Alexandria', sans-serif;
+    font-family: var(--font-alexandria), 'Alexandria', system-ui, sans-serif;
     background-color: #FAFAF9;
     color: #0F172A;
     scroll-behavior: smooth;
@@ -25,6 +25,7 @@
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: var(--font-alexandria), 'Alexandria', system-ui, sans-serif;
   }
 
   /* Force light theme - no dark surfaces */
