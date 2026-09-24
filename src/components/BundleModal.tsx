@@ -101,27 +101,28 @@ export function BundleModal({ offer, isOpen, onClose }: BundleModalProps) {
     <AnimatePresence>
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
-          {/* Animated Backdrop */}
+          {/* Hardware-accelerated GPU Backdrop */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="fixed inset-0 bg-black/50 backdrop-blur-xs cursor-pointer"
+            transition={{ duration: 0.18, ease: "easeOut" }}
+            className="fixed inset-0 bg-slate-950/60 cursor-pointer"
             onClick={onClose}
           />
 
-          {/* Animated Modal Dialog */}
+          {/* 60fps/120fps Modal Card */}
           <motion.div
-            initial={{ scale: 0.95, opacity: 0, y: 15 }}
-            animate={{ scale: 1, opacity: 1, y: 0 }}
-            exit={{ scale: 0.95, opacity: 0, y: 15 }}
-            transition={{ type: "spring", damping: 25, stiffness: 300 }}
-            className="relative z-10 bg-white border border-slate-200 rounded-3xl w-full max-w-3xl max-h-[90vh] flex flex-col shadow-2xl overflow-hidden"
+            initial={{ opacity: 0, transform: "scale3d(0.96, 0.96, 1) translate3d(0, 10px, 0)" }}
+            animate={{ opacity: 1, transform: "scale3d(1, 1, 1) translate3d(0, 0, 0)" }}
+            exit={{ opacity: 0, transform: "scale3d(0.96, 0.96, 1) translate3d(0, 10px, 0)" }}
+            transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
+            style={{ willChange: "transform, opacity" }}
+            className="relative z-10 bg-white border border-slate-200 rounded-3xl w-full max-w-3xl max-h-[90dvh] flex flex-col shadow-2xl overflow-hidden"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Header */}
-            <div className="p-4 sm:p-5 border-b border-slate-100 flex items-center justify-between bg-slate-50/70">
+            <div className="p-4 sm:p-5 border-b border-slate-100 flex items-center justify-between bg-slate-50/90">
               <div>
                 <h3 className="text-base sm:text-lg font-extrabold text-[#3f2911]">
                   {offer.title}
@@ -133,7 +134,7 @@ export function BundleModal({ offer, isOpen, onClose }: BundleModalProps) {
               <button
                 type="button"
                 onClick={onClose}
-                className="p-2 text-slate-400 hover:text-slate-700 hover:bg-slate-200 rounded-full transition active:scale-95 cursor-pointer"
+                className="p-2 text-slate-400 hover:text-slate-700 hover:bg-slate-200 rounded-full transition-transform active:scale-90 cursor-pointer"
                 aria-label="إغلاق"
               >
                 <X className="w-5 h-5" />
@@ -146,9 +147,8 @@ export function BundleModal({ offer, isOpen, onClose }: BundleModalProps) {
                 {Array.from({ length: slotsNeeded }).map((_, idx) => {
                   const selected = selectedPerfumes[idx];
                   return (
-                    <motion.div
+                    <div
                       key={idx}
-                      layout
                       className={`p-2 rounded-xl border text-center relative flex flex-col justify-between min-h-[70px] ${
                         selected
                           ? "bg-white border-[#ba997a] shadow-xs"
@@ -177,7 +177,7 @@ export function BundleModal({ offer, isOpen, onClose }: BundleModalProps) {
                           <span className="text-[10px]">عطر {idx + 1}</span>
                         </div>
                       )}
-                    </motion.div>
+                    </div>
                   );
                 })}
               </div>
@@ -185,7 +185,7 @@ export function BundleModal({ offer, isOpen, onClose }: BundleModalProps) {
 
             {/* Search & Category Filter */}
             <div className="p-3 sm:p-4 border-b border-slate-100 flex flex-wrap gap-2 items-center justify-between">
-              <div className="relative flex-1 min-w-[200px]">
+              <div className="relative flex-1 min-w-[180px]">
                 <Search className="w-4 h-4 text-slate-400 absolute right-3 top-2.5" />
                 <input
                   type="text"
@@ -202,7 +202,7 @@ export function BundleModal({ offer, isOpen, onClose }: BundleModalProps) {
                     key={tab}
                     type="button"
                     onClick={() => setActiveTab(tab)}
-                    className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all active:scale-95 ${
+                    className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-transform active:scale-95 cursor-pointer ${
                       activeTab === tab
                         ? "bg-[#3f2911] text-white"
                         : "bg-slate-100 text-slate-600 hover:bg-slate-200"
@@ -215,7 +215,7 @@ export function BundleModal({ offer, isOpen, onClose }: BundleModalProps) {
             </div>
 
             {/* Perfumes Selector Grid */}
-            <div className="flex-1 overflow-y-auto p-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+            <div className="flex-1 overflow-y-auto p-3 sm:p-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5 sm:gap-3 overscroll-contain">
               {filtered.map((p) => {
                 const isSelected = selectedPerfumes.some((s) => s.name === p.name);
                 const surcharge = offer.size === "55" ? p.surcharge55 : p.surcharge110;
@@ -225,7 +225,7 @@ export function BundleModal({ offer, isOpen, onClose }: BundleModalProps) {
                     key={p.id}
                     type="button"
                     onClick={() => handleSelect(p)}
-                    className={`p-2.5 rounded-2xl border text-right transition-all flex flex-col justify-between relative group cursor-pointer active:scale-98 ${
+                    className={`p-2.5 rounded-2xl border text-right transition-transform active:scale-98 cursor-pointer flex flex-col justify-between relative group ${
                       isSelected
                         ? "bg-[#fdfbf7] border-[#ba997a] shadow-xs"
                         : "bg-white border-slate-200 hover:border-slate-300"
@@ -254,7 +254,7 @@ export function BundleModal({ offer, isOpen, onClose }: BundleModalProps) {
               })}
             </div>
 
-            {/* Modal Footer: Total & CTA */}
+            {/* Modal Footer */}
             <div className="p-4 sm:p-5 border-t border-slate-200 bg-white flex flex-wrap items-center justify-between gap-3">
               <div>
                 <div className="flex items-center gap-2">
@@ -283,7 +283,7 @@ export function BundleModal({ offer, isOpen, onClose }: BundleModalProps) {
                   type="button"
                   onClick={handleAddToCart}
                   disabled={selectedPerfumes.length < slotsNeeded}
-                  className={`px-6 py-2.5 rounded-xl text-xs font-bold text-white transition-all active:scale-98 cursor-pointer ${
+                  className={`px-6 py-2.5 rounded-xl text-xs font-bold text-white transition-transform active:scale-98 cursor-pointer ${
                     selectedPerfumes.length === slotsNeeded
                       ? "bg-[#3f2911] hover:bg-[#2a1a0a] shadow-md"
                       : "bg-slate-300 cursor-not-allowed"

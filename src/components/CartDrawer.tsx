@@ -49,28 +49,29 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
     <AnimatePresence>
       {isOpen && (
         <div className="fixed inset-0 z-50 overflow-hidden">
-          {/* Backdrop with Fade */}
+          {/* Hardware-accelerated GPU Backdrop Fade (Zero blur for 120fps speed) */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.25 }}
-            className="absolute inset-0 bg-black/40 backdrop-blur-xs cursor-pointer"
+            transition={{ duration: 0.18, ease: "easeOut" }}
+            className="absolute inset-0 bg-slate-950/60 cursor-pointer"
             onClick={onClose}
           />
 
           <div className="fixed inset-y-0 left-0 max-w-full flex pl-0 pointer-events-none">
-            {/* Sliding Drawer Container */}
+            {/* 60fps/120fps GPU Compositor Drawer (translate3d with Apple-standard ease) */}
             <motion.div
-              initial={{ x: "-100%" }}
-              animate={{ x: 0 }}
-              exit={{ x: "-100%" }}
-              transition={{ type: "spring", damping: 30, stiffness: 300 }}
+              initial={{ transform: "translate3d(-100%, 0, 0)" }}
+              animate={{ transform: "translate3d(0%, 0, 0)" }}
+              exit={{ transform: "translate3d(-100%, 0, 0)" }}
+              transition={{ duration: 0.24, ease: [0.32, 0.72, 0, 1] }}
+              style={{ willChange: "transform" }}
               className="w-screen max-w-md bg-white shadow-2xl flex flex-col justify-between pointer-events-auto border-r border-slate-200"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Drawer Header */}
-              <div className="p-4 sm:p-5 border-b border-slate-100 flex items-center justify-between bg-slate-50/80">
+              <div className="p-4 sm:p-5 border-b border-slate-100 flex items-center justify-between bg-slate-50/90">
                 <div className="flex items-center gap-2">
                   <ShoppingBag className="w-5 h-5 text-[#ba997a]" />
                   <h2 className="text-sm sm:text-base font-extrabold text-[#3f2911]">
@@ -80,7 +81,7 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                 <button
                   type="button"
                   onClick={onClose}
-                  className="p-2 text-slate-400 hover:text-slate-700 hover:bg-slate-200 rounded-full transition active:scale-95 cursor-pointer"
+                  className="p-2 text-slate-400 hover:text-slate-700 hover:bg-slate-200 rounded-full transition-transform active:scale-90 cursor-pointer"
                   aria-label="إغلاق السلة"
                 >
                   <X className="w-5 h-5" />
@@ -96,11 +97,9 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                       <Truck className="w-3.5 h-3.5 text-[#ba997a]" />
                     </div>
                     <div className="w-full bg-slate-200 h-2 rounded-full overflow-hidden">
-                      <motion.div
-                        className="bg-[#ba997a] h-full rounded-full"
-                        initial={{ width: 0 }}
-                        animate={{ width: `${progressPercent}%` }}
-                        transition={{ duration: 0.5, ease: "easeOut" }}
+                      <div
+                        className="bg-[#ba997a] h-full rounded-full transition-all duration-300 ease-out"
+                        style={{ width: `${progressPercent}%` }}
                       />
                     </div>
                   </div>
@@ -113,7 +112,7 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
               </div>
 
               {/* Items Scroll Area */}
-              <div className="flex-1 overflow-y-auto p-4 space-y-3 divide-y divide-slate-100">
+              <div className="flex-1 overflow-y-auto p-4 space-y-3 divide-y divide-slate-100 overscroll-contain">
                 {items.length === 0 ? (
                   <div className="py-20 text-center space-y-3">
                     <ShoppingBag className="w-10 h-10 mx-auto text-slate-300" />
@@ -121,83 +120,76 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                     <Link
                       href="/catalog"
                       onClick={onClose}
-                      className="inline-block px-4 py-2 bg-[#3f2911] hover:bg-[#2a1a0a] text-white rounded-xl text-xs font-bold transition active:scale-95"
+                      className="inline-block px-4 py-2 bg-[#3f2911] hover:bg-[#2a1a0a] text-white rounded-xl text-xs font-bold transition-transform active:scale-95"
                     >
                       تصفح العطور
                     </Link>
                   </div>
                 ) : (
-                  <AnimatePresence>
-                    {items.map((item) => (
-                      <motion.div
-                        key={item.id}
-                        layout
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, scale: 0.95 }}
-                        transition={{ duration: 0.2 }}
-                        className="pt-3 first:pt-0 flex gap-3 items-start justify-between"
-                      >
-                        <div className="relative w-14 h-14 rounded-xl bg-slate-50 border border-slate-100 shrink-0 overflow-hidden p-1 flex items-center justify-center">
-                          <Image
-                            src={item.image || "/images/perfumes/bleu-de-chanel.avif"}
-                            alt={item.title}
-                            fill
-                            className="object-contain p-1"
-                            sizes="56px"
-                          />
+                  items.map((item) => (
+                    <div
+                      key={item.id}
+                      className="pt-3 first:pt-0 flex gap-3 items-start justify-between"
+                    >
+                      <div className="relative w-14 h-14 rounded-xl bg-slate-50 border border-slate-100 shrink-0 overflow-hidden p-1 flex items-center justify-center">
+                        <Image
+                          src={item.image || "/images/perfumes/bleu-de-chanel.avif"}
+                          alt={item.title}
+                          fill
+                          className="object-contain p-1"
+                          sizes="56px"
+                        />
+                      </div>
+
+                      <div className="flex-1 min-w-0 text-right space-y-1">
+                        <div className="flex items-start justify-between gap-2">
+                          <h4 className="text-xs font-bold text-slate-900 line-clamp-1">{item.title}</h4>
+                          <button
+                            type="button"
+                            onClick={() => removeItem(item.id)}
+                            className="text-slate-400 hover:text-rose-600 p-0.5 transition cursor-pointer"
+                          >
+                            <Trash2 className="w-3.5 h-3.5" />
+                          </button>
                         </div>
 
-                        <div className="flex-1 min-w-0 text-right space-y-1">
-                          <div className="flex items-start justify-between gap-2">
-                            <h4 className="text-xs font-bold text-slate-900 line-clamp-1">{item.title}</h4>
+                        <div className="flex items-center gap-1.5 text-[10px] text-slate-500">
+                          <span className="font-semibold px-1.5 py-0.5 rounded bg-slate-100 text-slate-700">
+                            {item.size}
+                          </span>
+                          {item.surchargeTotal > 0 && (
+                            <span className="text-amber-700 font-bold">
+                              (+{item.surchargeTotal} د.أ فاخر)
+                            </span>
+                          )}
+                        </div>
+
+                        <div className="flex items-center justify-between pt-1">
+                          <div className="flex items-center gap-1 bg-slate-100 rounded-lg p-0.5">
                             <button
                               type="button"
-                              onClick={() => removeItem(item.id)}
-                              className="text-slate-400 hover:text-rose-600 p-0.5 transition cursor-pointer"
+                              onClick={() => updateQuantity(item.id, -1)}
+                              className="w-5 h-5 rounded bg-white text-slate-700 flex items-center justify-center text-[10px] font-bold hover:bg-slate-200 transition-transform active:scale-90 cursor-pointer"
                             >
-                              <Trash2 className="w-3.5 h-3.5" />
+                              <Minus className="w-2.5 h-2.5" />
+                            </button>
+                            <span className="text-xs font-bold px-1.5">{item.quantity}</span>
+                            <button
+                              type="button"
+                              onClick={() => updateQuantity(item.id, 1)}
+                              className="w-5 h-5 rounded bg-white text-slate-700 flex items-center justify-center text-[10px] font-bold hover:bg-slate-200 transition-transform active:scale-90 cursor-pointer"
+                            >
+                              <Plus className="w-2.5 h-2.5" />
                             </button>
                           </div>
 
-                          <div className="flex items-center gap-1.5 text-[10px] text-slate-500">
-                            <span className="font-semibold px-1.5 py-0.5 rounded bg-slate-100 text-slate-700">
-                              {item.size}
-                            </span>
-                            {item.surchargeTotal > 0 && (
-                              <span className="text-amber-700 font-bold">
-                                (+{item.surchargeTotal} د.أ فاخر)
-                              </span>
-                            )}
-                          </div>
-
-                          <div className="flex items-center justify-between pt-1">
-                            <div className="flex items-center gap-1 bg-slate-100 rounded-lg p-0.5">
-                              <button
-                                type="button"
-                                onClick={() => updateQuantity(item.id, -1)}
-                                className="w-4 h-4 rounded bg-white text-slate-700 flex items-center justify-center text-[10px] font-bold hover:bg-slate-200 transition active:scale-95 cursor-pointer"
-                              >
-                                <Minus className="w-2.5 h-2.5" />
-                              </button>
-                              <span className="text-xs font-bold px-1.5">{item.quantity}</span>
-                              <button
-                                type="button"
-                                onClick={() => updateQuantity(item.id, 1)}
-                                className="w-4 h-4 rounded bg-white text-slate-700 flex items-center justify-center text-[10px] font-bold hover:bg-slate-200 transition active:scale-95 cursor-pointer"
-                              >
-                                <Plus className="w-2.5 h-2.5" />
-                              </button>
-                            </div>
-
-                            <span className="text-xs font-extrabold text-[#3f2911]">
-                              {item.totalPrice} د.أ
-                            </span>
-                          </div>
+                          <span className="text-xs font-extrabold text-[#3f2911]">
+                            {item.totalPrice} د.أ
+                          </span>
                         </div>
-                      </motion.div>
-                    ))}
-                  </AnimatePresence>
+                      </div>
+                    </div>
+                  ))
                 )}
               </div>
 
@@ -226,7 +218,7 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                   <Link
                     href="/cart"
                     onClick={onClose}
-                    className="w-full py-3.5 bg-[#3f2911] hover:bg-[#2a1a0a] text-white rounded-xl text-xs sm:text-sm font-bold shadow-md transition-all active:scale-98 flex items-center justify-center gap-2"
+                    className="w-full py-3.5 bg-[#3f2911] hover:bg-[#2a1a0a] text-white rounded-xl text-xs sm:text-sm font-bold shadow-md transition-transform active:scale-98 flex items-center justify-center gap-2"
                   >
                     <span>متابعة الشراء الفوري (الدفع عند الاستلام)</span>
                     <ArrowLeft className="w-4 h-4" />

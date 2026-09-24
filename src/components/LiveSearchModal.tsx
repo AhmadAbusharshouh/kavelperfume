@@ -37,41 +37,42 @@ export function LiveSearchModal({ isOpen, onClose }: LiveSearchModalProps) {
   return (
     <AnimatePresence>
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-start justify-center p-4 sm:pt-20 overflow-y-auto">
-          {/* Animated Backdrop */}
+        <div className="fixed inset-0 z-50 flex items-start justify-center p-3 sm:p-4 sm:pt-20 overflow-y-auto">
+          {/* Hardware-accelerated GPU Backdrop */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="fixed inset-0 bg-black/50 backdrop-blur-xs cursor-pointer"
+            transition={{ duration: 0.18, ease: "easeOut" }}
+            className="fixed inset-0 bg-slate-950/60 cursor-pointer"
             onClick={onClose}
           />
 
-          {/* Animated Modal Card */}
+          {/* 60fps/120fps Modal Card */}
           <motion.div
-            initial={{ scale: 0.95, opacity: 0, y: -20 }}
-            animate={{ scale: 1, opacity: 1, y: 0 }}
-            exit={{ scale: 0.95, opacity: 0, y: -20 }}
-            transition={{ type: "spring", damping: 25, stiffness: 300 }}
+            initial={{ opacity: 0, transform: "scale3d(0.96, 0.96, 1) translate3d(0, -15px, 0)" }}
+            animate={{ opacity: 1, transform: "scale3d(1, 1, 1) translate3d(0, 0, 0)" }}
+            exit={{ opacity: 0, transform: "scale3d(0.96, 0.96, 1) translate3d(0, -15px, 0)" }}
+            transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
+            style={{ willChange: "transform, opacity" }}
             className="relative z-10 bg-white border border-slate-200 rounded-3xl w-full max-w-2xl shadow-2xl overflow-hidden"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Search Input Bar */}
-            <div className="p-4 sm:p-5 border-b border-slate-100 flex items-center gap-3 bg-slate-50/80">
+            <div className="p-4 sm:p-5 border-b border-slate-100 flex items-center gap-3 bg-slate-50/90">
               <Search className="w-5 h-5 text-slate-400 shrink-0" />
               <input
                 type="text"
-                placeholder="ابحث بالاسم العربي أو الإنجليزي (سوفاج، كريد، Imagination، ليتون)..."
+                placeholder="ابحث بالاسم العربي أو الإنجليزي (سوفاج، كريد، Imagination)..."
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                className="flex-1 bg-transparent text-xs sm:text-sm font-semibold outline-none text-right"
+                className="flex-1 bg-transparent text-base sm:text-sm font-semibold outline-none text-right"
               />
               {query && (
                 <button
                   type="button"
                   onClick={() => setQuery("")}
-                  className="text-slate-400 hover:text-slate-600 text-xs cursor-pointer"
+                  className="text-slate-400 hover:text-slate-600 text-xs cursor-pointer p-1"
                 >
                   مسح
                 </button>
@@ -79,7 +80,7 @@ export function LiveSearchModal({ isOpen, onClose }: LiveSearchModalProps) {
               <button
                 type="button"
                 onClick={onClose}
-                className="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-200 rounded-full transition active:scale-95 cursor-pointer"
+                className="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-200 rounded-full transition-transform active:scale-90 cursor-pointer"
                 aria-label="إغلاق البحث"
               >
                 <X className="w-5 h-5" />
@@ -87,7 +88,7 @@ export function LiveSearchModal({ isOpen, onClose }: LiveSearchModalProps) {
             </div>
 
             {/* Results List */}
-            <div className="max-h-[60vh] overflow-y-auto p-3 sm:p-4 space-y-2 divide-y divide-slate-100">
+            <div className="max-h-[60vh] overflow-y-auto p-3 sm:p-4 space-y-2 divide-y divide-slate-100 overscroll-contain">
               <div className="text-[11px] font-bold text-slate-500 pb-1 text-right">
                 {query.trim() ? `نتائج البحث عن "${query}" (${results.length})` : "العطور الأكثر بحثاً وشهرة:"}
               </div>
@@ -95,7 +96,7 @@ export function LiveSearchModal({ isOpen, onClose }: LiveSearchModalProps) {
               {results.map((p) => (
                 <div
                   key={p.id}
-                  className="pt-2 first:pt-0 flex items-center justify-between gap-3 p-2 rounded-2xl hover:bg-slate-50 transition"
+                  className="pt-2 first:pt-0 flex items-center justify-between gap-3 p-2 rounded-2xl hover:bg-slate-50 transition-colors"
                 >
                   <Link
                     href={`/perfume/${p.slug}`}
@@ -121,7 +122,7 @@ export function LiveSearchModal({ isOpen, onClose }: LiveSearchModalProps) {
                         addSinglePerfume(p, "110ml");
                         toast.success(`تمت إضافة ${p.name} إلى السلة`);
                       }}
-                      className="p-2 bg-[#3f2911] hover:bg-[#2a1a0a] text-white rounded-xl text-xs transition active:scale-95 cursor-pointer"
+                      className="p-2 bg-[#3f2911] hover:bg-[#2a1a0a] text-white rounded-xl text-xs transition-transform active:scale-90 cursor-pointer"
                       aria-label="إضافة للسلة"
                     >
                       <ShoppingBag className="w-3.5 h-3.5 text-[#ba997a]" />

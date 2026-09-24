@@ -9,7 +9,6 @@ import { getFeaturedProducts } from "@/lib/products";
 import { ProductCard } from "@/components/ProductCard";
 import { BundleModal } from "@/components/BundleModal";
 import { ScentFinderWizard } from "@/components/ScentFinderWizard";
-import { ScentLayeringGuide } from "@/components/ScentLayeringGuide";
 import { PackagingAnatomy } from "@/components/PackagingAnatomy";
 import { FaqSection } from "@/components/FaqSection";
 
@@ -256,17 +255,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* SECTION 5: SCENT LAYERING GUIDE */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <ScentLayeringGuide />
-      </section>
-
-      {/* SECTION 6: PACKAGING ANATOMY */}
+      {/* SECTION 5: PACKAGING ANATOMY */}
       <section id="packaging" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <PackagingAnatomy />
       </section>
 
-      {/* SECTION 7: CUSTOMER REVIEWS */}
+      {/* SECTION 6: CUSTOMER REVIEWS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl font-extrabold text-[#3f2911] mb-2 text-right">
           آراء وتقييمات زبائن كافيل في الأردن
