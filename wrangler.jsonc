@@ -4,17 +4,38 @@
   "main": ".open-next/worker.js",
   "compatibility_date": "2024-12-30",
   "compatibility_flags": ["nodejs_compat"],
-  "account_id": "860512779e5e6d3bdad90eaff2ac30a9",
-  "workers_dev": true,
+  "account_id": "433fddd89cdffcfad449b39cbde6a798",
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
+  "routes": [
+    {
+      "pattern": "test.kavelperfume.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "kavelperfume.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.kavelperfume.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "test.kavelfragrance.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "kavelfragrance.com",
+      "custom_domain": true
+    }
+  ],
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "kavelperfume",
-      "database_id": "070aa809-cc48-48e8-888d-cd3cace41b4b"
+      "database_name": "kavelfragrance-db",
+      "database_id": "49ae65f0-47ab-4f7f-900b-7c390eba8e28"
     }
   ],
   "r2_buckets": [
