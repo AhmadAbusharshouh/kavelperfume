@@ -4,7 +4,8 @@
   :root {
     --brand-gold: #ba997a;
     --brand-gold-hover: #a88667;
-    --brand-gold-light: #f7f3ee;
+    --brand-gold-light: #fdfbf7;
+    --brand-gold-border: rgba(186, 153, 122, 0.35);
     --brand-espresso: #3f2911;
     --brand-espresso-hover: #291a0a;
     --brand-canvas: #FAFAF9;
@@ -28,13 +29,13 @@
     font-family: var(--font-alexandria), 'Alexandria', system-ui, sans-serif;
   }
 
-  /* Force light theme - no dark surfaces */
+  /* Force clean light theme */
   * {
     border-color: #E2E8F0;
   }
 }
 
-/* Custom Utilities for Kavel */
+/* Custom Utilities for Kavel Luxury Perfume */
 .bg-kavel-gold {
   background-color: #ba997a;
 }
@@ -57,19 +58,7 @@
   color: #3f2911;
 }
 .bg-kavel-light {
-  background-color: #f7f3ee;
-}
-
-/* Top Route Progress Loader */
-#top-progress-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, #ba997a 0%, #3f2911 50%, #ba997a 100%);
-  z-index: 9999;
-  transform-origin: 0%;
+  background-color: #fdfbf7;
 }
 
 /* Luxury Card & Button Micro-interactions */
@@ -78,58 +67,58 @@
   border: 1px solid #E2E8F0;
   border-radius: 1.25rem;
   box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.04);
-  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
 }
 
 .luxury-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 30px -4px rgba(63, 41, 17, 0.08);
-  border-color: #CBD5E1;
+  border-color: #ba997a;
 }
 
-.btn-kavel-primary {
-  background-color: #ba997a;
-  color: #3f2911;
-  font-weight: 700;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.875rem;
-  transition: all 0.15s ease-in-out;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
+.luxury-card-gold {
+  background-color: #FFFFFF;
+  border: 1.5px solid rgba(186, 153, 122, 0.45);
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 24px -4px rgba(186, 153, 122, 0.12);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
 }
 
-.btn-kavel-primary:hover {
-  background-color: #a88667;
-  color: #FFFFFF;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(186, 153, 122, 0.35);
+.luxury-card-gold:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px -4px rgba(186, 153, 122, 0.2);
+  border-color: #ba997a;
 }
 
-.btn-kavel-primary:active {
-  transform: scale(0.98);
+.gold-gradient-text {
+  background: linear-gradient(135deg, #3f2911 0%, #7d5621 50%, #ba997a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.btn-kavel-espresso {
-  background-color: #3f2911;
-  color: #FFFFFF;
-  font-weight: 700;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.875rem;
-  transition: all 0.15s ease-in-out;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
+.gold-shimmer {
+  background: linear-gradient(90deg, rgba(186, 153, 122, 0.1) 0%, rgba(186, 153, 122, 0.25) 50%, rgba(186, 153, 122, 0.1) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
 }
 
-.btn-kavel-espresso:hover {
-  background-color: #291a0a;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(63, 41, 17, 0.3);
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
 }
 
-.btn-kavel-espresso:active {
-  transform: scale(0.98);
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAFAF9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ba997a;
 }

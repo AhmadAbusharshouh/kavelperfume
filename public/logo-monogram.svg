@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="32 18 162 152" fill="none" shape-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="kavelGoldM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4b38a" />
+      <stop offset="50%" stop-color="#ba997a" />
+      <stop offset="100%" stop-color="#9a764f" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#kavelGoldM)" fill-rule="evenodd" d="M 62 25 L 98 25 C 91 26, 85 30, 85 37 L 85 85 L 67 103 L 67 37 C 67 30, 61 26, 62 25 Z M 40 131 L 67 104 L 152 24 C 154 22, 157 23, 158 25 C 140 38, 108 72, 94 99 C 108 120, 138 148, 175 160 C 181 161.8, 185 162.2, 188 162.5 C 179 167.2, 155 167.8, 137 157.5 C 114 143.5, 96 131.5, 85 121.5 L 85 153 C 85 160, 91 165, 98 165 L 62 165 C 68 165, 67 160, 67 153 L 67 110 L 40 131 Z" />
+</svg>

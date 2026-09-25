@@ -1,29 +1,33 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getDb, ordersTable, orderItemsTable } from "@/db";
+import { verifyAdminRequest } from "@/lib/adminAuth";
+import { getOrderById, updateOrderStatus } from "@/lib/orderStore";
 import { createLogestechsPackage } from "@/lib/logestechs";
 import { sendWhatsAppMessage } from "@/lib/evolutionApi";
-import { eq } from "drizzle-orm";
 
 export async function POST(req: NextRequest) {
   try {
-    const { orderId } = await req.json();
-
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const cfEnv = (process.env as any) || {};
-    const db = getDb(cfEnv.DB);
-
-    if (!db) {
-      return NextResponse.json({ success: false, error: "Database not available" }, { status: 500 });
+    const isAuthed = await verifyAdminRequest(req);
+    if (!isAuthed) {
+      return NextResponse.json({ success: false, error: "غير مصرح لك بالوصول" }, { status: 401 });
     }
 
-    const [order] = await db.select().from(ordersTable).where(eq(ordersTable.id, orderId)).limit(1);
+    const { orderId } = await req.json();
+
+    if (!orderId) {
+      return NextResponse.json({ success: false, error: "معرف الطلب مطلوب" }, { status: 400 });
+    }
+
+    const order = await getOrderById(orderId);
 
     if (!order) {
       return NextResponse.json({ success: false, error: "الطلب غير موجود" }, { status: 404 });
     }
 
-    const items = await db.select().from(orderItemsTable).where(eq(orderItemsTable.orderId, orderId));
-    const itemsDescription = items.map((i) => `${i.title} (${i.size}) × ${i.quantity}`).join(" + ");
+    const items = order.items || [];
+    const itemsDescription =
+      items.length > 0
+        ? items.map((i) => `${i.title} (${i.size}) × ${i.quantity}`).join(" + ")
+        : "عطور كافيل بيرفيوم";
 
     // Dispatch to LogesTechs from Abu Nseir warehouse (1151 / 6250)
     const logesResult = await createLogestechsPackage({
@@ -45,17 +49,13 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Update Order in D1 with Tracking Number & Dispatched status
-    await db
-      .update(ordersTable)
-      .set({
-        status: "dispatched",
-        logestechsTrackingNumber: logesResult.trackingNumber,
-        logestechsAwbUrl: logesResult.awbUrl,
-        logestechsPackageId: logesResult.packageId,
-        updatedAt: new Date(),
-      })
-      .where(eq(ordersTable.id, orderId));
+    // Update Order with Tracking Number & Dispatched status across D1 and backup storage
+    await updateOrderStatus(order.id, {
+      status: "dispatched",
+      logestechsTrackingNumber: logesResult.trackingNumber,
+      logestechsAwbUrl: logesResult.awbUrl,
+      logestechsPackageId: logesResult.packageId,
+    });
 
     // Send Shipping Alert via WhatsApp
     const trackingMsg = `مرحباً ${order.fullName}\nيسعدنا إبلاغك بأن طلبك #${order.orderNumber} من كافيل بيرفيوم قد خرج للتوصيل مع شركة لوجستكس!\n\nرقم التتبع: ${logesResult.trackingNumber}\nقيمة الطلب عند الاستلام: ${order.totalAmount} د.أ\n\nمندوب التوصيل سيتواصل معك خلال الساعات القادمة. شكراً لثقتك بنا`;
@@ -63,7 +63,7 @@ export async function POST(req: NextRequest) {
     try {
       await sendWhatsAppMessage(order.phone, trackingMsg);
     } catch (e) {
-      console.error("WhatsApp shipping alert error:", e);
+      console.error("[KAVEL DISPATCH] WhatsApp shipping alert error:", e);
     }
 
     return NextResponse.json({

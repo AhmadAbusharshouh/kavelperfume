@@ -1,24 +1,57 @@
 import { NextRequest, NextResponse } from "next/server";
-
-const ADMIN_PIN = process.env.ADMIN_PIN_SECRET || "kavel2026!secret";
+import {
+  verifyAdminPin,
+  createAdminSessionToken,
+  verifyAdminSessionToken,
+  checkLoginRateLimit,
+  recordFailedLogin,
+  resetFailedLogin,
+} from "@/lib/adminAuth";
 
 export async function POST(req: NextRequest) {
   try {
-    const { pin } = await req.json();
+    const ip =
+      req.headers.get("cf-connecting-ip") ||
+      req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+      "127.0.0.1";
 
-    if (pin === ADMIN_PIN || pin === "1234" || pin === "kavel2026") {
-      const response = NextResponse.json({ success: true });
-      response.cookies.set("kavel_admin_auth", "authenticated_session_token", {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === "production",
-        sameSite: "lax",
-        maxAge: 60 * 60 * 24 * 7, // 7 days
-        path: "/",
-      });
-      return response;
+    const rateCheck = checkLoginRateLimit(ip);
+    if (!rateCheck.allowed) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: `تم تجاوز الحد المسموح من المحاولات الخاطئة. الرجاء المحاولة بعد ${rateCheck.remainingSeconds} ثانية.`,
+        },
+        { status: 429 }
+      );
     }
 
-    return NextResponse.json({ success: false, error: "رمز الدخول غير صحيح" }, { status: 401 });
+    const { pin } = await req.json();
+
+    if (!pin || typeof pin !== "string" || !verifyAdminPin(pin)) {
+      recordFailedLogin(ip);
+      return NextResponse.json(
+        { success: false, error: "كلمة المرور السرية غير صحيحة" },
+        { status: 401 }
+      );
+    }
+
+    // Reset rate limiter on successful authentication
+    resetFailedLogin(ip);
+
+    // Generate cryptographically signed JWT token
+    const token = await createAdminSessionToken();
+
+    const response = NextResponse.json({ success: true });
+    response.cookies.set("kavel_admin_auth", token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "lax",
+      maxAge: 60 * 60 * 24 * 7, // 7 days
+      path: "/",
+    });
+
+    return response;
   } catch (e: unknown) {
     const msg = e instanceof Error ? e.message : String(e);
     return NextResponse.json({ success: false, error: msg }, { status: 500 });
@@ -27,6 +60,18 @@ export async function POST(req: NextRequest) {
 
 export async function GET(req: NextRequest) {
   const cookie = req.cookies.get("kavel_admin_auth");
-  const isAuthenticated = cookie?.value === "authenticated_session_token";
+  const isAuthenticated = await verifyAdminSessionToken(cookie?.value);
   return NextResponse.json({ authenticated: isAuthenticated });
+}
+
+export async function DELETE() {
+  const response = NextResponse.json({ success: true, message: "تم تسجيل الخروج بنجاح" });
+  response.cookies.set("kavel_admin_auth", "", {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "lax",
+    maxAge: 0,
+    path: "/",
+  });
+  return response;
 }

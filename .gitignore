@@ -20,6 +20,14 @@
 # misc
 .DS_Store
 *.pem
+.data/
+.playwright-mcp/
+screenshots/
+test-results/
+__pycache__/
+*.pyc
+*.png
+!public/**/*.png
 
 # debug
 npm-debug.log*
